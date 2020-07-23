@@ -146,7 +146,7 @@ jQuery(document).ready(function($) {
 				nav: true,
 				dots: true,
 				navText: ['<span class="icon-arrow_back">', '<span class="icon-arrow_forward">'],
-				smartSpeed: 1000
+				smartSpeed: 3000
 			});
 		}
 

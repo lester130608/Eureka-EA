@@ -14,10 +14,10 @@
 
 
           <div class="header-top bg-light">
-              <div class="container">
+              <div class="container-fluid">
                   <div class="row align-items-center">
                       <div class="col-6 col-lg-3">
-                          <a href="index.html">
+                          <a id="logo" href="/">
                               <img src="../../public/default/images/logo.jpg" alt="Image" class="img-fluid">
                               <!-- <strong>Water</strong>Boat -->
                           </a>
@@ -41,7 +41,7 @@
                                   <span class="icon-phone text-primary"></span>
                               </div>
                               <div class="text">
-                                  <span class="h4 d-block">000 209 392 312</span>
+                                  <span class="h4 d-block">305 420 6690</span>
                                   <span class="caption-text">Toll free</span>
                               </div>
                           </div>
@@ -53,8 +53,8 @@
                                   <span class="icon-envelope text-primary"></span>
                               </div>
                               <div class="text">
-                                  <span class="h4 d-block">info@gmail.com</span>
-                                  <span class="caption-text">Gournadi, 1230 Bariasl</span>
+                                  <span class="h4 d-block">info@theeurekaakademy.com</span>
+                                  <span class="h4 d-block">mriera@theeurekaakademy.com</span>
                               </div>
                           </div>
                       </div>
@@ -106,7 +106,8 @@
           </div>
 
           <div class="hero-slide owl-carousel site-blocks-cover">
-              <div class="intro-section" style="background-image: url('../../public/default/images/hero_1.jpg');">
+              <div class="intro-section" v-bind:style="{ 'background-image': 'url(' + './default/images/hero_1.jpg' + ')' }" >
+<!--                  <img src="../../public/default/images/hero_1.jpg" alt="Image" class="img-fluid">-->
                   <div class="container">
                       <div class="row align-items-center">
                           <div class="col-lg-7 ml-auto text-right" data-aos="fade-up">
@@ -118,7 +119,7 @@
                   </div>
               </div>
 
-              <div class="intro-section" style="background-image: url('../../public/default/images/hero_2.jpg');">
+              <div class="intro-section" v-bind:style="{ 'background-image': 'url(' + './default/images/hero_2.jpg' + ')' }">
                   <div class="container">
                       <div class="row align-items-center">
                           <div class="col-lg-7 mx-auto text-center" data-aos="fade-up">
