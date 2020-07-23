@@ -1,14 +1,37 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+<!--    <div id="nav">-->
+<!--      <router-link to="/">{{ $t('home') }}</router-link> |-->
+<!--      <router-link to="/about">{{ $t('about') }}</router-link>-->
+<!--      <LanguagePickerCmp/>-->
+<!--    </div>-->
+<!--    <h1>{{ $t('message') }}</h1>-->
+<!--    <div class="container-fluid">-->
+<!--      <div class="row">-->
+<!--        <div class="col-6">-->
+<!--          COLUMNA  1-->
+<!--        </div>-->
+<!--        <div class="col-6">-->
+<!--          COLUMNA  2-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+
     <router-view/>
   </div>
 </template>
+<script>
+  import LanguagePickerCmp from '@/components/LanguagePickerCmp.vue';
+  export default {
+    name: 'App',
+    components: {
+      LanguagePickerCmp
+    }
+  }
+</script>
 
 <style lang="scss">
+  @import "assets/scss/main";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

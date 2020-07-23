@@ -1,0 +1,9 @@
+{
+  "message": "hello i18n !!",
+  "home": "HOME",
+  "about": "ABOUT",
+  "languages":{
+    "spanish": "Español",
+    "english": "English"
+  }
+}
