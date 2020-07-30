@@ -5,6 +5,7 @@
 
 /* Base */
 @import "site-base";
+@import "variables";
 /* Navbar */
 @import "site-navbar";
 /* Blocks */
@@ -13,6 +14,18 @@
 @import "responsive";
 
 #logo{
-  width: 150px;
+  width: 160px;
   display: block;
+  padding: 5px;
+}
+.logo{
+  display: block;
+  width: 150px;
+  padding: 0 0 0 15px;
+  &.animated{
+    animation-duration: .3s;
+  }
+}
+.padding-none{
+  padding: 0px !important;
 }

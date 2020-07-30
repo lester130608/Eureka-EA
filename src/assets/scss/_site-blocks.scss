@@ -763,6 +763,21 @@
 					line-height: 0;
 					color: $white!important;
 				}
+
+		  }
+		  &.second{
+			  .icon{
+				  background: $second-color;
+				  span{
+					  color: $orange-color!important;
+				  }
+			  }
+
+		  }
+		  &.third{
+			  .icon{
+				  background: $third-color;
+			  }
 		  }
 		  .text {
 			  width: 75%;
