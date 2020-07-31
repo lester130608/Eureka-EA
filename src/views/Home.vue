@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+      <LanguagePickerCmp/>
       <div class="site-wrap">
 
           <div class="site-mobile-menu site-navbar-target">
@@ -649,11 +650,23 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
+import LanguagePickerCmp from '@/components/LanguagePickerCmp.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+      LanguagePickerCmp
   }
 }
 </script>
+<style lang="scss">
+    .main-lang{
+        position: absolute;
+        top: 5px;
+        right: 15px;
+        strong {
+            color: #c0c3c5 !important;
+            padding: 3px;
+        }
+    }
+</style>
