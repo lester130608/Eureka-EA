@@ -208,7 +208,7 @@
               </div>
           </div>
 
-          <div class="site-section bg-image overlay" style="background-image: url('../../public/default/images/hero_1.jpg');">
+          <div class="site-section bg-image overlay" v-bind:style="{ 'background-image': 'url(' + './default/images/hero_1.jpg' + ')' }">
               <div class="container">
                   <div class="row">
                       <div class="col">
@@ -576,7 +576,7 @@
               </div>
           </div>
 
-          <div class="site-section bg-image overlay" style="background-image: url('../../public/default/images/hero_2.jpg');">
+          <div class="site-section bg-image overlay" v-bind:style="{ 'background-image': 'url(' + './default/images/hero_2.jpg' + ')' }">
               <div class="container">
                   <div class="row justify-content-center">
                       <div class="col-md-7 text-center">
@@ -633,7 +633,7 @@
                           <div class="copyright">
                               <p>
                                   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                  Copyright &copy; All rights reserved | <a href="https://eurekaacademy.com" target="_blank" >Eureka</a>
+                                  Copyright &copy; All rights reserved | <a href="https://eurekaacademy.com" target="_blank" >Eureka Educational Academy</a>
                                   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                               </p>
                           </div>
