@@ -1,9 +1,14 @@
 {
-  "message": "hello i18n !!",
-  "home": "HOME",
-  "about": "ABOUT",
   "languages":{
     "spanish": "Español",
     "english": "English"
+  },
+  "menu": {
+    "Home": "Home",
+    "AboutUs": "About Us",
+    "Philosophy": "Philosophy",
+    "Theraphy": "Theraphy",
+    "Scholaships": "Scholaships",
+    "Admissions": "Admissions"
   }
 }

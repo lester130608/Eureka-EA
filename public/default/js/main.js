@@ -142,7 +142,7 @@ jQuery(document).ready(function($) {
 				items: 1,
 				loop: true,
 				margin: 0,
-				autoplay: true,
+				autoplay: false,
 				nav: true,
 				dots: true,
 				navText: ['<span class="icon-arrow_back">', '<span class="icon-arrow_forward">'],
@@ -325,7 +325,8 @@ jQuery(document).ready(function($) {
   			$('.js-sticky-header').addClass('shrink');
   			$('#container-menu').addClass('justify-content-end');
   			$('#container-menu > div').removeClass('mx-auto');
-			$('.container-logo').addClass('d-block');
+			$('.container-logo').addClass('d-flex');
+			$('.container-logo').addClass('align-items-center');
 			$('.container-logo').removeClass('d-none');
 			$('.container-menu').removeClass('col-12');
 			$('.container-menu').addClass('col-10');
@@ -334,7 +335,8 @@ jQuery(document).ready(function($) {
 			$('#container-menu').addClass('align-items-center');
 			$('#container-menu > div').addClass('mx-auto');
 			$('.container-logo').addClass('d-none');
-			$('.container-logo').removeClass('d-block');
+			$('.container-logo').removeClass('d-flex');
+			$('.container-logo').removeClass('align-items-center');
 			$('.container-menu').removeClass('col-10');
 			$('.container-menu').addClass('col-12');
   		}

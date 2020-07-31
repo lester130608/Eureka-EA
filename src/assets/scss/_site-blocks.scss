@@ -17,7 +17,7 @@
 		height: 100%;
 		width: 100%;
 		background: #222;
-		opacity: .3;
+		opacity: .05;
 		border-bottom-right-radius: 0px;
 		background-size: cover;
 		background-position: center;
@@ -27,6 +27,7 @@
 			width: 100%;
 		}
 	}
+
 
 	h1 {
 		font-size: 3rem;
@@ -49,6 +50,21 @@
 	}
 	.btn {
 		text-decoration: none;
+	}
+
+	//TODO STYLE SLIDE
+	&.slide-2{
+		h1,p{
+			color:$third-color;
+		}
+		a{
+			background-color: $third-color;
+			border-color: $third-color;
+		}
+		&:before {
+			background: #222;
+			opacity: .05;
+		}
 	}
 }
 .custom-breadcrumns {

@@ -86,20 +86,20 @@
                                       <nav class="site-navigation position-relative text-right" role="navigation">
                                           <ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
                                               <li class="active">
-                                                  <a href="index.html" class="nav-link text-left">Home</a>
+                                                  <a href="index.html" class="nav-link text-left">{{ $t('menu.Home') }}</a>
                                               </li>
                                               <li>
-                                                  <a href="about.html" class="nav-link text-left">About Us</a>
+                                                  <a href="about.html" class="nav-link text-left">{{ $t('menu.AboutUs') }}</a>
                                               </li>
                                               <li>
-                                                  <a href="services.html" class="nav-link text-left">Philosophy</a>
+                                                  <a href="services.html" class="nav-link text-left">{{ $t('menu.Philosophy') }}</a>
                                               </li>
                                               <li>
-                                                  <a href="testimonials.html" class="nav-link text-left">Theraphy</a>
+                                                  <a href="testimonials.html" class="nav-link text-left">{{ $t('menu.Theraphy') }}</a>
                                               </li>
-                                              <li><a href="blog.html" class="nav-link text-left">Scholaships</a></li>
+                                              <li><a href="blog.html" class="nav-link text-left">{{ $t('menu.Scholaships') }}</a></li>
                                               <li>
-                                                  <a href="contact.html" class="nav-link text-left">Admissions</a>
+                                                  <a href="contact.html" class="nav-link text-left">{{ $t('menu.Admissions') }}</a>
                                               </li>
                                           </ul>
                                       </nav>
@@ -117,12 +117,34 @@
           </div>
 
           <div class="hero-slide owl-carousel site-blocks-cover">
-              <div class="intro-section" v-bind:style="{ 'background-image': 'url(' + './default/images/hero_1.jpg' + ')' }" >
+              <div class="intro-section slide-1"
+                   style="background-position: bottom;"
+                   v-bind:style="{ 'background-image': 'url(' + './default/images/home/slide-0.jpg' + ')' }">
+                  <div class="container">
+                      <div class="row " style="padding-top: 100px;">
+                          <div class="text-center" data-aos="fade-up" style="z-index: 9999;">
+                              <h1>Aqui va el titulo del slide principal</h1>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in distinctio nostrum laborum sed quisquam voluptate facilis non.</p>
+                              <p><a href="#" class="btn btn-primary py-3 px-5">Read More</a></p>
+                          </div>
+                      </div>
+<!--                      <div class="row align-items-center">-->
+<!--                          <div class="col-lg-7 mx-auto text-center" data-aos="fade-up">-->
+<!--                              <h1>Enjoy The Ocean With Your Family</h1>-->
+<!--                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in distinctio nostrum laborum sed quisquam voluptate facilis non.</p>-->
+<!--                              <p><a href="#" class="btn btn-primary py-3 px-5">Read More</a></p>-->
+<!--                          </div>-->
+<!--                      </div>-->
+                  </div>
+              </div>
+              <div class="intro-section slide-2"
+                   style="background: bottom;background-repeat: no-repeat;"
+                   v-bind:style="{ 'background-image': 'url(' + './default/images/home/childs-2.svg' + ')' }" >
 <!--                  <img src="../../public/default/images/hero_1.jpg" alt="Image" class="img-fluid">-->
                   <div class="container">
-                      <div class="row align-items-center">
-                          <div class="col-lg-7 ml-auto text-right" data-aos="fade-up">
-                              <h1>Explore, Discover The Ocean</h1>
+                      <div class="row " style="padding-top: 100px;">
+                          <div class="text-center" data-aos="fade-up" style="z-index: 9999;">
+                              <h1>Aqui va el titulo del segundo slide</h1>
                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in distinctio nostrum laborum sed quisquam voluptate facilis non.</p>
                               <p><a href="#" class="btn btn-primary py-3 px-5">Read More</a></p>
                           </div>
@@ -130,17 +152,6 @@
                   </div>
               </div>
 
-              <div class="intro-section" v-bind:style="{ 'background-image': 'url(' + './default/images/hero_2.jpg' + ')' }">
-                  <div class="container">
-                      <div class="row align-items-center">
-                          <div class="col-lg-7 mx-auto text-center" data-aos="fade-up">
-                              <h1>Enjoy The Ocean With Your Family</h1>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in distinctio nostrum laborum sed quisquam voluptate facilis non.</p>
-                              <p><a href="#" class="btn btn-primary py-3 px-5">Read More</a></p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
 
           </div>
           <!-- END slider -->
