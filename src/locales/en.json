@@ -9,6 +9,10 @@
     "Philosophy": "Philosophy",
     "Theraphy": "Theraphy",
     "Scholaships": "Scholaships",
-    "Admissions": "Admissions"
+    "Admissions": "Admissions",
+    "ContactUs": "Contact Us"
+  },
+  "contact":{
+    "GetInTouch":"Get In Touch"
   }
 }

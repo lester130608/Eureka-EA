@@ -1,161 +1,6 @@
 <template>
   <div class="home">
-      <LanguagePickerCmp/>
-      <div class="site-wrap">
-
-          <div class="site-mobile-menu site-navbar-target">
-              <div class="site-mobile-menu-header">
-                  <div class="site-mobile-menu-close mt-3">
-                      <span class="icon-close2 js-menu-toggle"></span>
-                  </div>
-              </div>
-              <div class="site-mobile-menu-body"></div>
-          </div>
-
-
-
-          <div class="header-top bg-light">
-              <div class="container-fluid">
-                  <div class="row align-items-center">
-                      <div class="col-6 col-lg-3">
-                          <a id="logo" href="/">
-                              <img src="../../public/default/images/eureka-logo.png" alt="Image" class="img-fluid">
-                              <!-- <strong>Water</strong>Boat -->
-                          </a>
-                      </div>
-                      <div class="col-lg-3 d-none d-lg-block ">
-
-                          <div class="quick-contact-icons d-flex first">
-                              <div class="icon align-self-start">
-                                  <span class="icon-location-arrow text-primary"></span>
-                              </div>
-                              <div class="text">
-                                  <span class="h4 d-block">San Francisco</span>
-                                  <span class="caption-text">Mountain View, Fake st., CA</span>
-                              </div>
-                          </div>
-
-                      </div>
-                      <div class="col-lg-3 d-none d-lg-block">
-                          <div class="quick-contact-icons d-flex  second">
-                              <div class="icon align-self-start">
-                                  <span class="icon-phone text-primary"></span>
-                              </div>
-                              <div class="text">
-                                  <a href="tel:+13054206690" class="h4 d-block">305 420 6690</a>
-                                  <a class="caption-text">Fax: 305 420 5708 </a>
-                              </div>
-                          </div>
-                      </div>
-
-                      <div class="col-lg-3 d-none d-lg-block">
-                          <div class="quick-contact-icons d-flex third">
-                              <div class="icon align-self-start">
-                                  <span class="icon-envelope text-primary"></span>
-                              </div>
-                              <div class="text">
-                                  <a href="mailto:info@theeurekaakademy.com?Subject=Contacting" target="_blank" class="h4 d-block">info@theeurekaakademy.com</a>
-                                  <a href="mailto:mriera@theeurekaakademy.com?Subject=Contacting" target="_blank" class="h4 d-block">mriera@theeurekaakademy.com</a>
-                              </div>
-                          </div>
-                      </div>
-
-                      <div class="col-6 d-block d-lg-none text-right">
-                          <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
-                                  class="icon-menu h3"></span></a>
-                      </div>
-                  </div>
-              </div>
-
-
-
-
-              <div class="site-navbar py-2 js-sticky-header site-navbar-target d-none pl-0 d-lg-block" role="banner">
-
-                  <div class="container-fluid padding-none">
-                      <div class="row">
-                          <div class="col-2 container-logo d-none">
-                              <a class="logo animated slideInDown" href="/" >
-                                  <img src="../../public/default/images/logo-eureka-left.svg" alt="Image" class="img-fluid">
-                                  <!-- <strong>Water</strong>Boat -->
-                              </a>
-                          </div>
-                          <div class="col-12 container-menu">
-                              <div id="container-menu" class="d-flex align-items-center">
-
-                                  <div class="mx-auto">
-                                      <nav class="site-navigation position-relative text-right" role="navigation">
-                                          <ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
-                                              <li class="active">
-                                                  <a href="index.html" class="nav-link text-left">{{ $t('menu.Home') }}</a>
-                                              </li>
-                                              <li>
-                                                  <a href="about.html" class="nav-link text-left">{{ $t('menu.AboutUs') }}</a>
-                                              </li>
-                                              <li>
-                                                  <a href="services.html" class="nav-link text-left">{{ $t('menu.Philosophy') }}</a>
-                                              </li>
-                                              <li>
-                                                  <a href="testimonials.html" class="nav-link text-left">{{ $t('menu.Theraphy') }}</a>
-                                              </li>
-                                              <li><a href="blog.html" class="nav-link text-left">{{ $t('menu.Scholaships') }}</a></li>
-                                              <li>
-                                                  <a href="contact.html" class="nav-link text-left">{{ $t('menu.Admissions') }}</a>
-                                              </li>
-                                          </ul>
-                                      </nav>
-
-                                  </div>
-
-                              </div>
-                          </div>
-
-                      </div>
-                  </div>
-
-              </div>
-
-          </div>
-
-          <div class="hero-slide owl-carousel site-blocks-cover">
-              <div class="intro-section slide-1"
-                   style="background-position: bottom;"
-                   v-bind:style="{ 'background-image': 'url(' + './default/images/home/slide-0.jpg' + ')' }">
-                  <div class="container">
-                      <div class="row " style="padding-top: 100px;">
-                          <div class="text-center" data-aos="fade-up" style="z-index: 9999;">
-                              <h1>Aqui va el titulo del slide principal</h1>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in distinctio nostrum laborum sed quisquam voluptate facilis non.</p>
-                              <p><a href="#" class="btn btn-primary py-3 px-5">Read More</a></p>
-                          </div>
-                      </div>
-<!--                      <div class="row align-items-center">-->
-<!--                          <div class="col-lg-7 mx-auto text-center" data-aos="fade-up">-->
-<!--                              <h1>Enjoy The Ocean With Your Family</h1>-->
-<!--                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in distinctio nostrum laborum sed quisquam voluptate facilis non.</p>-->
-<!--                              <p><a href="#" class="btn btn-primary py-3 px-5">Read More</a></p>-->
-<!--                          </div>-->
-<!--                      </div>-->
-                  </div>
-              </div>
-              <div class="intro-section slide-2"
-                   style="background: bottom;background-repeat: no-repeat;"
-                   v-bind:style="{ 'background-image': 'url(' + './default/images/home/childs-2.svg' + ')' }" >
-<!--                  <img src="../../public/default/images/hero_1.jpg" alt="Image" class="img-fluid">-->
-                  <div class="container">
-                      <div class="row " style="padding-top: 100px;">
-                          <div class="text-center" data-aos="fade-up" style="z-index: 9999;">
-                              <h1>Aqui va el titulo del segundo slide</h1>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in distinctio nostrum laborum sed quisquam voluptate facilis non.</p>
-                              <p><a href="#" class="btn btn-primary py-3 px-5">Read More</a></p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-
-          </div>
-          <!-- END slider -->
+          <Slides />
 
           <div class="site-section">
               <div class="container">
@@ -438,87 +283,6 @@
               <div class="container">
                   <div class="row justify-content-center mb-5">
                       <div class="col-md-7 text-center">
-                          <span class="text-serif text-primary">Team</span>
-                          <h3 class="heading-92913 text-black text-center">Our Team</h3>
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-lg-3 col-md-6 mb-lg-0">
-                          <div class="person">
-                              <figure>
-                                  <img src="../../public/default/images/person_1.jpg" alt="Image" class="img-fluid">
-                                  <div class="social">
-                                      <a href="#"><span class="icon-facebook"></span></a>
-                                      <a href="#"><span class="icon-twitter"></span></a>
-                                      <a href="#"><span class="icon-linkedin"></span></a>
-                                  </div>
-                              </figure>
-                              <div class="person-contents">
-                                  <h3>Craig Daniel</h3>
-                                  <span class="position">Engineer</span>
-                              </div>
-                          </div>
-                      </div>
-
-                      <div class="col-lg-3 col-md-6 mb-lg-0">
-                          <div class="person">
-                              <figure>
-                                  <img src="../../public/default/images/person_2.jpg" alt="Image" class="img-fluid">
-                                  <div class="social">
-                                      <a href="#"><span class="icon-facebook"></span></a>
-                                      <a href="#"><span class="icon-twitter"></span></a>
-                                      <a href="#"><span class="icon-linkedin"></span></a>
-                                  </div>
-                              </figure>
-                              <div class="person-contents">
-                                  <h3>Craig Daniel</h3>
-                                  <span class="position">Engineer</span>
-                              </div>
-                          </div>
-                      </div>
-
-                      <div class="col-lg-3 col-md-6 mb-lg-0">
-                          <div class="person">
-                              <figure>
-                                  <img src="../../public/default/images/person_3.jpg" alt="Image" class="img-fluid">
-                                  <div class="social">
-                                      <a href="#"><span class="icon-facebook"></span></a>
-                                      <a href="#"><span class="icon-twitter"></span></a>
-                                      <a href="#"><span class="icon-linkedin"></span></a>
-                                  </div>
-                              </figure>
-                              <div class="person-contents">
-                                  <h3>Craig Daniel</h3>
-                                  <span class="position">Engineer</span>
-                              </div>
-                          </div>
-                      </div>
-
-                      <div class="col-lg-3 col-md-6 mb-lg-0">
-                          <div class="person">
-                              <figure>
-                                  <img src="../../public/default/images/person_4.jpg" alt="Image" class="img-fluid">
-                                  <div class="social">
-                                      <a href="#"><span class="icon-facebook"></span></a>
-                                      <a href="#"><span class="icon-twitter"></span></a>
-                                      <a href="#"><span class="icon-linkedin"></span></a>
-                                  </div>
-                              </figure>
-                              <div class="person-contents">
-                                  <h3>Craig Daniel</h3>
-                                  <span class="position">Engineer</span>
-                              </div>
-                          </div>
-                      </div>
-
-                  </div>
-              </div>
-          </div>
-
-          <div class="site-section">
-              <div class="container">
-                  <div class="row justify-content-center mb-5">
-                      <div class="col-md-7 text-center">
                           <span class="text-serif text-primary">Testimonial</span>
                           <h3 class="heading-92913 text-black text-center">What Customer Saying...</h3>
                       </div>
@@ -589,84 +353,22 @@
           </div>
 
 
-          <div class="footer bg-light">
-              <div class="container">
-                  <div class="row">
-                      <div class="col-lg-3">
-                          <p class="mb-4"><img src="../../public/default/images/logo-eureka.svg" alt="Image" class="img-fluid"></p>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>
-                          <p><a href="#">Learn More</a></p>
-                      </div>
-                      <div class="col-lg-3">
-                          <h3 class="footer-heading"><span>Our Company</span></h3>
-                          <ul class="list-unstyled">
-                              <li><a href="#">About</a></li>
-                              <li><a href="#">News</a></li>
-                              <li><a href="#">Services</a></li>
-                              <li><a href="#">Our Team</a></li>
-                              <li><a href="#">Careers</a></li>
-                              <li><a href="#">Projects</a></li>
-                          </ul>
-                      </div>
-                      <div class="col-lg-3">
-                          <h3 class="footer-heading"><span>Our Services</span></h3>
-                          <ul class="list-unstyled">
-                              <li><a href="#">Industrial</a></li>
-                              <li><a href="#">Construction</a></li>
-                              <li><a href="#">Remodeling</a></li>
-                          </ul>
-                      </div>
-                      <div class="col-lg-3">
-                          <h3 class="footer-heading"><span>Contact</span></h3>
-                          <ul class="list-unstyled">
-                              <li><a href="#">Help Center</a></li>
-                              <li><a href="#">Support Community</a></li>
-                              <li><a href="#">Press</a></li>
-                              <li><a href="#">FAQ</a></li>
-                              <li><a href="#">Our Partners</a></li>
-                          </ul>
-                      </div>
-                  </div>
-
-                  <div class="row">
-                      <div class="col-12">
-                          <div class="copyright">
-                              <p>
-                                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                  Copyright &copy; All rights reserved | <a href="https://eurekaacademy.com" target="_blank" >Eureka Educational Academy</a>
-                                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                              </p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-
 
       </div>
-  </div>
+
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-import LanguagePickerCmp from '@/components/LanguagePickerCmp.vue'
+import Slides from '@/views/Slides.vue'
 
 export default {
   name: 'Home',
   components: {
-      LanguagePickerCmp
+      Slides
   }
 }
 </script>
 <style lang="scss">
-    .main-lang{
-        position: absolute;
-        top: 5px;
-        right: 15px;
-        strong {
-            color: #c0c3c5 !important;
-            padding: 3px;
-        }
-    }
+
 </style>

@@ -499,7 +499,8 @@
 }
 
 .footer {
-	padding: 4rem 0;
+	box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.14);
+	padding: 4rem 0 2px 0;
 	background: $black;
 	font-size: 15px;
 	color: #888;
@@ -524,7 +525,7 @@
 		}
 	}
 	.copyright {
-		padding-top: 7rem;
+		padding-top: 1rem;
 		text-align: center;
 	}
 }
@@ -1245,6 +1246,28 @@
 		width: 50px;
 		height: 2px;
 		background: $primary;
+	}
+	&.text-center {
+		&:after {
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+}
+.heading-center  {
+	position: relative;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	&:after {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 50px;
+		height: 2px;
+		background: $primary;
+		margin: auto;
 	}
 	&.text-center {
 		&:after {
