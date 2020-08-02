@@ -321,7 +321,7 @@ jQuery(document).ready(function($) {
 
   		var st = $(this).scrollTop();
 
-  		if (st > 100) {
+  		if (st > 200) {
   			$('.js-sticky-header').addClass('shrink');
   			$('#container-menu').addClass('justify-content-end');
   			$('#container-menu > div').removeClass('mx-auto');
@@ -366,6 +366,10 @@ jQuery(document).ready(function($) {
             scrollTop: 0
         }, 600);
         return false;
+    });
+
+    $('.site-menu .nav-link').on('click',function(event) {
+		siteCarousel();
     });
 
 });

@@ -3,7 +3,7 @@
     <div class="intro-section site-blocks-cover innerpage" v-bind:style="{ 'background-image': 'url(' + './default/images/services/contact.jpg' + ')' }">
       <div class="container">
         <div class="row align-items-center text-center">
-          <div class="col-lg-12 mt-5" data-aos="fade-up">
+          <div class="col-lg-12 mt-5 txt-info" data-aos="fade-up">
             <h1>{{ $t('contact.GetInTouch') }}</h1>
             <p class="text-white text-center">
               <a href="index.html">{{ $t('menu.Home') }}</a>
@@ -85,5 +85,9 @@
   }
 </script>
 <style lang="scss">
-
+   .contact{
+     .txt-info{
+       background-color: rgba(0, 0, 0, 0.45);
+     }
+   }
 </style>

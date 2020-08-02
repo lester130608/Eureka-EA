@@ -16,12 +16,12 @@
       </div>
     </div>
     <div class="site-section">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-3">
             <img src="../../public/default/images/eureka-logo.png" alt="Image" class="img-fluid">
           </div>
-          <div class="col-md-6 text-left">
+          <div class="col-md-9 text-left">
             <span class="text-serif text-primary">About Us</span>
             <h3 class="heading-92913 text-black">Welcome To Our Website</h3>
             <p>Eureka Educational Academy was founded by a group of educators and health care

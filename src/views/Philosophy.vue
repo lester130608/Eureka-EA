@@ -5,7 +5,7 @@
          v-bind:style="{ 'background-image': 'url(' + './default/images/home/slide-0.jpg' + ')' }">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-7 mx-auto text-center" data-aos="fade-up">
+          <div class="col-lg-7 mx-auto text-center txt-info" data-aos="fade-up">
             <h1>Philosophy</h1>
           </div>
         </div>
@@ -46,13 +46,16 @@
 </script>
 <style lang="scss">
   .philosophy{
+    .txt-info{
+      background-color: rgba(0, 0, 0, 0.45);
+    }
     .site-section{
       p{
         font-size: 1.3em;;
       }
     }
     .intro-section{
-      min-height: 400px;
+      height: 350px;
     }
   }
 
