@@ -6,7 +6,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-7 mx-auto text-center" data-aos="fade-up">
-            <h1>About Eureka Educational Academy </h1>
+            <h1>{{ $t('view_about.title')}}</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in distinctio nostrum laborum sed quisquam voluptate facilis non.</p>
             <p>
               <router-link class="btn btn-primary py-3 px-5" to="/contact">{{ $t('menu.ContactUs') }}</router-link>
@@ -22,17 +22,11 @@
             <img src="../../public/default/images/eureka-logo.png" alt="Image" class="img-fluid">
           </div>
           <div class="col-md-9 text-left">
-            <span class="text-serif text-primary">About Us</span>
-            <h3 class="heading-92913 text-black">Welcome To Our Website</h3>
-            <p>Eureka Educational Academy was founded by a group of educators and health care
-              professionals with over 75 years of experience in providing services to school age
-              children in the South Florida area.
+<!--            <span class="text-serif text-primary">About Us</span>-->
+            <h3 class="heading-92913 text-black margin">{{ $t('view_about.welcome')}}</h3>
+            <p>{{ $t('view_about.first_parrafo') }}
             </p>
-            <p>The main goal of the academy is to provide students
-              with a complete educational experience which will meet the social, emotional and
-              behavioral needs of each individual student. The team has created a clean, safe and
-              innovative campus which will provide a “feel good” experience for both students and
-              parents alike.</p>
+            <p>{{ $t('view_about.second_parrafo') }}</p>
             <p><a href="#" class="btn btn-primary py-3 px-4">Learn More</a></p>
           </div>
         </div>

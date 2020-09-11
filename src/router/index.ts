@@ -4,6 +4,8 @@ import Home from '../views/Home.vue'
 import ContactUs from '../views/ContactUs.vue'
 import Philosophy from '../views/Philosophy.vue'
 import Theraphy from '../views/Theraphy.vue'
+import Scholarships from '../views/Scholarships.vue'
+import Admissions from '../views/Admissions.vue'
 
 Vue.use(VueRouter)
 
@@ -35,7 +37,19 @@ Vue.use(VueRouter)
     name: 'Theraphy',
     component: Theraphy
 
-  }
+  },
+    {
+      path:'/admissions',
+      name: 'Admissions',
+      component: Admissions
+    },
+    {
+      path:'/scholarships',
+      name: 'Scholarships',
+      component: Scholarships
+    },
+
+
 ]
 
 const router = new VueRouter({

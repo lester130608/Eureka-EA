@@ -50,9 +50,44 @@ a.back-to-top{
   width: 150px;
   padding: 0 0 0 15px;
   &.animated{
-    animation-duration: .3s;
+    animation-duration: .5ms;
   }
 }
 .padding-none{
   padding: 0px !important;
 }
+
+.heading-92913:after {
+  margin:auto !important;
+  left: 0 !important;
+  right: 0 !important;
+  //background-color: #ff6100;
+}
+.heading-92913.text-color-yellow:after {
+  background-color: #ff6100;
+}
+.text-color-yellow {
+  color: #ff6100 !important;
+
+}
+
+.objectColor{
+  color:#ff9d00 !important;
+}
+
+.backgroundChange:after{
+  background-color: #4fd22e  !important;
+  opacity: 0.7 !important;
+}
+
+.testimony-39291 .text {
+  text-align: left;
+}
+.center-info{
+  display: flex;
+  align-items: center;
+  p{
+    font-size: 1.2em;
+  }
+}
+

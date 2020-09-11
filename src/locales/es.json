@@ -8,11 +8,53 @@
     "AboutUs": "Quienes somos",
     "Philosophy": "Filosofía",
     "Theraphy": "Terapia",
-    "Scholaships": "Becas",
+    "Scholarships": "Becas",
     "Admissions": "Admisiones",
     "ContactUs": "Contacto"
   },
   "contact":{
     "GetInTouch":"Ponerse en contacto"
+  },
+  "view_home": {
+    "about_us": "Sobre Nosotros",
+    "welcome": "Bienvenido a Eureka",
+    "second_parrafo": "El objetivo principal de la academia es brindar a los estudiantes una experiencia educativa completa que satisfaga las necesidades sociales, emocionales y de comportamiento de cada estudiante en particular.",
+    "data": "Llena tu Solicitud",
+    "btn_send": "Enviar",
+    "what_customer_saying": "Lo que dicen nuestros clientes",
+    "testimonial": "Testimonios"
+  },
+  "view_therapy": {
+    "description": "Eureka Educational Academy proporciona un complemento completo de servicios de terapia que se integrarán dentro del día escolar regular y utiliza las prácticas de enseñanza basadas en la evidencia. ",
+    "therapies_provided": "Terapias proporcionadas y Técnicas de enseñanza:",
+    "ABA_therapy": "Análisis de Comportamiento Aplicado",
+    "speech_languaje": "Terapia del habla y el lenguaje",
+    "occupational_therapy": "Terapia ocupacional",
+    "physical_therapy": "Terapia física"
+  },
+  "view_philosophy": {
+    "title": "Filosofía",
+    "first_parrafo": "El objetivo principal de Eureka Educational Academy es fomentar el crecimiento académico, social y físico de los estudiantes para alcanzar el máximo potencial de cada uno. El enfoque es desarrollar al niño en su totalidad a través de un proceso integrado que involucra sistemas académicos y servicios terapéuticos proporcionados según sea necesario.",
+    "second_parrafo": "Eureka Educational Academy proporcionará diversas metodologías educativas y planes de estudio basados en la investigación para desarrollar un plan de aprendizaje individualizado que satisfaga las necesidades educativas de cada alumno. Realizaremos evaluaciones periódicas con el fin de valorar y brindar datos de desempeño en tiempo real para establecer el plan de instrucción de cada estudiante. Adicionalmente, Eureka Educational Academy implementará un enfoque de aprendizaje combinado que incluye un dispositivo uno a uno y varios programas educativos para lograr los máximos resultados y efectividad en el desempeño de los estudiantes."
+  },
+  "viewAbout": {
+    "title": "About Eureka Educational Academy",
+    "welcome": "Quienes Somos",
+    "first_parrafo": "Eureka Educational Academy fue fundada por un grupo de educadores y profesionales de la salud con más de 75 años de experiencia en la prestación de servicios a niños en edad escolar en el área del sur de Florida. ",
+    "second_parrafo": "El objetivo principal de la academia es brindar a los estudiantes una experiencia educativa completa que satisfaga las necesidades sociales, emocionales y de comportamiento de cada estudiante en particular. El equipo ha creado un campus limpio, seguro e innovador que brindará una experiencia de “sentirse bien” tanto para los estudiantes como para los padres."
+  },
+  "view_admission": {
+    "title": "Admisiones",
+    "first_parrafo": "Eureka Educational Academy ha establecido una matrícula renovable a lo largo del año académico. Sin embargo, una vez que la inscripción de estudiantes esté completa, se establecerá una lista de espera para brindarles a los estudiantes la oportunidad de unirse a la matricula cuando haya una vacante disponible.\n\nLos futuros estudiantes y las familias pueden programar un recorrido privado y una consulta para discutir los detalles del programa y la inscripción. \n",
+    "second_parrafo": "Para programar una cita, llame o envíe un correo electrónico."
+  },
+  "view_scholarships": {
+    "title": "Becas",
+    "description": "Eureka Educational Academy acepta las siguientes becas: "
+
+  },
+  "foot_contact": {
+    "text":"Para obtener más información sobre nuestros servicios de terapia, llame o envíe un correo electrónico a:",
+    "our_services": "Nuestros Servicios"
   }
 }

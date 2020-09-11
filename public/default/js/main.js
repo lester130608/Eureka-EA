@@ -321,7 +321,7 @@ jQuery(document).ready(function($) {
 
   		var st = $(this).scrollTop();
 
-  		if (st > 200) {
+  		if (st > 100) {
   			$('.js-sticky-header').addClass('shrink');
   			$('#container-menu').addClass('justify-content-end');
   			$('#container-menu > div').removeClass('mx-auto');

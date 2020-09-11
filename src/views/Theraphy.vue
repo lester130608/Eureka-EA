@@ -18,8 +18,7 @@
                         <!--            <span class="text-serif text-primary">{{ $t('menu.Philosophy') }}</span>-->
                         <h3 class="heading-center text-primary">{{ $t('menu.Theraphy') }}</h3>
                         <p>
-                            Eureka Educational Academy provides a full complement of therapy services
-                            which will be integrated within the regular school day.
+                            {{ $t('view_therapy.description') }}
                         </p>
 
 
@@ -32,7 +31,7 @@
                 <div class="row justify-content-center mb-5">
                     <div class="col-md-7 text-center">
                         <!--                                        <span class="text-serif text-primary">Therapies provided:</span>-->
-                        <h4 class="text-primary text-center">Therapies provided:</h4>
+                        <h4 class="text-primary text-center">{{ $t('view_therapy.therapies_provided') }}</h4>
                     </div>
                 </div>
                 <div class="row">
@@ -40,7 +39,7 @@
                         <div class="service-39381">
                             <img src="../../public/default/images/services/aba-theraphy.jpg" alt="Image" class="img-fluid">
                             <div class="p-4">
-                                <h4 class="text-primary"> ABA therapy </h4>
+                                <h4 class="text-primary">{{ $t('view_therapy.ABA_therapy') }}</h4>
 
                             </div>
                         </div>
@@ -49,7 +48,7 @@
                         <div class="service-39381">
                             <img src="../../public/default/images/services/speech-theraphy.jpg" alt="Image" class="img-fluid">
                             <div class="p-4">
-                                <h4 class="text-primary">Speech & Language Therapy</h4>
+                                <h4 class="text-primary">{{ $t('view_therapy.speech_languaje') }}</h4>
                             </div>
                         </div>
                     </div>
@@ -57,7 +56,7 @@
                         <div class="service-39381">
                             <img src="../../public/default/images/services/occupational-theraphy.jpg" alt="Image" class="img-fluid">
                             <div class="p-4">
-                                <h4 class="text-primary">Occupational Therapy</h4>
+                                <h4 class="text-primary">{{ $t('view_therapy.occupational_therapy') }}</h4>
                             </div>
                         </div>
                     </div>
@@ -65,7 +64,7 @@
                         <div class="service-39381">
                             <img src="../../public/default/images/services/physical-theraphy.jpg" alt="Image" class="img-fluid">
                             <div class="p-4">
-                                <h4 class="text-primary">Physical Therapy</h4>
+                                <h4 class="text-primary">{{ $t('view_therapy.physical_therapy') }}</h4>
                             </div>
                         </div>
                     </div>

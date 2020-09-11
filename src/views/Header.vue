@@ -36,8 +36,8 @@
                 <span class="icon-phone text-primary"></span>
               </div>
               <div class="text">
-                <a href="tel:+13054206690" class="h4 d-block">305 420 6690</a>
-                <a class="caption-text">Fax: 305 420 5708 </a>
+                <a href="tel:+13054206690" class="h4 d-block">Phone: 305 420 6690</a>
+                <a class="h4 d-block">Fax: 305 420 5708 </a>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@
                         <router-link class="nav-link text-left" to="/theraphy">{{ $t('menu.Theraphy') }}</router-link>
                       </li>
                       <li>
-                        <router-link class="nav-link text-left" to="/scholaships">{{ $t('menu.Scholaships') }}</router-link>
+                        <router-link class="nav-link text-left" to="/scholarships">{{ $t('menu.Scholarships') }}</router-link>
                       </li>
                       <li>
                         <router-link class="nav-link text-left" to="/admissions">{{ $t('menu.Admissions') }}</router-link>
@@ -121,6 +121,9 @@
   }
 </script>
 <style lang="scss">
+  /*.animated{*/
+  /*  animation-duration: .3ms !important;*/
+  /*}*/
   .main-lang{
     position: absolute;
     top: 5px;

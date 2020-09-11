@@ -6,7 +6,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-7 mx-auto text-center txt-info" data-aos="fade-up">
-            <h1>Philosophy</h1>
+            <h1>{{ $t('view_philosophy.title') }}</h1>
           </div>
         </div>
       </div>
@@ -18,19 +18,12 @@
 <!--            <span class="text-serif text-primary">{{ $t('menu.Philosophy') }}</span>-->
             <h3 class="heading-center text-primary">{{ $t('menu.Philosophy') }}</h3>
             <p>
-              The Academy’s main goal is to foster the students’ growth academically, socially,
-              and physically in order to reach the individual’s maximum potential. The focus is to
-              develop the whole child through an integrated process that involves academic systems
-              as well as therapeutic services provided as needed.
+                {{ $t('view_philosophy.first_parrafo') }}
 
             </p>
-            <p>The Academy will provide various educational methodologies and research
-              based curriculums in order to develop an individualized learning plan which meets each
-              individual’s educational needs. We will perform regular assessments in order to
-              evaluate and provide real time performance data to establish the instructional plan of
-              each student. In addition, the Academy will implement a blended learning approach
-              which includes and one-to-one device and various educational software to achieve
-              maximum results and effectiveness in student performance.</p>
+            <p>
+                {{ $t('view_philosophy.second_parrafo') }}
+            </p>
           </div>
         </div>
       </div>
