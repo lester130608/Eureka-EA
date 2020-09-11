@@ -21,7 +21,7 @@
                   </div>
               </div>
           </div>
-      <div class="site-section bg-image overlay" v-bind:style="{ 'background-image': 'url(' + './default/images/home/corazon.jpg' + ')' }">
+      <div class="site-section bg-image overlay" v-bind:style="{ 'background-image': 'url(' + './default/images/home/section1.jpg' + ')' }">
           <div class="container">
               <div class="row">
                   <div class="col">
@@ -214,13 +214,16 @@
               </div>
           </div>
 
-          <div class="site-section bg-image overlay backgroundChange" v-bind:style="{ 'background-image': 'url(' + './default/images/services/contact.jpg' + ')' }">
+          <div class="site-section bg-image overlay backgroundChange" v-bind:style="{ 'background-image': 'url(' + './default/images/home/section2.jpg' + ')' }">
               <div class="container">
                   <div class="row justify-content-center">
                       <div class="col-md-7 text-center">
-                          <h2 class="text-white">Get In Touch With Us</h2>
-                          <p class="lead text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                          <p class="mb-0"><a href="#" class="btn btn-warning py-3 px-5 text-white">Contact Us</a></p>
+                          <h2 class="text-white">{{ $t('view_home.best_choice')}}</h2>
+                          <p class="lead text-white">{{ $t('view_home.second_parrafo')}}</p>
+                          <p class="mb-0">
+                              <a href="mailto:info@theeurekaakademy.com?Subject=Contacting" target="_blank"
+                                             class="btn btn-warning py-3 px-5 text-white">Contact Us</a>
+                          </p>
                       </div>
                   </div>
               </div>
