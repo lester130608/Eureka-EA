@@ -5,7 +5,7 @@
          v-bind:style="{ 'background-image': 'url(' + './default/images/home/slide-0.jpg' + ')' }">
       <div class="container">
         <div class="row " style="padding-top: 100px;">
-          <div class="text-center" data-aos="fade-up" style="z-index: 9999;width: 100%;">
+          <div class="text-center title-slide-black" data-aos="fade-up" style="z-index: 9999;width: 100%;">
             <h1>Aqui va el titulo del slide principal</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in distinctio nostrum laborum sed quisquam voluptate facilis non.</p>
             <p><a href="#" class="btn btn-primary py-3 px-5">Read More</a></p>
@@ -26,7 +26,7 @@
       <!--                  <img src="../../public/default/images/hero_1.jpg" alt="Image" class="img-fluid">-->
       <div class="container">
         <div class="row " style="padding-top: 100px;">
-          <div class="text-center" data-aos="fade-up" style="z-index: 9999; width: 100%;">
+          <div class="text-center title-slide-white" data-aos="fade-up" style="z-index: 9999; width: 100%;">
             <h1>Aqui va el titulo del segundo slide</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in distinctio nostrum laborum sed quisquam voluptate facilis non.</p>
             <p><a href="#" class="btn btn-primary py-3 px-5">Read More</a></p>
@@ -46,5 +46,16 @@
   }
 </script>
 <style lang="scss">
-
+    .title-slide-black,.title-slide-white{
+        height: auto;
+        display: inline-table;
+        border-radius: 5px;
+        padding: 15px;
+    }
+    .title-slide-black{
+        background: rgba(0, 0, 0, 0.62);
+    }
+    .title-slide-white{
+        background: rgba(255, 255, 255, 0.8);
+    }
 </style>

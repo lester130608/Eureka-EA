@@ -2,7 +2,7 @@
     <div class="admissions">
         <div class="intro-section"
              style="background-position: bottom"
-             v-bind:style="{ 'background-image': 'url(' + './default/images/admissions/principal.jpg' + ')' }">
+             v-bind:style="{ 'background-image': 'url(' + './default/images/admissions/home1.jpg' + ')' }">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-7 mx-auto text-center txt-info" data-aos="fade-up">

@@ -3,6 +3,12 @@
     "spanish": "ES",
     "english": "EN"
   },
+  "send": "Enviar",
+  "full_name": "Nombre",
+  "last_name": "Apellidos",
+  "email_address": "Dirección de correo electrónico",
+  "phone_number": "Número de teléfono",
+  "notes": "Notas",
   "menu": {
     "Home": "Inicio",
     "AboutUs": "Quienes somos",
@@ -38,7 +44,7 @@
     "first_parrafo": "El objetivo principal de Eureka Educational Academy es fomentar el crecimiento académico, social y físico de los estudiantes para alcanzar el máximo potencial de cada uno. El enfoque es desarrollar al niño en su totalidad a través de un proceso integrado que involucra sistemas académicos y servicios terapéuticos proporcionados según sea necesario.",
     "second_parrafo": "Eureka Educational Academy proporcionará diversas metodologías educativas y planes de estudio basados en la investigación para desarrollar un plan de aprendizaje individualizado que satisfaga las necesidades educativas de cada alumno. Realizaremos evaluaciones periódicas con el fin de valorar y brindar datos de desempeño en tiempo real para establecer el plan de instrucción de cada estudiante. Adicionalmente, Eureka Educational Academy implementará un enfoque de aprendizaje combinado que incluye un dispositivo uno a uno y varios programas educativos para lograr los máximos resultados y efectividad en el desempeño de los estudiantes."
   },
-  "viewAbout": {
+  "view_about": {
     "title": "About Eureka Educational Academy",
     "welcome": "Quienes Somos",
     "first_parrafo": "Eureka Educational Academy fue fundada por un grupo de educadores y profesionales de la salud con más de 75 años de experiencia en la prestación de servicios a niños en edad escolar en el área del sur de Florida. ",
@@ -51,7 +57,14 @@
   },
   "view_scholarships": {
     "title": "Becas",
-    "description": "Eureka Educational Academy acepta las siguientes becas: "
+    "description": "Eureka Educational Academy acepta las siguientes becas: ",
+    "subtitle": "EL PASO PARA LOS ESTUDIANTES",
+    "florida_tax_credit": "Beca de crédito fiscal de Florida",
+    "gardiner_scholarship": "Beca Gardiner",
+    "john_mcKay_scholarship": "Beca John McKay",
+    "income_based": "Basado en ingresos",
+    "special_needs": "Necesidades especiales",
+    "previously_attended": "Asistió anteriormente a una escuela pública"
 
   },
   "foot_contact": {

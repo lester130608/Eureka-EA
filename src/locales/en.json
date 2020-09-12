@@ -3,6 +3,12 @@
     "spanish": "ES",
     "english": "EN"
   },
+  "send": "Send",
+  "full_name": "Full name",
+  "last_name": "Last Name",
+  "email_address": "Email Address",
+  "phone_number": "Phone Number",
+  "notes": "Notes",
   "menu": {
     "Home": "Home",
     "AboutUs": "About Us",
@@ -51,7 +57,14 @@
   },
   "view_scholarships": {
     "title": "Scholarships",
-    "description": "Eureka Educational Academy accepts the following scholarships: "
+    "description": "Eureka Educational Academy accepts the following scholarships: ",
+    "subtitle": "STEP UP FOR STUDENTS",
+    "florida_tax_credit": "Florida Tax Credit Scholarship",
+    "gardiner_scholarship": "Gardiner Scholarship",
+    "john_mcKay_scholarship": "John McKay Scholarship",
+    "income_based": "Income based",
+    "special_needs": "Special Needs",
+    "previously_attended": "Previously attended public school"
   },
   "foot_contact": {
     "text":"For more information on our therapy services, please call or email:",

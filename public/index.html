@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title>Eureka Educational Academy</title>
+<!--    <title><%= htmlWebpackPlugin.options.title %></title>-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!--    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Dancing+Script:400,700|Muli:300,400" rel="stylesheet">-->
@@ -29,6 +30,15 @@
 <!--    <link rel="stylesheet" href="<%= BASE_URL %>default/css/style.css">-->
   </head>
   <body>
+  <script>
+    const lista = [1, 2, 3, 4, 5, 5, 4, 6, 8, 1, 10];
+    let total = 0;
+    for (let x = 0; x < lista.length; x++) {
+      total = lista[x] + total;
+    }
+    console.log("TOTAL = ", total);
+
+  </script>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>

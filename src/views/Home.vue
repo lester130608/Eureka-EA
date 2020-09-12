@@ -52,39 +52,40 @@
           </div>
       </div>
 
-          <div class="py-5">
-              <div class="container">
-                  <div class="row">
-                      <div class="col-md-6 col-lg-4">
-                          <div class="service-29283">
-              <span class="wrap-icon-39293">
-                <span class="flaticon-yacht"></span>
-              </span>
-                              <h3>Luxuries Yacht</h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ipsa, ad ratione quos distinctio unde.</p>
-                          </div>
-                      </div>
-                      <div class="col-md-6 col-lg-4">
-                          <div class="service-29283">
-              <span class="wrap-icon-39293">
-                <span class="flaticon-shield"></span>
-              </span>
-                              <h3>30 Years of Experience</h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ipsa, ad ratione quos distinctio unde.</p>
-                          </div>
-                      </div>
-                      <div class="col-md-6 col-lg-4">
-                          <div class="service-29283">
-              <span class="wrap-icon-39293">
-                <span class="flaticon-captain"></span>
-              </span>
-                              <h3>Good Captain</h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ipsa, ad ratione quos distinctio unde.</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
+<!--      Seccion de iconos home-->
+<!--          <div class="py-5">-->
+<!--              <div class="container">-->
+<!--                  <div class="row">-->
+<!--                      <div class="col-md-6 col-lg-4">-->
+<!--                          <div class="service-29283">-->
+<!--              <span class="wrap-icon-39293">-->
+<!--                <span class="flaticon-yacht"></span>-->
+<!--              </span>-->
+<!--                              <h3>Luxuries Yacht</h3>-->
+<!--                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ipsa, ad ratione quos distinctio unde.</p>-->
+<!--                          </div>-->
+<!--                      </div>-->
+<!--                      <div class="col-md-6 col-lg-4">-->
+<!--                          <div class="service-29283">-->
+<!--              <span class="wrap-icon-39293">-->
+<!--                <span class="flaticon-shield"></span>-->
+<!--              </span>-->
+<!--                              <h3>30 Years of Experience</h3>-->
+<!--                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ipsa, ad ratione quos distinctio unde.</p>-->
+<!--                          </div>-->
+<!--                      </div>-->
+<!--                      <div class="col-md-6 col-lg-4">-->
+<!--                          <div class="service-29283">-->
+<!--              <span class="wrap-icon-39293">-->
+<!--                <span class="flaticon-captain"></span>-->
+<!--              </span>-->
+<!--                              <h3>Good Captain</h3>-->
+<!--                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ipsa, ad ratione quos distinctio unde.</p>-->
+<!--                          </div>-->
+<!--                      </div>-->
+<!--                  </div>-->
+<!--              </div>-->
+<!--          </div>-->
 
 
           <div class="site-section bg-light">
@@ -99,51 +100,32 @@
                           <h3 class="heading-92913 text-black">{{ $t('view_home.data')}}</h3>
                           <form action="#" class="row">
                               <div class="form-group col-md-6">
-                                  <label for="input-1">Full Name:</label>
+                                  <label for="input-1">{{ $t('full_name')}}:</label>
                                   <input type="text" class="form-control" id="input-1">
                               </div>
                               <div class="form-group col-md-6">
-                                  <label for="input-2">Number of People:</label>
+                                  <label for="input-2">{{ $t('last_name')}}:</label>
                                   <input type="text" class="form-control" id="input-2">
                               </div>
 
-<!--                              <div class="form-group col-md-6">-->
-<!--                                  <label for="input-3">Date From:</label>-->
-<!--                                  <input type="text" class="form-control datepicker" id="input-3">-->
-<!--                              </div>-->
-<!--                              <div class="form-group col-md-6">-->
-<!--                                  <label for="input-4">Date To:</label>-->
-<!--                                  <input type="text" class="form-control datepicker" id="input-4">-->
-<!--                              </div>-->
-
-<!--                              <div class="form-group col-md-12">-->
-<!--                                  <label for="input-5">Yacht You're Interested in:</label>-->
-<!--                                  <select name="" id="input-5" class="form-control">-->
-<!--                                      <option value="">Motor Yacht</option>-->
-<!--                                      <option value="">Hi-Speed Yacht</option>-->
-<!--                                      <option value="">Premium Yacht</option>-->
-<!--                                      <option value="">Presidential Yacht</option>-->
-<!--                                  </select>-->
-<!--                              </div>-->
-
                               <div class="form-group col-md-6">
-                                  <label for="input-6">Email Address</label>
+                                  <label for="input-6">{{ $t('email_address')}}</label>
                                   <input type="text" class="form-control" id="input-6">
                               </div>
 
                               <div class="form-group col-md-6">
-                                  <label for="input-7">Phone Number</label>
+                                  <label for="input-7">{{ $t('phone_number')}}</label>
                                   <input type="text" class="form-control" id="input-7">
                               </div>
 
 
                               <div class="form-group col-md-12">
-                                  <label for="input-8">Notes</label>
+                                  <label for="input-8">{{ $t('notes')}}</label>
                                   <textarea name="" id="input-8" cols="30" rows="3" class="form-control"></textarea>
                               </div>
 
                               <div class="form-group col-md-12">
-                                  <input type="submit" class="btn btn-primary py-3 px-5" value="Contact Now">
+                                  <input type="submit" class="btn btn-primary py-3 px-5" v-bind:value=" $t('send')">
                               </div>
 
                           </form>

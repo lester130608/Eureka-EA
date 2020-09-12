@@ -568,16 +568,7 @@
 				color: $third-color!important;
 			}
 		}
-		#footer-logo{
-			.animated{
-				animation-duration: .3ms;
-				animation-delay: 2s;
 
-			}
-			.tada{
-				animation-iteration-count: infinite;
-			}
-		}
 	}
 }
 
@@ -1380,7 +1371,7 @@
 	}
 
 	.p-4{
-		display: flex;
+		display: flow-root;
 		height: 135px;
 		align-items: center;
 		h4{
