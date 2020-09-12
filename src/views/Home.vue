@@ -12,8 +12,15 @@
                           <div class="">
                               <span class="text-serif text-primary objectColor">{{ $t('view_home.about_us') }}</span>
                               <h3 class="heading-92913 text-black text-color-yellow">{{ $t('summary_text') }}</h3>
-                              <p>{{ $t('view_about.first_parrafo') }}</p>
                               <p>{{ $t('view_home.second_parrafo') }}</p>
+                              <p>{{ $t('view_therapy.description') }}</p>
+                              <p>{{ $t('view_scholarships.description') }}</p>
+                              <ul>
+                                  <li>{{ $t('view_scholarships.florida_tax_credit') }}</li>
+                                  <li>{{ $t('view_scholarships.gardiner_scholarship') }}</li>
+                                  <li>{{ $t('view_scholarships.john_mcKay_scholarship') }}</li>
+                              </ul>
+
                               <!--                          <p><a href="#" class="btn btn-primary py-3 px-4">Learn More</a></p>-->
                           </div>
 

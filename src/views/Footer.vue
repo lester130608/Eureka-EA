@@ -2,7 +2,7 @@
   <div class="footer bg-light-dark">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-2 offset-lg-1 col-12 d-flex align-items-center align-content-center">
+        <div class="col-lg-2 offset-lg-1 col-12 ">
           <p class="mb-4">
               <img id="footer-logo" src="../../public/default/images/logo-eureka.svg" alt="Image"
                    class=" img-fluid maxWidth animated tada"></p>
