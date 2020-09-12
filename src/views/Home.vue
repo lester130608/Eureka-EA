@@ -11,7 +11,7 @@
                       <div class="col-md-6 center-info">
                           <div class="">
                               <span class="text-serif text-primary objectColor">{{ $t('view_home.about_us') }}</span>
-                              <h3 class="heading-92913 text-black text-color-yellow">{{ $t('view_home.welcome') }}</h3>
+                              <h3 class="heading-92913 text-black text-color-yellow">{{ $t('summary_text') }}</h3>
                               <p>{{ $t('view_about.first_parrafo') }}</p>
                               <p>{{ $t('view_home.second_parrafo') }}</p>
                               <!--                          <p><a href="#" class="btn btn-primary py-3 px-4">Learn More</a></p>-->
@@ -120,7 +120,7 @@
 
 
                               <div class="form-group col-md-12">
-                                  <label for="input-8">{{ $t('notes')}}</label>
+                                  <label for="input-8">{{ $t('message')}}</label>
                                   <textarea name="" id="input-8" cols="30" rows="3" class="form-control"></textarea>
                               </div>
 

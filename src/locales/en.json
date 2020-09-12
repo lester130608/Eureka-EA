@@ -9,6 +9,11 @@
   "email_address": "Email Address",
   "phone_number": "Phone Number",
   "notes": "Notes",
+  "message": "Message",
+  "sendmessage": "Send Message",
+  "summary_text": "Summary",
+  "readmore": "Read More",
+  "slogan": "We seek to foster the academic, social and physical growth of students to reach the maximum potential of each one.",
   "summary": {
     "cases_attended": "Cases attended",
     "admissions": "Admissions",
@@ -30,7 +35,7 @@
   },
   "view_home": {
     "about_us": "About Us",
-    "welcome": "Welcome to Eureka",
+    "welcome": "Welcome to Eureka Educational Academy",
     "second_parrafo": "The main goal of the academy is to provide students with a complete educational experience which will meet the social, emotional and behavioral needs of each individual student.",
     "data": "Make Your Application",
     "btn_send": "Send",

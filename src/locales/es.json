@@ -3,6 +3,7 @@
     "spanish": "ES",
     "english": "EN"
   },
+
   "summary": {
     "cases_attended": "Casos atendidos",
     "admissions": "Admisiones",
@@ -15,6 +16,11 @@
   "email_address": "Dirección de correo electrónico",
   "phone_number": "Número de teléfono",
   "notes": "Notas",
+  "message": "Mensaje",
+  "sendmessage": "Enviar Mensaje",
+  "summary_text": "Resumen",
+  "readmore": "Leer más",
+  "slogan": "Buscamos fomentar el crecimiento académico, social y físico de los estudiantes para alcanzar el máximo potencial de cada uno.",
   "menu": {
     "Home": "Inicio",
     "AboutUs": "Quienes somos",
@@ -29,7 +35,7 @@
   },
   "view_home": {
     "about_us": "Sobre Nosotros",
-    "welcome": "Bienvenido a Eureka",
+    "welcome": "Bienvenido a Eureka Educational Academy ",
     "second_parrafo": "El objetivo principal de la academia es brindar a los estudiantes una experiencia educativa completa que satisfaga las necesidades sociales, emocionales y de comportamiento de cada estudiante en particular.",
     "data": "Llena tu Solicitud",
     "btn_send": "Enviar",

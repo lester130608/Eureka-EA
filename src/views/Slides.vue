@@ -6,9 +6,9 @@
       <div class="container">
         <div class="row " style="padding-top: 100px;">
           <div class="text-center title-slide-black" data-aos="fade-up" style="z-index: 9999;width: 100%;">
-            <h1>Aqui va el titulo del slide principal</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in distinctio nostrum laborum sed quisquam voluptate facilis non.</p>
-            <p><a href="#" class="btn btn-primary py-3 px-5">Read More</a></p>
+            <h1>{{ $t('view_home.welcome') }}</h1>
+            <p>{{ $t('slogan') }}</p>
+            <p><router-link  class="btn btn-primary py-3 px-5" to="/philosophy">{{ $t('readmore') }}</router-link></p>
           </div>
         </div>
         <!--                      <div class="row align-items-center">-->
@@ -27,9 +27,9 @@
       <div class="container">
         <div class="row " style="padding-top: 100px;">
           <div class="text-center title-slide-white" data-aos="fade-up" style="z-index: 9999; width: 100%;">
-            <h1>Aqui va el titulo del segundo slide</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in distinctio nostrum laborum sed quisquam voluptate facilis non.</p>
-            <p><a href="#" class="btn btn-primary py-3 px-5">Read More</a></p>
+            <h1>{{ $t('menu.Theraphy') }}</h1>
+            <p>{{ $t('view_therapy.description') }}</p>
+            <p><router-link  class="btn btn-primary py-3 px-5" to="/theraphy">{{ $t('readmore') }}</router-link></p>
           </div>
         </div>
       </div>

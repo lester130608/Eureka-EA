@@ -1,15 +1,15 @@
 <template>
   <div class="footer bg-light-dark">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-2 offset-lg-1 col-12 d-flex align-items-center align-content-center">
           <p class="mb-4">
               <img id="footer-logo" src="../../public/default/images/logo-eureka.svg" alt="Image"
                    class=" img-fluid maxWidth animated tada"></p>
 <!--          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>-->
 <!--          <p><a href="#">Learn More</a></p>-->
         </div>
-        <div class="col-lg-9 ">
+        <div class="col-lg-6 offset-lg-1 col-12   ">
              <div class="row">
                  <div class="col-lg-6 bottom-footer text-left">
                      <h1 class="footer-heading">{{ $t('foot_contact.text') }}</h1>
@@ -48,21 +48,35 @@
                          </div>
                      </div>
                  </div>
-                 <div class="col-lg-3 text-right">
+                 <div class="col-lg-3 text-lg-right text-sm-center">
 <!--                     <h3 class="footer-heading"><span>{{ $t('menu.ContactUs') }}</span></h3>-->
                      <ul class="list-unstyled">
-                         <li><a href="#">Home</a></li>
-                         <li><a href="#">About Us</a></li>
-                         <li><a href="#">Contact Us</a></li>
+                         <li >
+                             <router-link class="" to="/">{{ $t('menu.Home') }}</router-link>
+                         </li>
+                         <li>
+                             <router-link class="" to="/about">{{ $t('menu.AboutUs') }}</router-link>
+                         </li>
+                         <li>
+                             <router-link class="" to="/philosophy">{{ $t('menu.Philosophy') }}</router-link>
+                         </li>
+
                      </ul>
                  </div>
-                 <div class="col-lg-3 text-right">
+                 <div class="col-lg-3 text-lg-right text-sm-center">
 <!--                     <h3 class="footer-heading"><span>{{ $t('foot_contact.our_services') }}</span></h3>-->
                      <ul class="list-unstyled">
-                         <li><a href="#">Philosophy</a></li>
-                         <li><a href="#">Therapy</a></li>
-                         <li><a href="#">Scholarships</a></li>
-                         <li><a href="#">Admissions</a></li>
+                         <li>
+                             <router-link class="" to="/theraphy">{{ $t('menu.Theraphy') }}</router-link>
+                         </li>
+                         <li>
+                             <router-link class="" to="/scholarships">{{ $t('menu.Scholarships') }}</router-link>
+                         </li>
+                         <li>
+                             <router-link class="" to="/admissions">{{ $t('menu.Admissions') }}</router-link>
+                         </li>
+                         <li>
+                             <router-link class="" to="/contact">{{ $t('menu.ContactUs') }}</router-link></li>
                      </ul>
                  </div>
 
