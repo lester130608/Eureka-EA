@@ -27,25 +27,25 @@
                   <div class="col">
                       <div class="counter-39392">
                           <h3>8035+</h3>
-                          <span>Casos atendidos</span>
+                          <span>{{ $t('summary.cases_attended')}}</span>
                       </div>
                   </div>
                   <div class="col">
                       <div class="counter-39392">
                           <h3>850+</h3>
-                          <span>Admiciones</span>
+                          <span>{{ $t('summary.admissions')}}</span>
                       </div>
                   </div>
                   <div class="col">
                       <div class="counter-39392">
                           <h3>860+</h3>
-                          <span>Becas asignadas</span>
+                          <span>{{ $t('summary.scholarships_assigned')}}</span>
                       </div>
                   </div>
                   <div class="col">
                       <div class="counter-39392">
                           <h3>7624+</h3>
-                          <span>Resultados satisfactorios</span>
+                          <span>{{ $t('summary.satisfactory_results')}}</span>
                       </div>
                   </div>
               </div>

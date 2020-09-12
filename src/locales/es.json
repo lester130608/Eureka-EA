@@ -3,6 +3,12 @@
     "spanish": "ES",
     "english": "EN"
   },
+  "summary": {
+    "cases_attended": "Casos atendidos",
+    "admissions": "Admisiones",
+    "scholarships_assigned": "Becas asignadas",
+    "satisfactory_results": "Resultados satisfactorios"
+  },
   "send": "Enviar",
   "full_name": "Nombre",
   "last_name": "Apellidos",

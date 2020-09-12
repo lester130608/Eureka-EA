@@ -5,7 +5,7 @@
          v-bind:style="{ 'background-image': 'url(' + './default/images/home/slide-0.jpg' + ')' }">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-7 mx-auto text-center" data-aos="fade-up">
+          <div class="col-lg-7 mx-auto text-center txt-info" data-aos="fade-up">
             <h1>{{ $t('view_about.title')}}</h1>
 <!--            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in distinctio nostrum laborum sed quisquam voluptate facilis non.</p>-->
 <!--            <p>-->

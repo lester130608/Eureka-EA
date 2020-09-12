@@ -9,6 +9,13 @@
   "email_address": "Email Address",
   "phone_number": "Phone Number",
   "notes": "Notes",
+  "summary": {
+    "cases_attended": "Cases attended",
+    "admissions": "Admissions",
+    "scholarships_assigned": "Scholarships assigned",
+    "satisfactory_results":"Satisfactory results"
+  },
+
   "menu": {
     "Home": "Home",
     "AboutUs": "About Us",
