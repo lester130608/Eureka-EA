@@ -24,8 +24,8 @@
                 <span class="icon-location-arrow text-primary"></span>
               </div>
               <div class="text">
-                <span class="h4 d-block">San Francisco</span>
-                <span class="caption-text">Mountain View, Fake st., CA</span>
+                <span class="h4 d-block">Florida,US</span>
+                <span class="caption-text">9745 SW 184th St. Palmetto Bay, FL 33184</span>
               </div>
             </div>
 
@@ -48,8 +48,8 @@
                 <span class="icon-envelope text-primary"></span>
               </div>
               <div class="text">
-                <a href="mailto:info@theeurekaakademy.com?Subject=Contacting" target="_blank" class="h4 d-block">info@theeurekaakademy.com</a>
-                <a href="mailto:mriera@theeurekaakademy.com?Subject=Contacting" target="_blank" class="h4 d-block">mriera@theeurekaakademy.com</a>
+                <a href="mailto:info@theeurekaacademy.com?Subject=Contacting" target="_blank" class="h4 d-block">info@theeurekaacademy.com</a>
+                <a href="mailto:mriera@theeurekaacademy.com?Subject=Contacting" target="_blank" class="h4 d-block">mriera@theeurekaacademy.com</a>
               </div>
             </div>
           </div>

@@ -31,30 +31,31 @@
       <div class="site-section bg-image overlay" v-bind:style="{ 'background-image': 'url(' + './default/images/home/section1.jpg' + ')' }">
           <div class="container">
               <div class="row">
-                  <div class="col">
-                      <div class="counter-39392">
-                          <h3>8035+</h3>
-                          <span>{{ $t('summary.cases_attended')}}</span>
-                      </div>
-                  </div>
-                  <div class="col">
-                      <div class="counter-39392">
-                          <h3>850+</h3>
-                          <span>{{ $t('summary.admissions')}}</span>
-                      </div>
-                  </div>
-                  <div class="col">
-                      <div class="counter-39392">
-                          <h3>860+</h3>
-                          <span>{{ $t('summary.scholarships_assigned')}}</span>
-                      </div>
-                  </div>
-                  <div class="col">
-                      <div class="counter-39392">
-                          <h3>7624+</h3>
-                          <span>{{ $t('summary.satisfactory_results')}}</span>
-                      </div>
-                  </div>
+                  <h1 class="color-white">{{ $t('summary.text')}} </h1>
+<!--                  <div class="col">-->
+<!--                      <div class="counter-39392">-->
+<!--                          <h3>8035+</h3>-->
+<!--                          <span>{{ $t('summary.cases_attended')}}</span>-->
+<!--                      </div>-->
+<!--                  </div>-->
+<!--                  <div class="col">-->
+<!--                      <div class="counter-39392">-->
+<!--                          <h3>850+</h3>-->
+<!--                          <span>{{ $t('summary.admissions')}}</span>-->
+<!--                      </div>-->
+<!--                  </div>-->
+<!--                  <div class="col">-->
+<!--                      <div class="counter-39392">-->
+<!--                          <h3>860+</h3>-->
+<!--                          <span>{{ $t('summary.scholarships_assigned')}}</span>-->
+<!--                      </div>-->
+<!--                  </div>-->
+<!--                  <div class="col">-->
+<!--                      <div class="counter-39392">-->
+<!--                          <h3>7624+</h3>-->
+<!--                          <span>{{ $t('summary.satisfactory_results')}}</span>-->
+<!--                      </div>-->
+<!--                  </div>-->
               </div>
           </div>
       </div>
@@ -142,66 +143,66 @@
           </div>
 
 
-          <div class="site-section">
-              <div class="container">
-                  <div class="row justify-content-center mb-5">
-                      <div class="col-md-7 text-center">
-                          <span class="text-serif text-primary">{{ $t('view_home.testimonial')}}</span>
-                          <h3 class="heading-92913 text-black text-center">{{ $t('view_home.what_customer_saying')}}...</h3>
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">
-                          <div class="testimony-39291">
-                              <blockquote>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laborum cumque commodi, unde doloribus.</p>
-                              </blockquote>
-                              <div class="d-flex vcard align-items-center">
-                                  <div class="pic mr-3">
-                                      <img src="../../public/default/images/person_5.jpg" alt="Image" class="">
-                                  </div>
-                                  <div class="text">
-                                      <strong class="d-block">Jane Doe</strong>
-                                      <span>Madre de Emma Stepheson(Terapia)</span>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">
-                          <div class="testimony-39291">
-                              <blockquote>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laborum cumque commodi, unde doloribus.</p>
-                              </blockquote>
-                              <div class="d-flex vcard align-items-center">
-                                  <div class="pic mr-3">
-                                      <img src="../../public/default/images/person_4_sq.jpg" alt="Image" class="">
-                                  </div>
-                                  <div class="text">
-                                      <strong class="d-block">John Doe</strong>
-                                      <span>Padre de Jhonas Martinez (Admissions)</span>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">
-                          <div class="testimony-39291">
-                              <blockquote>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laborum cumque commodi, unde doloribus.</p>
-                              </blockquote>
-                              <div class="d-flex vcard align-items-center">
-                                  <div class="pic mr-3">
-                                      <img src="../../public/default/images/person_1.jpg" alt="Image" class="">
-                                  </div>
-                                  <div class="text">
-                                      <strong class="d-block">Carolina Ruiz</strong>
-                                      <span>Madre de Ruth Martin(Speech & Language Therapy)</span>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
+<!--          <div class="site-section">-->
+<!--              <div class="container">-->
+<!--                  <div class="row justify-content-center mb-5">-->
+<!--                      <div class="col-md-7 text-center">-->
+<!--                          <span class="text-serif text-primary">{{ $t('view_home.testimonial')}}</span>-->
+<!--                          <h3 class="heading-92913 text-black text-center">{{ $t('view_home.what_customer_saying')}}...</h3>-->
+<!--                      </div>-->
+<!--                  </div>-->
+<!--                  <div class="row">-->
+<!--                      <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">-->
+<!--                          <div class="testimony-39291">-->
+<!--                              <blockquote>-->
+<!--                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laborum cumque commodi, unde doloribus.</p>-->
+<!--                              </blockquote>-->
+<!--                              <div class="d-flex vcard align-items-center">-->
+<!--                                  <div class="pic mr-3">-->
+<!--                                      <img src="../../public/default/images/person_5.jpg" alt="Image" class="">-->
+<!--                                  </div>-->
+<!--                                  <div class="text">-->
+<!--                                      <strong class="d-block">Jane Doe</strong>-->
+<!--                                      <span>Madre de Emma Stepheson(Terapia)</span>-->
+<!--                                  </div>-->
+<!--                              </div>-->
+<!--                          </div>-->
+<!--                      </div>-->
+<!--                      <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">-->
+<!--                          <div class="testimony-39291">-->
+<!--                              <blockquote>-->
+<!--                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laborum cumque commodi, unde doloribus.</p>-->
+<!--                              </blockquote>-->
+<!--                              <div class="d-flex vcard align-items-center">-->
+<!--                                  <div class="pic mr-3">-->
+<!--                                      <img src="../../public/default/images/person_4_sq.jpg" alt="Image" class="">-->
+<!--                                  </div>-->
+<!--                                  <div class="text">-->
+<!--                                      <strong class="d-block">John Doe</strong>-->
+<!--                                      <span>Padre de Jhonas Martinez (Admissions)</span>-->
+<!--                                  </div>-->
+<!--                              </div>-->
+<!--                          </div>-->
+<!--                      </div>-->
+<!--                      <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">-->
+<!--                          <div class="testimony-39291">-->
+<!--                              <blockquote>-->
+<!--                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laborum cumque commodi, unde doloribus.</p>-->
+<!--                              </blockquote>-->
+<!--                              <div class="d-flex vcard align-items-center">-->
+<!--                                  <div class="pic mr-3">-->
+<!--                                      <img src="../../public/default/images/person_1.jpg" alt="Image" class="">-->
+<!--                                  </div>-->
+<!--                                  <div class="text">-->
+<!--                                      <strong class="d-block">Carolina Ruiz</strong>-->
+<!--                                      <span>Madre de Ruth Martin(Speech & Language Therapy)</span>-->
+<!--                                  </div>-->
+<!--                              </div>-->
+<!--                          </div>-->
+<!--                      </div>-->
+<!--                  </div>-->
+<!--              </div>-->
+<!--          </div>-->
 
           <div class="site-section bg-image overlay backgroundChange" v-bind:style="{ 'background-image': 'url(' + './default/images/home/section2.jpg' + ')' }">
               <div class="container">

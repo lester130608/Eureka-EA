@@ -36,7 +36,7 @@
                              <span class="icon-envelope text-primary"></span>
                          </div>
                          <div class="text">
-                             <a href="mailto:info@theeurekaakademy.com?Subject=Contacting" target="_blank" class="d-block">info@theeurekaakademy.com</a>
+                             <a href="mailto:info@theeurekaacademy.com?Subject=Contacting" target="_blank" class="d-block">info@theeurekaacademy.com</a>
                          </div>
                      </div>
                      <div class="quick-contact-icons d-flex third">
@@ -44,7 +44,7 @@
                              <span class="icon-envelope text-primary"></span>
                          </div>
                          <div class="text">
-                             <a href="mailto:mriera@theeurekaakademy.com?Subject=Contacting" target="_blank" class="d-block">mriera@theeurekaakademy.com</a>
+                             <a href="mailto:mriera@theeurekaacademy.com?Subject=Contacting" target="_blank" class="d-block">mriera@theeurekaacademy.com</a>
                          </div>
                      </div>
                  </div>
