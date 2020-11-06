@@ -25,7 +25,7 @@
               </div>
               <div class="text">
                 <span class="h4 d-block">Florida,US</span>
-                <span class="caption-text">9745 SW 184th St. Palmetto Bay, FL 33184</span>
+                <span class="caption-text">9745 SW 184th St. Palmetto Bay, FL 33157</span>
               </div>
             </div>
 
