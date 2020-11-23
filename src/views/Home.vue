@@ -99,7 +99,7 @@
         <!--TODO CONTACT FORM-->
         <div class="site-section bg-light">
             <div class="container-fluid">
-                <div class="row">
+                <div class="row d-flex align-items-center">
                     <div class="col-md-4 col-12">
                         <p><img src="../../public/default/images/home/contact.jpg"
                                 alt="Image" class="img-fluid border-img"></p>
@@ -108,15 +108,10 @@
                         <!--                          <span class="text-serif text-primary">Book Now</span>-->
                         <h3 class="heading-92913 text-black">{{ $t('view_home.data')}}</h3>
                         <form action="" class="row" @submit="onSubmit">
-                            <div class="form-group col-md-6">
+                            <div class="form-group col-md-12">
                                 <label for="input-1">{{ $t('full_name')}}:</label>
-                                <input type="text" name="full_name" class="form-control" id="input-1">
+                                <input type="text" name="fullname" class="form-control" id="input-1">
                             </div>
-                            <div class="form-group col-md-6">
-                                <label for="input-2">{{ $t('last_name')}}:</label>
-                                <input type="text" name="last_name" class="form-control" id="input-2">
-                            </div>
-
                             <div class="form-group col-md-6">
                                 <label for="input-6">{{ $t('email_address')}}</label>
                                 <input type="text" name="email" class="form-control" id="input-6">
@@ -124,7 +119,7 @@
 
                             <div class="form-group col-md-6">
                                 <label for="input-7">{{ $t('phone_number')}}</label>
-                                <input type="text" name="phone" class="form-control" id="input-7">
+                                <input type="text" name="phoneNumber" class="form-control" id="input-7">
                             </div>
 
 

@@ -19,29 +19,25 @@
     <div class="site-section">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 form-group">
+          <div class="col-md-12 form-group">
             <label for="fname">{{ $t('full_name')}}</label>
-            <input type="text" id="fname" class="form-control form-control-lg">
-          </div>
-          <div class="col-md-6 form-group">
-            <label for="lname">{{ $t('last_name')}}</label>
-            <input type="text" id="lname" class="form-control form-control-lg">
+            <input name="fullname" type="text" id="fname" class="form-control form-control-lg">
           </div>
         </div>
         <div class="row">
           <div class="col-md-6 form-group">
             <label for="eaddress">{{ $t('email_address')}}</label>
-            <input type="text" id="eaddress" class="form-control form-control-lg">
+            <input name="email" type="text" id="eaddress" class="form-control form-control-lg">
           </div>
           <div class="col-md-6 form-group">
             <label for="tel">{{ $t('phone_number')}}</label>
-            <input type="text" id="tel" class="form-control form-control-lg">
+            <input name="phoneNumber" type="text" id="tel" class="form-control form-control-lg">
           </div>
         </div>
         <div class="row">
           <div class="col-md-12 form-group">
             <label for="message">{{ $t('message')}}</label>
-            <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+            <textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
           </div>
         </div>
 

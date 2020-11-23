@@ -103,7 +103,7 @@
           <div class="copyright">
             <p>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              Copyright &copy; All rights reserved | <a href="https://eurekaacademy.com" target="_blank" >Eureka Educational Academy</a>
+              Copyright &copy; All rights reserved | <a href="http://www.theeurekaacademy.com/" target="_blank" >Eureka Educational Academy</a>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
           </div>

@@ -19,8 +19,8 @@
           </div>
           <div class="col-lg-3 d-none d-lg-block ">
 
-            <div class="quick-contact-icons d-flex first">
-              <div class="icon align-self-start">
+            <div class="quick-contact-icons d-flex first d-flex align-items-center">
+              <div class="icon ">
                 <span class="icon-location-arrow text-primary"></span>
               </div>
               <div class="text">
@@ -41,7 +41,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-3 d-none d-lg-block">
             <div class="quick-contact-icons d-flex third">
               <div class="icon align-self-start">
@@ -53,7 +52,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-6 d-block d-lg-none text-right">
             <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
                     class="icon-menu h3"></span></a>
