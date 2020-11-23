@@ -5,7 +5,13 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    config:{},
+    config:{
+      "production": {
+        "emailUrl": "https://app.dttcoaching.com/ExternalContactUs"
+      },
+      "development": {
+        "emailUrl": "http://dttcs.ddns.net:55555/dttcs/ExternalContactUs"
+      }},
     lang: process.env.VUE_APP_I18N_LOCALE || 'en'
   },
   getters: {

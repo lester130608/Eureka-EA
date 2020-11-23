@@ -38,7 +38,7 @@
     import Header from '@/views/Header.vue'
     import Footer from '@/views/Footer.vue'
     import LanguagePickerCmp from '@/components/LanguagePickerCmp.vue';
-    import axios from 'axios'
+    import axios from 'axios';
 
     export default {
         name: 'App',

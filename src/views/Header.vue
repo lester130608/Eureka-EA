@@ -31,8 +31,8 @@
 
           </div>
           <div class="col-lg-3 d-none d-lg-block">
-            <div class="quick-contact-icons d-flex  second">
-              <div class="icon align-self-start">
+            <div class="quick-contact-icons d-flex  second d-flex align-items-center">
+              <div class="icon ">
                 <span class="icon-phone text-primary"></span>
               </div>
               <div class="text">
@@ -42,8 +42,8 @@
             </div>
           </div>
           <div class="col-lg-3 d-none d-lg-block">
-            <div class="quick-contact-icons d-flex third">
-              <div class="icon align-self-start">
+            <div class="quick-contact-icons third d-flex align-items-center">
+              <div class="icon ">
                 <span class="icon-envelope text-primary"></span>
               </div>
               <div class="text">

@@ -97,7 +97,7 @@
         <!--          </div>-->
 
         <!--TODO CONTACT FORM-->
-        <div class="site-section bg-light">
+        <div class="site-section bg-light ">
             <div class="container-fluid">
                 <div class="row d-flex align-items-center">
                     <div class="col-md-4 col-12">
@@ -107,35 +107,11 @@
                     <div class="col-md-8 col-12">
                         <!--                          <span class="text-serif text-primary">Book Now</span>-->
                         <h3 class="heading-92913 text-black">{{ $t('view_home.data')}}</h3>
-                        <form action="" class="row" @submit="onSubmit">
-                            <div class="form-group col-md-12">
-                                <label for="input-1">{{ $t('full_name')}}:</label>
-                                <input type="text" name="fullname" class="form-control" id="input-1">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="input-6">{{ $t('email_address')}}</label>
-                                <input type="text" name="email" class="form-control" id="input-6">
-                            </div>
+                        <SendEmailContactCmp/>
 
-                            <div class="form-group col-md-6">
-                                <label for="input-7">{{ $t('phone_number')}}</label>
-                                <input type="text" name="phoneNumber" class="form-control" id="input-7">
-                            </div>
-
-
-                            <div class="form-group col-md-12">
-                                <label for="input-8">{{ $t('message')}}</label>
-                                <textarea name="message" id="input-8" cols="30" rows="3"
-                                          class="form-control"></textarea>
-                            </div>
-
-                            <div class="form-group col-md-12">
-                                <input type="submit" class="btn btn-primary py-3 px-5" v-bind:value=" $t('send')">
-                            </div>
-
-                        </form>
                     </div>
                 </div>
+
             </div>
         </div>
 
@@ -225,32 +201,22 @@
 <script>
     // @ is an alias to /src
     import Slides from '@/views/Slides.vue'
-    import API from '../api'
+    import SendEmailContactCmp from '@/components/SendEmailContactCmp'
 
     export default {
         name: 'Home',
         components: {
-            Slides
+            Slides,
+            SendEmailContactCmp
         },
         methods: {
-            onSubmit(e) {
-                console.log('SENDING EMAIL',e);
-                e.preventDefault();
-                API.post(
-                        "https://theServer.com/mail.php",
-                        JSON.stringify(this.form)
-                    )
-                    .then(res => {
-                        console.log('AQUI EN SEND EMAIL')
-                    })
-                    .catch(error => {
-                    console.log('ERROR',error.response)
-                    .finally(() => console.log('FINISH'))
-                });
-            }
         }
     }
 </script>
 <style lang="scss">
-
+ .contact-form{
+     p strong{
+         font-weight: 700;
+     }
+ }
 </style>

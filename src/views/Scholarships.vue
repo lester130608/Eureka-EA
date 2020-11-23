@@ -25,7 +25,7 @@
                 </div>
                 <div class="row">
 
-                    <div class="col-md-4 mb-4">
+                    <div @click="$bvModal.show('bv-modal-example')" class="col-md-4 mb-4">
                         <div class="service-39381">
                             <img src="../../public/default/images/scholarships/1.jpg" alt="Image" class="img-fluid">
                             <div class="p-4">
@@ -35,7 +35,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
+                    <div @click="$bvModal.show('bv-modal-example')" class="col-md-4 mb-4">
                         <div class="service-39381">
                             <img src="../../public/default/images/scholarships/2.jpg" alt="Image" class="img-fluid">
                             <div class="p-4">
@@ -45,7 +45,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
+                    <div @click="$bvModal.show('bv-modal-example')" class="col-md-4 mb-4">
                         <div class="service-39381">
                             <img src="../../public/default/images/scholarships/3.jpg" alt="Image" class="img-fluid">
                             <div class="p-4">
@@ -61,6 +61,22 @@
                 </div>
             </div>
         </div>
+
+        <div>
+            <b-modal id="bv-modal-example" hide-footer centered>
+                <template #modal-title>
+                    <img width="40px" class="img-thumbnail" src="../../public/default/images/scholarships/schollarship.svg" alt="">
+                    {{ $t('hello') }}!!!
+                </template>
+                <div class="d-block text-center">
+                    <h3> {{ $t('view_scholarships.message') }}</h3>
+                </div>
+
+                <b-button class="mt-3 btn-primary" block @click="$bvModal.hide('bv-modal-example')">
+                    <router-link class="nav-link text-left" to="/contact">{{ $t('menu.ContactUs') }}</router-link>
+                </b-button>
+            </b-modal>
+        </div>
     </div>
 </template>
 
@@ -70,6 +86,19 @@
     }
 </script>
 
-<style scoped>
-
+<style lang="scss">
+    @import "../assets/scss/variables";
+    .modal-title{
+        text-align: center;
+        width: 100%;
+    }
+   .btn-primary{
+       color: #fff;
+       background-color:$primary-color!important;
+       border-color: $primary-color !important;
+       a{
+           color: white;
+           text-align: center!important;
+       }
+   }
 </style>

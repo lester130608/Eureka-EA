@@ -1,3 +1,10 @@
 {
-  "emailUrl": "https://app.dttcoaching.com/ExternalContactUs"
+  "production": {
+    "emailUrl": "https://app.dttcoaching.com/ExternalContactUs"
+  },
+  "development": {
+    "emailUrl": "http://dttcs.ddns.net:55555/dttcs/ExternalContactUs"
+  }
+
+
 }

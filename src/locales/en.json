@@ -4,6 +4,7 @@
     "english": "EN"
   },
   "send": "Send",
+  "hello": "Hello",
   "full_name": "Full name",
   "last_name": "Last Name",
   "email_address": "Email Address",
@@ -38,7 +39,11 @@
     "about_us": "About Us",
     "welcome": "Welcome to Eureka Educational Academy",
     "second_parrafo": "The main goal of the academy is to provide students with a complete educational experience which will meet the social, emotional and behavioral needs of each individual student.",
-    "data": "Make Your Application",
+    "data": "Request Information",
+    "data_response": "Your request was successfully submitted,<strong> someone will be in touch with you within the next 24 hours</strong>",
+    "well_done": "Well done",
+    "error": "Oops, an error has occurred",
+    "error_message": "Please try again and if the problem persists write directly to our email",
     "btn_send": "Send",
     "what_customer_saying": "What Customer Saying",
     "testimonial": "Testimonial",
@@ -77,7 +82,8 @@
     "john_mcKay_scholarship": "John McKay Scholarship",
     "income_based": "Income based",
     "special_needs": "Special Needs",
-    "previously_attended": "Previously attended public school"
+    "previously_attended": "Previously attended public school",
+    "message": "Contact us for more information related to scholarships available and how to receive assistance to apply"
   },
   "foot_contact": {
     "text":"For more information on our therapy services, please call or email:",
