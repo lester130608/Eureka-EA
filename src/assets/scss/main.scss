@@ -200,3 +200,19 @@ a.back-to-top {
 }
 
 //END SCROLL STYLING
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .home {
+    .intro-section{
+      height: 350px;
+      min-height: 300px;
+      background-position: center;
+      background-size: cover;
+    }
+    .intro-section .container .row{
+      height: 350px;
+      min-height: 300px;
+      padding: 0!important;
+    }
+  }
+}

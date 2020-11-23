@@ -135,4 +135,10 @@
         margin: auto;
       }
     }
+    @media (max-width: 575.98px) {
+        .contact-form .alert {
+            height: 250px;
+        }
+    }
+
 </style>
