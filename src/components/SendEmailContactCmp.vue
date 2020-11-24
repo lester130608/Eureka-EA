@@ -82,7 +82,10 @@
                 });
                 e.preventDefault();
                 const auth = {
-                    headers: {Authorization: "Basic b2FjZXZlZG86dGVzdGluZw=="}
+                    headers: {
+                        Authorization: "Basic b2FjZXZlZG86dGVzdGluZw==",
+                        "Access-Control-Allow-Origin": "*"
+                    }
                 };
                 let formdata = new FormData();
                 formdata.append("fullname", this.fullName);

@@ -4,7 +4,7 @@
 
         <div class="site-section">
             <div class="container-fluid">
-                <div class="row">
+                <div class="row d-flex align-items-center">
                     <div class="col-md-6">
                         <img src="../../public/default/images/home/cloud-letters.png" alt="Image" class="img-fluid">
                     </div>
