@@ -19,31 +19,8 @@
     <div class="site-section">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 form-group">
-            <label for="fname">{{ $t('full_name')}}</label>
-            <input name="fullname" type="text" id="fname" class="form-control form-control-lg">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 form-group">
-            <label for="eaddress">{{ $t('email_address')}}</label>
-            <input name="email" type="text" id="eaddress" class="form-control form-control-lg">
-          </div>
-          <div class="col-md-6 form-group">
-            <label for="tel">{{ $t('phone_number')}}</label>
-            <input name="phoneNumber" type="text" id="tel" class="form-control form-control-lg">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 form-group">
-            <label for="message">{{ $t('message')}}</label>
-            <textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
-          </div>
-        </div>
-
-        <div class="row">
           <div class="col-12">
-            <input type="submit" v-bind:value=" $t('sendmessage')" class="btn btn-primary rounded-0 px-3 px-5">
+            <SendEmailContactCmp/>
           </div>
         </div>
       </div>
@@ -76,9 +53,10 @@
   </div>
 </template>
 <script>
+  import SendEmailContactCmp from '@/components/SendEmailContactCmp'
   export default {
     name: 'ContactUs',
-    components: { }
+    components: {SendEmailContactCmp }
   }
 </script>
 <style lang="scss">
