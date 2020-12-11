@@ -3,7 +3,7 @@
     "emailUrl": "https://app.dttcoaching.com/ExternalContactUs"
   },
   "development": {
-    "emailUrl": "http://dttcs.ddns.net:55555/dttcs/ExternalContactUs"
+    "emailUrl": "http://dttcs.ddns.net:55555/dttcs/api/External/ContactUs"
   }
 
 

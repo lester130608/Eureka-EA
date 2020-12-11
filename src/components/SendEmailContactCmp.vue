@@ -84,17 +84,26 @@
                 const auth = {
                     headers: {
                         Authorization: "Basic b2FjZXZlZG86dGVzdGluZw==",
-                        "Access-Control-Allow-Origin": "*"
+                        "Access-Control-Allow-Origin": "*",
+                        "Access-Control-Allow-Headers": "*",//"Origin, X-Requested-With, Content-Type, Accept",
+                        "Access-Control-Allow-Methods": "*",//"GET, PUT, POST, DELETE",
+                        "Access-Control-Max-Age": "86400",
+                        'Content-Type': 'application/json'
                     }
                 };
                 let formdata = new FormData();
                 formdata.append("fullname", this.fullName);
                 formdata.append("email", this.email);
-                formdata.append("phoneNumber", this.phoneNumber);
+                formdata.append("phoneNumber", this.fullName);
                 formdata.append("message", this.message);
                 axios.post(
                     this.stateStore.config[process.env.NODE_ENV].emailUrl,
-                    formdata, auth
+                    {
+                        "fullname": this.fullName,
+                        "phoneNumber": this.fullName,
+                        "email": this.email,
+                        "message": this.message
+                    }, auth
                 )
                     .then(res => {
                         console.log('AQUI EN SEND EMAIL');
