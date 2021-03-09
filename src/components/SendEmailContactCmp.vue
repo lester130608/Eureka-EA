@@ -2,24 +2,65 @@
     <div class="contact-form">
         <form action="" class="row" @submit="onSubmit">
             <div class="form-group col-md-12">
-                <label for="input-1">{{ $t('full_name')}}:</label>
+                <label class="default" for="input-1">{{ $t('full_name')}}:</label>
                 <input type="text" v-model="fullName" name="fullname" class="form-control" id="input-1">
             </div>
             <div class="form-group col-md-6">
-                <label for="input-6">{{ $t('email_address')}}</label>
+                <label class="default" for="input-6">{{ $t('email_address')}}</label>
                 <input type="email" v-model="email" name="email" class="form-control" id="input-6">
             </div>
 
             <div class="form-group col-md-6">
-                <label for="input-7">{{ $t('phone_number')}}</label>
+                <label class="default" for="input-7">{{ $t('phone_number')}}</label>
                 <input type="tel" v-model="phoneNumber" name="phoneNumber" class="form-control" id="input-7">
             </div>
 
 
             <div class="form-group col-md-12">
-                <label for="input-8">{{ $t('message')}}</label>
-                <textarea v-model="message" name="message" id="input-8" cols="30" rows="3"
-                          class="form-control"></textarea>
+<!--                <label for="input-8">{{ $t('message')}}</label>-->
+<!--                <textarea v-model="message" name="message" id="input-8" cols="30" rows="3"-->
+<!--                          class="form-control"></textarea>-->
+                <div class="bulgy-radios" role="radiogroup" aria-labelledby="bulgy-radios-label">
+                    <h2 class="bulgy-radios-title">I am interested in the following program(s):</h2>
+                    <div class="container-options">
+                        <label>
+                            <input type="radio" name="options" v-model="interestedCuestionary" />
+                            <span class="radio"></span>
+                            <span class="label">School only</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="options" v-model="interestedCuestionary" />
+                            <span class="radio"></span>
+                            <span class="label">School & Therapy</span>
+                        </label>
+                    </div>
+                    <h2 class="bulgy-radios-title">What scholarship program does your child participate in?</h2>
+                    <div class="container-options">
+                        <label>
+                            <input type="radio" value="McKay" name="options" v-model="scholarshipCuestionary"  />
+                            <span class="radio"></span>
+                            <span class="label">McKay</span>
+                        </label>
+                        <label>
+                            <input type="radio" value="Step Up" name="options" v-model="scholarshipCuestionary" />
+                            <span class="radio"></span>
+                            <span class="label">Step Up</span>
+                        </label>
+                        <label>
+                            <input type="radio" value="Gardiner" name="options" v-model="scholarshipCuestionary" />
+                            <span class="radio"></span>
+                            <span class="label">Gardiner</span>
+                        </label>
+                        <label>
+                            <input type="radio" value="other" name="options" v-model="scholarshipCuestionary" />
+                            <span class="radio"></span>
+                            <span class="label">Other</span>
+                        </label>
+                        <input v-if="scholarshipCuestionary === 'other'" type="text" v-model="scholarshipCuestionary" name="scholarshipCuestionary" class="form-control" id="input-7">
+                    </div>
+                </div>
+
+
             </div>
 
             <div class="form-group col-md-12">
@@ -69,7 +110,9 @@
                 phoneNumber: '',
                 stateStore: this.$store.state,
                 showAlertContact: false,
-                showAlertError: false
+                showAlertError: false,
+                interestedCuestionary: '',
+                scholarshipCuestionary: ''
             };
         },
         methods: {
@@ -146,6 +189,10 @@
         right: 0;
         margin: auto;
       }
+        label.default{
+            width: 100%;
+            text-align: left;
+        }
     }
     @media (max-width: 575.98px) {
         .contact-form .alert {

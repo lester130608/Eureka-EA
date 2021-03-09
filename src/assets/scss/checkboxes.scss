@@ -1,0 +1,111 @@
+@import "variables";
+$radio-size: 25px;
+$inner-radio-size: 15px;
+.bulgy-radios-title{
+  font-size: 20px;
+  text-align: left;
+}
+.container-options{
+  width: 100%;
+  height: auto;
+  display: flow-root;
+}
+.bulgy-radios {
+  //background: #fff;
+  //padding: 15px;
+  border-radius: 0.5rem;
+  width: 100%;
+
+  label {
+    display: flex;
+    float: left;
+    position: relative;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-size: 18px;
+    align-items: center;
+    user-select: none;
+    color: #555;
+    letter-spacing: 1px;
+    &:hover input:not(:checked) ~ .radio {
+      opacity: 0.8;
+    }
+  }
+  .label {
+    display: flex;
+    align-items: center;
+    padding-right: 3rem;
+    span {
+      line-height: 1em;
+    }
+  }
+  input {
+    position: absolute;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    left: -2000px;
+
+    &.form-control{
+      position: inherit;
+      width: 100%;
+      height: inherit;
+    }
+
+    &:checked {
+      ~ .radio {
+        background-color: $first-color;
+        transition: background .3s;
+        &::after {
+          opacity: 1;
+        }
+      }
+      ~ .label {
+        color: $first-color;
+        font-weight: 600;
+        span {
+          animation: bulge .5s forwards;
+        }
+
+        //adjust this if label is going to be more than 20 chars
+        @for $i from 1 to 20 {
+          span:nth-child(#{$i}) { animation-delay: $i * 0.025s; }
+        }
+      }
+    }
+  }
+}
+.radio {
+  position: relative;
+  height: $radio-size;
+  width: $radio-size;
+  background: #c9ded6;
+  border-radius: 50%;
+  margin-right: 10px;
+  &::after {
+    content: "";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: $inner-radio-size;
+    height: $inner-radio-size;
+    border-radius: 50%;
+    background: #fff;
+  }
+}
+@keyframes bulge {
+  50% {
+    transform: rotate(4deg);
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  100% {
+    transform: rotate(0);
+    font-size: 1em;
+    font-weight: bold;
+  }
+}
