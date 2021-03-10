@@ -17,5 +17,30 @@
 /* mobile or only mobile */
 @media (max-width: 767px) {
   //AQUI VA PA MOBILE
+  .intro-section h1 {
+    font-size: 2em !important;
+  }
+  .title-slide-black, .title-slide-white{
+    height: 100% !important;
+  }
+  .site-section p {
+    font-size: 1em !important;
+  }
+  .bg-image{
+    background-attachment: inherit !important;
+  }
+  .footer-logo{
+    max-width: 70% !important;
+  }
+  #logo {
+    width: 135px !important;
+  }
+  .buttons-container{
+    display: flow-root;
+    .btn{
+      margin: 10px 0 !important;
+      width: 100%;
+    }
+  }
 
 }

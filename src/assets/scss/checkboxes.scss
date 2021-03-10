@@ -4,15 +4,16 @@ $inner-radio-size: 15px;
 .bulgy-radios-title{
   font-size: 20px;
   text-align: left;
+  font-weight: 600;
 }
 .container-options{
   width: 100%;
   height: auto;
   display: flow-root;
 }
-.bulgy-radios {
-  //background: #fff;
-  //padding: 15px;
+.bulgy-radios, .bulgy-checkers {
+  background: #fff;
+  padding: 15px;
   border-radius: 0.5rem;
   width: 100%;
 
@@ -50,6 +51,7 @@ $inner-radio-size: 15px;
       position: inherit;
       width: 100%;
       height: inherit;
+      margin-bottom: 15px;
     }
 
     &:checked {
@@ -75,11 +77,38 @@ $inner-radio-size: 15px;
     }
   }
 }
+.bulgy-checkers{
+  label{
+    margin-left: 10px;
+  }
+  fieldset{
+    text-align: left !important;
+    margin: 0;
+  }
+  .custom-control-label::after {
+    left: calc(-1.5rem - 8px);
+    width: $radio-size;
+    height:$radio-size;
+  }
+  .custom-control-label::before {
+    position: absolute;
+    top: .25rem;
+    left: -2rem;
+    display: block;
+    width: $radio-size;
+    height:$radio-size;
+    pointer-events: none;
+    content: "";
+    background-color: #dceaf6;
+    border: none;
+    margin-right: 15px;
+  }
+}
 .radio {
   position: relative;
   height: $radio-size;
   width: $radio-size;
-  background: #c9ded6;
+  background: #dceaf6;
   border-radius: 50%;
   margin-right: 10px;
   &::after {

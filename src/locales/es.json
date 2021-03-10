@@ -1,9 +1,8 @@
 {
-  "languages":{
+  "languages": {
     "spanish": "ES",
     "english": "EN"
   },
-
   "summary": {
     "text": "Nos enfocamos constantemente en perfeccionar nuestros métodos para mejorar la salud y la educación de los niños. Para ellos trabajamos.",
     "cases_attended": "Casos atendidos",
@@ -11,9 +10,36 @@
     "scholarships_assigned": "Becas asignadas",
     "satisfactory_results": "Resultados satisfactorios"
   },
+  "custionary": {
+    "text1": "En cuál de los siguientes programa(s) estas interesado(a):",
+    "text2": "¿En qué programa de becas participa su hijo(a)?",
+    "text3": "¿Cuándo le gustaría que su hijo(a) comenzara la escuela?",
+    "text4": "¿Le interesaría (marque todas las opciones que correspondan)?",
+    "text5": "¿Cuál es el mejor momento para contactar?",
+    "text6": "¿Qué día de la semana prefiere?",
+    "text7": "¿Qué horario es mejor para ti?",
+    "immediately": "Inmediatamente",
+    "next_month": "Próximo mes",
+    "new_school_year": "Nuevo año escolar"
+  },
+  "days": {
+    "Mon": "Lun",
+    "Tue": "Mar",
+    "Wed": "Mie",
+    "Thu": "Jue",
+    "Fri": "Vie",
+    "Sat": "Sab",
+    "Sun": "Dom",
+    "Any": "Cualquiera"
+  },
   "hello": "Hola",
   "send": "Enviar",
-  "full_name": "Nombre",
+  "start": "Comenzar",
+  "prev": "Anterior",
+  "continue": "Continuar",
+  "any_time": "Cualquier hora",
+  "first_name": "Nombre",
+  "full_name": "Nombre Completo",
   "last_name": "Apellidos",
   "email_address": "Dirección de correo electrónico",
   "phone_number": "Número de teléfono",
@@ -32,8 +58,8 @@
     "Admissions": "Admisiones",
     "ContactUs": "Contacto"
   },
-  "contact":{
-    "GetInTouch":"Ponerse en contacto"
+  "contact": {
+    "GetInTouch": "Ponerse en contacto"
   },
   "view_home": {
     "about_us": "Sobre Nosotros",
@@ -86,7 +112,7 @@
     "message": "Contáctenos para obtener más información relacionada con las becas disponibles y cómo recibir ayuda para postularse."
   },
   "foot_contact": {
-    "text":"Para obtener más información sobre nuestros servicios de terapia, llame o envíe un correo electrónico a:",
+    "text": "Para obtener más información sobre nuestros servicios de terapia, llame o envíe un correo electrónico a:",
     "our_services": "Nuestros Servicios"
   }
 }
