@@ -2,7 +2,7 @@
   <div class="philosophy">
     <div class="intro-section"
          style="background-position: bottom"
-         v-bind:style="{ 'background-image': 'url(' + './default/images/home/slide-0.jpg' + ')' }">
+         v-bind:style="{ 'background-image': 'url(' + './default/images/philosophy_photo.jpeg' + ')' }">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-7 mx-auto text-center txt-info" data-aos="fade-up">
@@ -16,7 +16,7 @@
         <div class="row">
           <div class="col-12 text-center">
 <!--            <span class="text-serif text-primary">{{ $t('menu.Philosophy') }}</span>-->
-            <h3 class="heading-center text-primary">{{ $t('menu.Philosophy') }}</h3>
+<!--            <h3 class="heading-center text-primary">{{ $t('menu.Philosophy') }}</h3>-->
             <p>
                 {{ $t('view_philosophy.first_parrafo') }}
 
@@ -24,6 +24,10 @@
             <p>
                 {{ $t('view_philosophy.second_parrafo') }}
             </p>
+            <p>
+              {{ $t('view_philosophy.third_parrafo') }}
+            </p>
+            <input v-on:click="$router.push('/contact')"  class="btn btn-primary py-3 px-5" v-bind:value=" $t('learn_more')">
           </div>
         </div>
       </div>
@@ -48,7 +52,17 @@
       }
     }
     .intro-section{
-      height: 350px;
+      background-position: center top !important;
+      background-size: cover!important;
+      height: 700px!important;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+
+
+
     }
   }
 

@@ -11,6 +11,7 @@
     "text5": "What is the best time to contact?",
     "text6": "What day of the week do you prefer?",
     "text7": "What time is better for you?",
+    "text8": "What form is better for you?",
     "immediately": "Immediately",
     "next_month": "Next Month",
     "new_school_year": "New School Year"
@@ -31,16 +32,26 @@
   "prev": "Previous",
   "continue": "Continue",
   "any_time": "Any time",
+  "email": "Email",
+  "phone": "Phone",
   "first_name": "First Name",
   "full_name": "Full name",
   "last_name": "Last Name",
   "email_address": "Email Address",
   "phone_number": "Phone Number",
+  "parent_name": "Parent Name",
+  "student_name": "Student Name",
+  "student_age": "Student Age",
+  "student_previous_school": "Student Previous School",
   "notes": "Notes",
   "message": "Message",
   "sendmessage": "Send Message",
   "summary_text": "Summary",
   "readmore": "Read More",
+  "learn_more": "Learn More",
+  "make_appointment": "Make an appointment",
+  "how_to_apply": "How to Apply",
+  "apply_now": "Apply now",
   "slogan": "We seek to foster the academic, social and physical growth of students to reach the maximum potential of each one.",
   "summary": {
     "text": "We are constantly focused on perfecting our methods to improve the health and education of children. We work for them.",
@@ -57,15 +68,19 @@
     "Theraphy": "Therapy",
     "Scholarships": "Scholarships",
     "Admissions": "Admissions",
-    "ContactUs": "Contact Us"
+    "ContactUs": "Contact Us",
+    "FAQ": "FAQ"
   },
   "contact":{
-    "GetInTouch":"Get In Touch"
+    "ContactUs":"Contact Us"
   },
   "view_home": {
     "about_us": "About Us",
-    "welcome": "Welcome to Eureka Educational Academy",
-    "second_parrafo": "The main goal of the academy is to provide students with a complete educational experience which will meet the social, emotional and behavioral needs of each individual student.",
+    "welcome": "Welcome to Eureka Educational Academy!",
+    "first_parrafo": "We foster the academic, social and physical growth of our students, so that each one reaches their maximum potential.",
+    "second_parrafo": "The main goal of the academy is to provide students with a complete educational experience that meets the social, emotional and behavioral needs of each student.",
+    "first_block": "Eureka Educational Academy provides a\n variety of therapy services integrated\n within the school day",
+    "second_block": "Eureka Educational Academy accepts the following scholarships",
     "data": "Request Information",
     "data_response": "Your request was successfully submitted,<strong> someone will be in touch with you within the next 24 hours</strong>",
     "well_done": "Well done",
@@ -77,7 +92,8 @@
     "best_choice": "We are your best choice"
   },
   "view_therapy": {
-    "description": "Eureka Educational Academy provides a full complement of therapy services\nwhich will be integrated within the regular school day.",
+    "first_paragraph": "Eureka Educational Academy provides a full complement of therapy services that are\n integrated within the educational setting during school hours. The integration provides\n students with appropriate therapies in a real world environment, while fully supporting\n their educational goals and experiences.",
+    "second_paragraph": "In addition, the school provides opportunities for one-to-one therapy sessions that maximize the effectiveness of each therapy service, when found appropriate. This\nprovides families with wrap-around services, eliminating the need to spend additional hours seeking therapies in other locations. Our hope is that these services enable families to truly improve the quality of their family life.\n",
     "therapies_provided": "Therapies provided:",
     "ABA_therapy": "ABA therapy",
     "speech_languaje": "Speech & Language Therapy",
@@ -86,27 +102,34 @@
   },
   "view_philosophy": {
     "title": "Philosophy",
-    "first_parrafo": "The Academy’s main goal is to foster the students’ growth academically, socially,\n              and physically in order to reach the individual’s maximum potential. The focus is to\n              develop the whole child through an integrated process that involves academic systems\n              as well as therapeutic services provided as needed.",
-    "second_parrafo": "The Academy will provide various educational methodologies and research\nbased curriculums in order to develop an individualized learning plan which meets each\nindividual’s educational needs. We will perform regular assessments in order to\nevaluate and provide real time performance data to establish the instructional plan of\neach student. In addition, the Academy will implement a blended learning approach\nwhich includes and one-to-one device and various educational software to achieve\nmaximum results and effectiveness in student performance."
+    "first_parrafo": "The academy’s main goal is to foster students’ overall growth — academically, socially and\n physically. This is done through an integrated process that combines academic activities\n and therapeutic services as needed.",
+    "second_parrafo": "Eureka provides various educational methodologies and research-based curriculums in\n order to develop individualized learning plans that meet each individual’s educational\n needs. We will perform regular assessments in order to evaluate and provide performance\n data that will guide the instructional plan of each student.",
+    "third_parrafo":"In addition, the academy implements a blended learning approach, which includes one device per student with various educational softwares. This combination helps us achieve effective results in our students’ performance."
   },
   "view_about": {
     "title": "About Eureka Educational Academy",
     "welcome": "Who we are",
-    "first_parrafo": "Eureka Educational Academy was founded by a group of educators and health care professionals with over 75 years of experience in providing services to school age children in the South Florida area.",
-    "second_parrafo": "The main goal of the academy is to provide students with a complete educational experience which will meet the social, emotional and behavioral needs of each individual student. The team has created a clean, safe and innovative campus which will provide a “feel good” experience for both students and parents alike."
+    "first_parrafo": "Eureka Educational Academy was founded by award-winning educators and health care professionals with over 75 years of experience providing services to school age children in South Florida.",
+    "second_parrafo": "The main goal of the academy is to provide students with a complete educational experience that meets their social, emotional and behavioral needs. We are constantly perfecting our methods to improve the health and education of our students. The team has created a clean, safe and innovative campus that provides a “feel good” experience."
   },
   "view_admission": {
     "title": "Admissions",
-    "first_parrafo": "Eureka Educational Academy has established a rolling enrollment throughout the\nacademic year. However, once student enrollment is at capacity, a waiting list will be\nestablished in order to provide students an opportunity to join our family when an\nopening becomes available.",
-    "second_parrafo": "Prospective students and families may schedule a private tour and consultation in order\nto discuss program and enrollment details. To make an appointment, please call or\nemail below."
+    "first_parrafo": "Eureka Educational Academy has a rolling enrollment throughout the academic year.\nHowever, once student enrollment is at capacity, a waiting list will be established in order to provide students an opportunity to join our family when an opening becomes available.\n",
+    "second_parrafo": "Prospective students and families may schedule a private tour and consultation in order to discuss program and enrollment details."
   },
   "view_scholarships": {
     "title": "Scholarships",
-    "description": "Eureka Educational Academy accepts the following scholarships: ",
+    "description": "Eureka Educational Academy accepts the following Step Up for Students scholarships: ",
     "subtitle": "STEP UP FOR STUDENTS",
     "florida_tax_credit": "Florida Tax Credit Scholarship",
+    "florida_tax_credit_description": "Step Up For Students is currently accepting applications for the\n2021-2022 school year:\n",
     "gardiner_scholarship": "Gardiner Scholarship",
+    "gardiner_scholarship_description1": "Students renewing their\nGardiner Scholarship may now apply for the 2021-22 school year through Step\nUp For Students. Renewal students will have funding\npriority until April 30, 2021\n",
+    "gardiner_scholarship_description2": "New students will be able to apply in late April 2021. To sign up to be notified when new applications open,\n",
+    "click_here": "click here",
     "john_mcKay_scholarship": "John McKay Scholarship",
+    "john_mcKay_scholarship_description": "Any parent of a public school student with a\ndisability who has an\nIndividual Education Plan\n(IEP) or a 504 accommodation plan may receive a McKay\nScholarship if the student meets the Department of\nEducation’s requirements\n",
+    "text_bottom": "We can provide additional information on the scholarships available, as well as how to receive assistance during the application process.",
     "income_based": "Income based",
     "special_needs": "Special Needs",
     "previously_attended": "Previously attended public school",
@@ -115,5 +138,25 @@
   "foot_contact": {
     "text":"For more information on our therapy services, please call or email:",
     "our_services": "Our Services"
+  },
+  "faq": {
+    "question1": "What curriculum is in place?",
+    "answer1": "Eureka provides individualized learning plans that are built with several curriculums based on the specific needs of each child. All of the selected curriculums are research based and approved by the Florida Department of Education.\nFor more specific information you can contact the admissions staff at (305) 420-6690 or via email at info@theeurekaacademy.com.\n",
+    "question2": "What type of services are provided?",
+    "answer2": "The school will provide individualized learning plans based on the specific needs of each student. In addition, we will provide behavior therapy, mental health counseling, speech and language therapy, and occupational therapy.",
+    "question3": "What is the application process?",
+    "answer3": "The first step is to make an appointment with the school to evaluate your child’s specific educational needs, scholarship opportunities and financial aid. The enrollment process will be explained in detail after the initial meeting.",
+    "question4": "How do we schedule tours?",
+    "answer4": "Appointments for tours can be scheduled by calling (305) 420-6690 or emailing info@theeurekaacademy.com.\nWe are open 5 days a week from 9 a.m. to 4 p.m. If you cannot fit these hours special arrangements can be made by calling our office and speaking with the admissions staff.\n",
+    "question5": "Is there an application fee?",
+    "answer5": "Yes, please call (305) 420-6690 for more details.",
+    "question6": "Does the school accept Florida Choice Scholarships?",
+    "answer6": "Yes, our admissions staff can also provide additional information to guide you in the process.",
+    "question7": "Is there any financial aid available?",
+    "answer7":"Yes, additional financial aid is available during the application process. Please call our admissions staff at (305) 420-6690 for more details.",
+    "question8":"What is the school calendar?",
+    "answer8": "We follow the Miami Dade County Public Schools calendar, with a few exceptions.",
+    "question9": "Does the school offer before and after school care?",
+    "answer9": "Yes, there are fees associated with these services and financial aid is also available during the application process."
   }
 }

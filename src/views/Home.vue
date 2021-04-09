@@ -4,35 +4,42 @@
 
         <div class="site-section">
             <div class="container-fluid">
-                <div class="row d-flex align-items-center">
+                <div class="row d-flex">
                     <div class="col-md-6">
-                        <img src="../../public/default/images/home/cloud-letters.png" alt="Image" class="img-fluid">
+<!--                        <img src="../../public/default/images/home/cloud-letters.png" alt="Image" class="img-fluid">-->
+                      <p>{{ $t('view_home.first_block')}}</p>
+                      <input v-on:click="$router.push('/theraphy')"  class="bottom-button btn btn-primary py-3 px-5" v-bind:value=" $t('readmore')">
                     </div>
-                    <div class="col-md-6 center-info">
-                        <div class="">
-                            <span class="text-serif text-primary objectColor">{{ $t('view_home.about_us') }}</span>
-                            <h3 class="heading-92913 text-black text-color-yellow">{{ $t('summary_text') }}</h3>
-                            <p>{{ $t('view_home.second_parrafo') }}</p>
-                            <p>{{ $t('view_therapy.description') }}</p>
-                            <p>{{ $t('view_scholarships.description') }}</p>
-                            <ul>
-                                <li>{{ $t('view_scholarships.florida_tax_credit') }}</li>
-                                <li>{{ $t('view_scholarships.gardiner_scholarship') }}</li>
-                                <li>{{ $t('view_scholarships.john_mcKay_scholarship') }}</li>
-                            </ul>
+                    <div class="col-md-6">
+                      <div>
+                        <!--                            <span class="text-serif text-primary objectColor">{{ $t('view_home.about_us') }}</span>-->
+                        <!--                            <h3 class="heading-92913 text-black text-color-yellow">{{ $t('summary_text') }}</h3>-->
+                        <!--                            <p>{{ $t('view_home.second_parrafo') }}</p>-->
+                        <!--                            <p>{{ $t('view_therapy.first_paragraph') }}</p>-->
+                        <!--                            <p>{{ $t('view_therapy.second_paragraph') }}</p>-->
+                        <!--                            <p>{{ $t('view_scholarships.description') }}</p>-->
+                        <p>{{ $t('view_home.second_block') }}</p>
 
-                            <!--                          <p><a href="#" class="btn btn-primary py-3 px-4">Learn More</a></p>-->
-                        </div>
-
+                        <ul>
+                          <li>{{ $t('view_scholarships.florida_tax_credit') }}</li>
+                          <li>{{ $t('view_scholarships.gardiner_scholarship') }}</li>
+                          <li>{{ $t('view_scholarships.john_mcKay_scholarship') }}</li>
+                        </ul>
+                        <input v-on:click="$router.push('/scholarships')"  class="bottom-button button-how-apply btn btn-primary py-3 px-5" v-bind:value=" $t('how_to_apply')">
+                        <!--                          <p><a href="#" class="btn btn-primary py-3 px-4">Learn More</a></p>-->
+                      </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="site-section bg-image overlay"
-             v-bind:style="{ 'background-image': 'url(' + './default/images/home/section1.jpg' + ')' }">
-            <div class="container">
-                <div class="row">
-                    <h1 class="color-white">{{ $t('summary.text')}} </h1>
+      <!--               TODO FOTO DE NIÑOS CON COLOR AZUL-->
+<!--        <div class="site-section bg-image overlay"-->
+<!--             v-bind:style="{ 'background-image': 'url(' + './default/images/home/section1.jpg' + ')' }">-->
+<!--            <div class="container">-->
+<!--                <div class="row">-->
+
+<!--                    <h1 class="color-white">{{ $t('summary.text')}} </h1>-->
+
                     <!--                  <div class="col">-->
                     <!--                      <div class="counter-39392">-->
                     <!--                          <h3>8035+</h3>-->
@@ -57,9 +64,9 @@
                     <!--                          <span>{{ $t('summary.satisfactory_results')}}</span>-->
                     <!--                      </div>-->
                     <!--                  </div>-->
-                </div>
-            </div>
-        </div>
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
 
         <!--      Seccion de iconos home-->
         <!--          <div class="py-5">-->
@@ -101,13 +108,13 @@
             <div class="container-fluid">
                 <div class="row d-flex align-items-center">
                     <div class="col-md-3 col-12 d-none d-md-block">
-                        <p><img src="../../public/default/images/home/contact.jpg"
+                        <p><img src="../../public/default/images/home/doe_logo.png"
                                 alt="Image" class="img-fluid border-img"></p>
                     </div>
                     <div class="col-md-9 col-12">
                         <!--                          <span class="text-serif text-primary">Book Now</span>-->
                         <h3 class="heading-92913 text-blue-hight">{{ $t('view_home.data')}}</h3>
-                        <SendEmailContactCmp/>
+                        <SendEmailRequestInfo/>
 
                     </div>
                 </div>
@@ -176,24 +183,23 @@
         <!--                  </div>-->
         <!--              </div>-->
         <!--          </div>-->
+      <!--              TODO FOTO VERDE-->
+<!--        <div class="site-section bg-image overlay backgroundChange"-->
+<!--             v-bind:style="{ 'background-image': 'url(' + './default/images/home/section2.jpg' + ')' }">-->
+<!--            <div class="container">-->
 
-        <div class="site-section bg-image overlay backgroundChange"
-             v-bind:style="{ 'background-image': 'url(' + './default/images/home/section2.jpg' + ')' }">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-7 text-center">
-                        <h2 class="text-white">{{ $t('view_home.best_choice')}}</h2>
-                        <p class="lead text-white">{{ $t('view_home.second_parrafo')}}</p>
-                        <p class="mb-0">
-                            <a href="mailto:info@theeurekaakademy.com?Subject=Contacting" target="_blank"
-                               class="btn btn-warning py-3 px-5 text-white">Contact Us</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
+<!--                <div class="row justify-content-center">-->
+<!--                    <div class="col-md-7 text-center">-->
+<!--                        <h2 class="text-white">{{ $t('view_home.best_choice')}}</h2>-->
+<!--                        <p class="lead text-white">{{ $t('view_home.second_parrafo')}}</p>-->
+<!--                        <p class="mb-0">-->
+<!--                            <a href="mailto:info@theeurekaakademy.com?Subject=Contacting" target="_blank"-->
+<!--                               class="btn btn-warning py-3 px-5 text-white">Contact Us</a>-->
+<!--                        </p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
     </div>
 
 </template>
@@ -202,10 +208,12 @@
     // @ is an alias to /src
     import Slides from '@/views/Slides.vue'
     import SendEmailContactCmp from '@/components/SendEmailContactCmp'
+    import SendEmailRequestInfo from "@/components/SendEmailRequestInfo";
 
     export default {
         name: 'Home',
         components: {
+          SendEmailRequestInfo,
             Slides,
             SendEmailContactCmp
         },
@@ -218,5 +226,24 @@
      p strong{
          font-weight: 700;
      }
+ }
+ p{
+   font-size: 1.2em !important;
+ }
+ ul{
+   margin: 0 0 1rem 0 !important;
+   padding: 0 !important;
+   font-size: 1em !important;
+   list-style: none;
+
+ }
+ .button-how-apply{
+   width: 55%;
+ }
+ .bottom-button {
+   margin-bottom: 20px;
+ }
+ .site-section .bg-light{
+   background-color: #e0f0ff!important;
  }
 </style>

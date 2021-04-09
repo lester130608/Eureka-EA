@@ -30,11 +30,11 @@
           </div>
           <div class="col-md-9 text-left">
 <!--            <span class="text-serif text-primary">About Us</span>-->
-
             <p>{{ $t('view_about.first_parrafo') }}
             </p>
             <p>{{ $t('view_about.second_parrafo') }}</p>
 <!--            <p><a href="#" class="btn btn-primary py-3 px-4">Learn More</a></p>-->
+            <input v-on:click="$router.push('/contact')"  class="btn btn-primary py-3 px-5" v-bind:value=" $t('learn_more')">
           </div>
         </div>
       </div>

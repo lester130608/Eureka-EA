@@ -6,6 +6,7 @@ import Philosophy from '../views/Philosophy.vue'
 import Theraphy from '../views/Theraphy.vue'
 import Scholarships from '../views/Scholarships.vue'
 import Admissions from '../views/Admissions.vue'
+import FAQ from '../views/FAQ.vue'
 
 Vue.use(VueRouter)
 
@@ -47,6 +48,11 @@ Vue.use(VueRouter)
       path:'/scholarships',
       name: 'Scholarships',
       component: Scholarships
+    },
+    {
+      path:'/faq',
+      name: 'FAQ',
+      component: FAQ
     },
 
 

@@ -18,6 +18,7 @@
     "text5": "¿Cuál es el mejor momento para contactar?",
     "text6": "¿Qué día de la semana prefiere?",
     "text7": "¿Qué horario es mejor para ti?",
+    "text8": "¿Qué vía es mejor para ti?",
     "immediately": "Inmediatamente",
     "next_month": "Próximo mes",
     "new_school_year": "Nuevo año escolar"
@@ -38,16 +39,26 @@
   "prev": "Anterior",
   "continue": "Continuar",
   "any_time": "Cualquier hora",
+  "email": "Correo",
+  "phone": "Móvil",
   "first_name": "Nombre",
   "full_name": "Nombre Completo",
   "last_name": "Apellidos",
+  "parent_name": "Nombre del padre",
   "email_address": "Dirección de correo electrónico",
   "phone_number": "Número de teléfono",
+  "student_name": "Nombre del estudiante",
+  "student_age": "Edad del estudiante",
+  "student_previous_school": "Escuela anterior del estudiante",
   "notes": "Notas",
   "message": "Mensaje",
   "sendmessage": "Enviar Mensaje",
   "summary_text": "Resumen",
   "readmore": "Leer más",
+  "learn_more": "Aprender más",
+  "make_appointment": "Pide una cita",
+  "how_to_apply": "¿Cómo aplicar?",
+  "apply_now": "Aplica ahora",
   "slogan": "Buscamos fomentar el crecimiento académico, social y físico de los estudiantes para alcanzar el máximo potencial de cada uno.",
   "menu": {
     "Home": "Inicio",
@@ -56,15 +67,19 @@
     "Theraphy": "Terapia",
     "Scholarships": "Becas",
     "Admissions": "Admisiones",
-    "ContactUs": "Contacto"
+    "ContactUs": "Contacto",
+    "FAQ": "FAQ"
   },
   "contact": {
-    "GetInTouch": "Ponerse en contacto"
+    "ContactUs":"Contáctanos"
   },
   "view_home": {
     "about_us": "Sobre Nosotros",
     "welcome": "Bienvenido a Eureka Educational Academy ",
-    "second_parrafo": "El objetivo principal de la academia es brindar a los estudiantes una experiencia educativa completa que satisfaga las necesidades sociales, emocionales y de comportamiento de cada estudiante en particular.",
+    "first_parrafo": "Fomentamos el crecimiento académico, social y físico de nuestros alumnos, para que cada uno alcance su máximo potencial.",
+    "second_parrafo": "El objetivo principal de la academia es brindar a los estudiantes una experiencia educativa completa que satisfaga las necesidades sociales, emocionales y de comportamiento de cada estudiante.",
+    "first_block": "La Academia Educativa Eureka ofrece una\n variedad de servicios de terapia integrados\n dentro del día escolar",
+    "second_block": "Eureka Educational Academy acepta las siguientes becas",
     "data": "Información requerida",
     "data_response": "Su solicitud fue enviada con éxito, <strong>alguien se comunicará con usted en las próximas 24 horas</strong>",
     "well_done": "Bien hecho",
@@ -76,7 +91,8 @@
     "best_choice": "Somos tu mejor opción"
   },
   "view_therapy": {
-    "description": "Eureka Educational Academy proporciona un complemento completo de servicios de terapia que se integrarán dentro del día escolar regular y utiliza las prácticas de enseñanza basadas en la evidencia. ",
+    "first_paragraph": "Eureka Educational Academy ofrece un complemento completo de servicios de terapia que se\n integran dentro del entorno educativo durante el horario escolar. La integración proporciona\n a los estudiantes terapias apropiadas en un entorno del mundo real, al tiempo que apoya plenamente\n sus metas y experiencias educativas.",
+    "second_paragraph": "Además, la escuela brinda oportunidades para sesiones de terapia individuales\n que maximizan la efectividad de cada servicio de terapia, cuando se considera apropiado. Esta\nproporciona a las familias servicios integrales, eliminando la necesidad de pasar horas adicionales\n buscando terapias en otros lugares. Nuestra esperanza es que estos servicios\n permitan a las familias mejorar verdaderamente la calidad de su vida familiar.",
     "therapies_provided": "Terapias proporcionadas y Técnicas de enseñanza:",
     "ABA_therapy": "Análisis de Comportamiento Aplicado",
     "speech_languaje": "Terapia del habla y el lenguaje",
@@ -85,27 +101,34 @@
   },
   "view_philosophy": {
     "title": "Filosofía",
-    "first_parrafo": "El objetivo principal de Eureka Educational Academy es fomentar el crecimiento académico, social y físico de los estudiantes para alcanzar el máximo potencial de cada uno. El enfoque es desarrollar al niño en su totalidad a través de un proceso integrado que involucra sistemas académicos y servicios terapéuticos proporcionados según sea necesario.",
-    "second_parrafo": "Eureka Educational Academy proporcionará diversas metodologías educativas y planes de estudio basados en la investigación para desarrollar un plan de aprendizaje individualizado que satisfaga las necesidades educativas de cada alumno. Realizaremos evaluaciones periódicas con el fin de valorar y brindar datos de desempeño en tiempo real para establecer el plan de instrucción de cada estudiante. Adicionalmente, Eureka Educational Academy implementará un enfoque de aprendizaje combinado que incluye un dispositivo uno a uno y varios programas educativos para lograr los máximos resultados y efectividad en el desempeño de los estudiantes."
+    "first_parrafo": "El objetivo principal de la academia es fomentar el crecimiento general de los estudiantes, académica, social y físicamente. Esto se hace a través de un proceso integrado que combina actividades académicas y servicios terapéuticos según sea necesario.",
+    "second_parrafo": "Eureka proporciona diversas metodologías educativas y planes de estudio basados \u200B\u200Ben la investigación para desarrollar planes de aprendizaje individualizados que satisfagan las necesidades educativas de cada individuo. Realizaremos evaluaciones periódicas para evaluar y proporcionar datos de desempeño que guiarán el plan de instrucción de cada estudiante.",
+    "third_parrafo": "Además, la academia implementa un enfoque de aprendizaje combinado, que incluye un dispositivo por alumno con varios programas educativos. Esta combinación nos ayuda a lograr resultados efectivos en el desempeño de nuestros estudiantes."
   },
   "view_about": {
     "title": "Sobre Eureka Educational Academy",
     "welcome": "Quienes Somos",
-    "first_parrafo": "Eureka Educational Academy fue fundada por un grupo de educadores y profesionales de la salud con más de 75 años de experiencia en la prestación de servicios a niños en edad escolar en el área del sur de Florida. ",
-    "second_parrafo": "El objetivo principal de la academia es brindar a los estudiantes una experiencia educativa completa que satisfaga las necesidades sociales, emocionales y de comportamiento de cada estudiante en particular. El equipo ha creado un campus limpio, seguro e innovador que brindará una experiencia de “sentirse bien” tanto para los estudiantes como para los padres."
+    "first_parrafo": "Eureka Educational Academy fue fundada por educadores galardonados y profesionales de la salud con más de 75 años de experiencia brindando servicios a niños en edad escolar en el sur de Florida. ",
+    "second_parrafo": "El objetivo principal de la academia es brindar a los estudiantes una experiencia educativa completa que satisfaga sus necesidades sociales, emocionales y de comportamiento. Perfeccionamos constantemente nuestros métodos para mejorar la salud y la educación de nuestros estudiantes. El equipo ha creado un campus limpio, seguro e innovador que brinda una experiencia se satisfacción."
   },
   "view_admission": {
     "title": "Admisiones",
-    "first_parrafo": "Eureka Educational Academy ha establecido una matrícula renovable a lo largo del año académico. Sin embargo, una vez que la inscripción de estudiantes esté completa, se establecerá una lista de espera para brindarles a los estudiantes la oportunidad de unirse a la matricula cuando haya una vacante disponible.\n\nLos futuros estudiantes y las familias pueden programar un recorrido privado y una consulta para discutir los detalles del programa y la inscripción. \n",
-    "second_parrafo": "Para programar una cita, llame o envíe un correo electrónico."
+    "first_parrafo": "La Academia Educativa Eureka tiene una inscripción continua durante todo el año académico.\nSin embargo, una vez que la inscripción de estudiantes esté completa, se establecerá una lista de espera para brindarles a los estudiantes la oportunidad de unirse a nuestra familia cuando haya una vacante disponible.",
+    "second_parrafo": "\nLos futuros estudiantes y familias pueden programar un recorrido privado y una consulta para discutir los detalles del programa y la inscripción."
   },
   "view_scholarships": {
     "title": "Becas",
-    "description": "Eureka Educational Academy acepta las siguientes becas: ",
+    "description": "Eureka Educational Academy acepta las siguientes becas Step Up para estudiantes: ",
     "subtitle": "EL PASO PARA LOS ESTUDIANTES",
     "florida_tax_credit": "Beca de crédito fiscal de Florida",
+    "florida_tax_credit_description": "Step Up For Students está aceptando solicitudes para el\nAño escolar 2021-2022:\n",
     "gardiner_scholarship": "Beca Gardiner",
+    "gardiner_scholarship_description1": "Alumnos renovando su\nLa beca Gardiner ahora puede solicitarse para el año escolar 2021-22 a través de Step\nPara estudiantes. Los estudiantes de renovación tendrán financiación\nprioridad hasta el 30 de abril de 2021",
+    "gardiner_scholarship_description2": "Los nuevos estudiantes podrán presentar su solicitud a fines de abril de 2021. Para registrarse y recibir una notificación cuando se abran nuevas solicitudes,\n",
+    "click_here": "click aquí",
     "john_mcKay_scholarship": "Beca John McKay",
+    "john_mcKay_scholarship_description": "Cualquier padre de un estudiante de una escuela pública con\ndiscapacidad que tiene una\nPlan de educación individual\n(IEP) o un plan de adaptación 504 puede recibir un McKay\nBeca si el estudiante cumple con el Departamento de\nRequisitos de educación",
+    "text_bottom": "Podemos proporcionar información adicional sobre las becas disponibles, así como sobre cómo recibir asistencia durante el proceso de solicitud.",
     "income_based": "Basado en ingresos",
     "special_needs": "Necesidades especiales",
     "previously_attended": "Asistió anteriormente a una escuela pública",
@@ -114,5 +137,25 @@
   "foot_contact": {
     "text": "Para obtener más información sobre nuestros servicios de terapia, llame o envíe un correo electrónico a:",
     "our_services": "Nuestros Servicios"
+  },
+  "faq": {
+    "question1": "¿Qué plan de estudios ofrece?",
+    "answer1": "Eureka proporciona planes de aprendizaje individualizados que se construyen con varios planes de estudio basados en las necesidades específicas de cada niño. Todos los currículos seleccionados se basan en investigaciones y están aprobados por el Departamento de Educación de Florida.\nPara obtener información más específica, puede comunicarse con el personal de admisiones al (305) 420-6690 o por correo electrónico a info@theeurekaacademy.com.",
+    "question2": "¿Qué tipo de servicios se brindan?",
+    "answer2": "La escuela proporcionará planes de aprendizaje individualizados basados en las necesidades específicas de cada estudiante. Además, brindaremos terapia conductual, asesoramiento sobre salud mental, terapia del habla y del lenguaje y terapia ocupacional.",
+    "question3": "¿Cuál es el proceso de aplicación?",
+    "answer3": "El primer paso es hacer una cita con la escuela para evaluar las necesidades educativas específicas de su hijo, las oportunidades de becas y la ayuda financiera. El proceso de inscripción se explicará en detalle después de la reunión inicial.",
+    "question4": "¿Cómo programamos los tours?",
+    "answer4": "Las citas para los recorridos se pueden programar llamando al (305) 420-6690 o enviando un correo electrónico a info@theeurekaacademy.com.\nEstamos abiertos 5 días a la semana de 9 a.m. a 4 p.m. Si no puede cumplir con estos horarios, se pueden hacer arreglos especiales llamando a nuestra oficina y hablando con el personal de admisiones.",
+    "question5": "¿Hay alguna tarifa de solicitud?",
+    "answer5": "Sí, llame al (305) 420-6690 para obtener más detalles.",
+    "question6": "¿Acepta la escuela becas Florida Choice?",
+    "answer6": "Sí, nuestro personal de admisiones también puede brindarle información adicional para guiarlo en el proceso.",
+    "question7": "¿Existe alguna ayuda financiera disponible?",
+    "answer7":"Sí, hay ayuda financiera adicional disponible durante el proceso de solicitud. Llame a nuestro personal de admisiones al (305) 420-6690 para obtener más detalles.",
+    "question8":"¿Qué es el calendario escolar?",
+    "answer8": "Seguimos el calendario de las Escuelas Públicas del Condado de Miami Dade, con algunas excepciones.",
+    "question9": "¿Ofrece la escuela cuidado antes y después de la escuela?",
+    "answer9": "Sí, hay tarifas asociadas con estos servicios y también hay ayuda financiera disponible durante el proceso de solicitud."
   }
 }

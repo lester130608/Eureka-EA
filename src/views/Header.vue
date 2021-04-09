@@ -24,8 +24,8 @@
                 <span class="icon-location-arrow text-primary"></span>
               </div>
               <div class="text">
-                <span class="h4 d-block">Florida,US</span>
-                <span class="caption-text">9745 SW 184th St. Palmetto Bay, FL 33157</span>
+<!--                <span class="h4 d-block">Florida,US</span>-->
+                <span class="h4 d-block">9745 SW 184th St. Palmetto Bay, FL 33157</span>
               </div>
             </div>
 
@@ -71,7 +71,7 @@
             <div class="col-12 container-menu">
               <div id="container-menu" class="d-flex align-items-center">
 
-                <div class="mx-auto">
+                <div class="mx-auto header-height">
                   <nav class="site-navigation position-relative text-right" role="navigation">
                     <ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
                       <li >
@@ -94,6 +94,9 @@
                       </li>
                       <li>
                         <router-link class="nav-link text-left" to="/contact">{{ $t('menu.ContactUs') }}</router-link>
+                      </li>
+                      <li>
+                        <router-link class="nav-link text-left" to="/faq">{{ $t('menu.FAQ') }}</router-link>
                       </li>
                     </ul>
                   </nav>
@@ -130,5 +133,8 @@
       color: #c0c3c5 !important;
       padding: 3px;
     }
+  }
+  .header-height{
+    height: 70px;
   }
 </style>

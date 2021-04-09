@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row align-items-center text-center">
           <div class="col-lg-12 mt-5 txt-info" data-aos="fade-up">
-            <h1>{{ $t('contact.GetInTouch') }}</h1>
+            <h1>{{ $t('contact.ContactUs') }}</h1>
             <p class="text-white text-center">
               <a href="index.html">{{ $t('menu.Home') }}</a>
               <span class="mx-2">/</span>
@@ -37,7 +37,7 @@
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
             <span class="icon flaticon-school-material"></span>
             <h3>{{ $t('menu.Theraphy') }}</h3>
-            <p>{{ $t('view_therapy.description') }}</p>
+            <p>{{ $t('view_therapy.first_paragraph') }}</p>
           </div>
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
             <span class="icon flaticon-library"></span>

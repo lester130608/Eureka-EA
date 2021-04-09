@@ -8,8 +8,19 @@
                    class=" img-fluid maxWidth animated tada"></p>
 <!--          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>-->
 <!--          <p><a href="#">Learn More</a></p>-->
+          <div class="row">
+            <div class="col-6" >
+              <a href = "https://www.facebook.com/eurekaeducationalacademymiami/" target="_blank">
+                <img class="social-media" src="../../public/default/images/facebook.png">
+              </a>
+            </div>
+            <div class="col-6">
+              <a href = "https://www.instagram.com/eurekaeducationalacademy/" target="_blank">
+                <img class="social-media" src="../../public/default/images/instagram.png"></a>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-6 offset-lg-1 col-12   ">
+        <div class="col-lg-6 offset-lg-1 col-12">
              <div class="row">
                  <div class="col-lg-6 bottom-footer text-left">
                      <h1 class="footer-heading">{{ $t('foot_contact.text') }}</h1>
@@ -82,6 +93,8 @@
 
             </div>
         </div>
+
+
         </div>
       </div>
 
@@ -123,5 +136,8 @@
 <style lang="scss">
   .copyright-container{
     background-color: #1b2229;
+  }
+  .social-media{
+    width: 80%;
   }
 </style>

@@ -16,7 +16,7 @@
                 <div class="row">
                     <div class="col-12 text-center">
                         <!--            <span class="text-serif text-primary">{{ $t('menu.Philosophy') }}</span>-->
-                        <h3 class="heading-center text-primary">{{ $t('view_admission.title') }}</h3>
+<!--                        <h3 class="heading-center text-primary">{{ $t('view_admission.title') }}</h3>-->
                         <p>
                             {{ $t('view_admission.first_parrafo') }}
 
@@ -24,6 +24,7 @@
                         <p>
                             {{ $t('view_admission.second_parrafo') }}
                         </p>
+                      <input v-on:click="$router.push('/contact')"  class="btn btn-primary py-3 px-5" v-bind:value=" $t('make_appointment')">
                     </div>
                 </div>
             </div>
@@ -38,5 +39,15 @@
 </script>
 
 <style scoped>
+input{
+  width: 45%;
+}
+
+@media  screen and (max-width: 425px){
+  input{
+    width: 100%;
+  }
+
+}
 
 </style>
