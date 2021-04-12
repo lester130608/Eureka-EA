@@ -1,4 +1,5 @@
 {
+  "required": "Requerido",
   "languages": {
     "spanish": "ES",
     "english": "EN"
@@ -33,6 +34,7 @@
     "Sun": "Dom",
     "Any": "Cualquiera"
   },
+
   "hello": "Hola",
   "send": "Enviar",
   "start": "Comenzar",
@@ -53,6 +55,9 @@
   "notes": "Notas",
   "message": "Mensaje",
   "sendmessage": "Enviar Mensaje",
+  "errorSelectAnswer": "Por favor, seleccione una respuesta para cada pregunta",
+  "errorEmail": "Usted ha introducido un email incorrecto,por favor intente otra vez",
+  "errorData": "Los datos introducidos son incorrectos, por favor intente otra vez",
   "summary_text": "Resumen",
   "readmore": "Leer más",
   "learn_more": "Aprender más",

@@ -135,6 +135,12 @@
     }
   }
   .header-height{
-    height: 70px;
+    height: 65px;
   }
+  .shrink{
+    .header-height{
+      height: 30px!important;
+    }
+  }
+
 </style>

@@ -1,4 +1,5 @@
 {
+  "required": "Required",
   "languages":{
     "spanish": "ES",
     "english": "EN"
@@ -46,6 +47,9 @@
   "notes": "Notes",
   "message": "Message",
   "sendmessage": "Send Message",
+  "errorSelectAnswer": "Please select an answer for each question",
+  "errorEmail": "You have entered a wrong email, please try again",
+  "errorData": "The data entry is incorrect, please try again",
   "summary_text": "Summary",
   "readmore": "Read More",
   "learn_more": "Learn More",

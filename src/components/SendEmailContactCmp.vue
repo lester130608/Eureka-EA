@@ -1,205 +1,35 @@
 <template>
   <div class="contact-form">
+    <h6 class="msg-error" v-if="errorValidation">{{$t(txtErrorValidation) }}</h6>
     <form action="" class="row" @submit="onSubmit">
       <template v-if="activeStep === 0">
         <div class="form-group col-md-12">
-          <label class="default" for="input-1">{{ $t('parent_name') }}:</label>
-          <input required type="text" v-model="parentName" name="firstName" class="form-control" id="input-1">
+          <label class="default" for="input-1">{{ $t('parent_name') }}:<strong>*({{ $t('required') }})</strong></label>
+          <input required type="text" v-model="parentName" name="parentName" class="form-control" id="input-1">
         </div>
         <!--                <div class="form-group col-md-6">-->
         <!--                    <label class="default" for="input-1">{{ $t('last_name')}}:</label>-->
         <!--                    <input type="text" v-model="lastName" name="lastname" class="form-control" id="input-2">-->
         <!--                </div>-->
-        <div class="form-group col-md-12">
-          <label class="default" for="input-6">{{ $t('email_address') }}</label>
+        <div class="form-group col-12 col-md-6">
+          <label class="default" for="input-6">{{ $t('email_address') }}<strong>*({{ $t('required') }})</strong></label>
           <input required type="email" v-model="email" name="email" class="form-control" id="input-6">
         </div>
-        <div class="form-group col-md-12">
-          <label class="default" for="input-7">{{ $t('phone_number') }}</label>
-          <input required type="tel" v-model="phoneNumber" name="phoneNumber" class="form-control"
+        <div class="form-group col-12 col-md-6">
+          <label class="default" for="input-7">{{ $t('phone_number') }}<strong>*({{ $t('required') }})</strong></label>
+          <input required type="number" v-model="phoneNumber" name="phoneNumber" class="form-control"
                  id="input-7">
+        </div>
+        <div class="form-group col-md-12">
+          <label class="default" for="input-8">{{ $t('message') }}<strong>*({{ $t('required') }})</strong></label>
+          <textarea required  v-model="message" name="message" class="form-control"
+                    id="input-8"></textarea>
         </div>
       </template>
 
-      <div class="form-group row animated slideInRight" v-if="activeStep === 1">
-        <!--                                <label for="input-8">{{ $t('message')}}</label>-->
-        <!--                                <textarea v-model="message" name="message" id="input-8" cols="30" rows="3"-->
-        <!--                                          class="form-control"></textarea>-->
-        <div class="col-12 col-sm-6 ">
-          <div class="bulgy-radios" role="radiogroup" aria-labelledby="bulgy-radios-label">
-            <h2 class="bulgy-radios-title">{{ $t('custionary.text1') }}</h2>
-            <div class="container-options">
-              <label>
-                <input type="radio" value="School only" name="interestedSchoolOnly"
-                       v-model="interestedCuestionary"/>
-                <span class="radio"></span>
-                <span class="label">School only</span>
-              </label>
-              <label>
-                <input type="radio" value="School & Therapy" name="interestedSchoolTherapy"
-                       v-model="interestedCuestionary"/>
-                <span class="radio"></span>
-                <span class="label">School & Therapy</span>
-              </label>
-            </div>
-            <h2 class="bulgy-radios-title">{{ $t('custionary.text2') }}</h2>
-            <div class="container-options">
-              <label>
-                <input type="radio" value="McKay" name="scholarshipMcKay"
-                       v-model="scholarshipCuestionary"/>
-                <span class="radio"></span>
-                <span class="label">McKay</span>
-              </label>
-              <label>
-                <input type="radio" value="Step Up" name="scholarshipStepUp"
-                       v-model="scholarshipCuestionary"/>
-                <span class="radio"></span>
-                <span class="label">Step Up</span>
-              </label>
-              <label>
-                <input type="radio" value="Gardiner" name="scholarshipGardiner"
-                       v-model="scholarshipCuestionary"/>
-                <span class="radio"></span>
-                <span class="label">Gardiner</span>
-              </label>
-              <label>
-                <input type="radio" value="other" name="scholarshipOther"
-                       v-model="scholarshipCuestionary"/>
-                <span class="radio"></span>
-                <span class="label">Other</span>
-              </label>
-              <input v-if="scholarshipCuestionary === 'other'" type="text"
-                     v-model="scholarshipOtherCuestionary" name="scholarshipOtherCuestionary"
-                     class="form-control">
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6">
-          <div class="bulgy-radios" role="radiogroup" aria-labelledby="bulgy-radios-label">
-            <h2 class="bulgy-radios-title">{{ $t('custionary.text3') }}</h2>
-            <div class="container-options">
-              <label>
-                <input type="radio" value="Immediately" name="startSchoolImmediately"
-                       v-model="startSchoolCuestionary"/>
-                <span class="radio"></span>
-                <span class="label">{{ $t('custionary.immediately') }}</span>
-              </label>
-              <label>
-                <input type="radio" value="Next Month" name="startSchoolNextMonth"
-                       v-model="startSchoolCuestionary"/>
-                <span class="radio"></span>
-                <span class="label">{{ $t('custionary.next_month') }}</span>
-              </label>
-              <label>
-                <input type="radio" value="New Shool Year" name="startSchoolNewSchool"
-                       v-model="startSchoolCuestionary"/>
-                <span class="radio"></span>
-                <span class="label">{{ $t('custionary.new_school_year') }}</span>
-              </label>
-              <input v-if="startSchoolCuestionary === 'New Shool Year'" type="text"
-                     v-model="startSchoolOtherCuestionary" name="startSchoolOtherCuestionary"
-                     class="form-control">
-            </div>
-            <h2 class="bulgy-radios-title">{{ $t('custionary.text4') }}</h2>
-            <div class="container-options">
-              <label>
-                <input type="radio" value="Immediately" name="interestedApplyBefore"
-                       v-model="interestedApplyCuestionary"/>
-                <span class="radio"></span>
-                <span class="label">Before School Care</span>
-              </label>
-              <label>
-                <input type="radio" value="Next Month" name="interestedApplyAfter"
-                       v-model="interestedApplyCuestionary"/>
-                <span class="radio"></span>
-                <span class="label">After School Care</span>
-              </label>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-
-      <div class="col-12 animated slideInRight cuestionary-form" v-if="activeStep === 2">
-        <h2 class="bulgy-radios-title text-center">{{ parentName }}, {{ $t('custionary.text5') }} </h2>
-        <div class="row form-group">
-          <div class="col-12 col-sm-6">
-            <div class="bulgy-checkers" role="radiogroup" aria-labelledby="bulgy-radios-label">
-              <h2 class="bulgy-radios-title text-left">{{ $t('custionary.text6') }} </h2>
-              <b-form-group>
-                <!--                                :options="optionsDays"-->
-                <b-form-checkbox-group
-                    id="checkbox-group-days"
-                    v-model="bestTimeDaysCuestionary"
-                    name="bestDay">
-                  <b-form-checkbox v-for="(day, index) in optionsDays"
-                                   v-bind:key="index"
-                                   v-bind:value="day.value">{{ $t(`days.${day.text}`) }}
-                  </b-form-checkbox>
-                </b-form-checkbox-group>
-                <!--                                <b-form-checkbox  v-model="bestTimeDaysAnyCuestionary" value="Anyone">{{$t(`days.Any`)}}</b-form-checkbox>-->
-              </b-form-group>
-
-            </div>
-          </div>
-          <div class="col-12 col-sm-6">
-            <div class="bulgy-radios" role="radiogroup" aria-labelledby="bulgy-radios-label">
-              <h2 class="bulgy-radios-title">{{ $t('custionary.text7') }} </h2>
-              <div class="container-options">
-                <label>
-                  <input type="radio" value="AM" name="bestTimeHoursCuestionaryAM"
-                         v-model="bestTimeHoursCuestionary"/>
-                  <span class="radio"></span>
-                  <span class="label">AM</span>
-                </label>
-                <label>
-                  <input type="radio" value="PM" name="bestTimeHoursCuestionaryPM"
-                         v-model="bestTimeHoursCuestionary"/>
-                  <span class="radio"></span>
-                  <span class="label">PM</span>
-                </label>
-                <label>
-                  <input type="radio" value="Any time" name="bestTimeHoursCuestionaryAny"
-                         v-model="bestTimeHoursCuestionary"/>
-                  <span class="radio"></span>
-                  <span class="label">{{ $t('any_time') }}</span>
-                </label>
-              </div>
-
-
-<!--              <div class="bulgy-radios" role="radiogroup" aria-labelledby="bulgy-radios-label">-->
-                <h2 class="bulgy-radios-title">{{ $t('custionary.text8') }}</h2>
-                <div class="container-options">
-                  <label>
-                    <input type="radio" value="email" name="bestTimeFormCuestionaryEmail"
-                           v-model="bestTimeFormCuestionary"/>
-                    <span class="radio"></span>
-                    <span class="label">{{ $t('email') }}</span>
-                  </label>
-                  <label>
-                    <input type="radio" value="phone" name="bestTimeFormCuestionaryPhone"
-                           v-model="bestTimeFormCuestionary"/>
-                    <span class="radio"></span>
-                    <span class="label">{{ $t('phone') }}</span>
-                  </label>
-                </div>
-
-<!--              </div>-->
-            </div>
-          </div>
-        </div>
-      </div>
-
 
       <div class="form-group col-md-12 buttons-container">
-        <input v-if="activeStep === 0" v-on:click="validateStep()" class="btn btn-primary py-3 px-5"
-               v-bind:value=" $t('continue')">
-        <input v-if="activeStep > 0" v-on:click="activeStep--" class="btn btn-primary py-3 px-5 previous"
-               v-bind:value=" $t('prev')">
-        <input v-if="activeStep === 1" v-on:click="validateStep()" class="btn btn-primary py-3 px-5"
-               v-bind:value=" $t('continue')">
-        <input v-if="activeStep === maxStep" type="submit" class="btn btn-primary py-3 px-5"
+        <input  type="submit" class="btn btn-primary py-3 px-5"
                v-bind:value=" $t('send')">
       </div>
     </form>
@@ -271,7 +101,9 @@ export default {
         {text: 'Fri', value: 'Friday'},
         {text: 'Sat', value: 'Saturday'},
         {text: 'Sun', value: 'Sunday'}
-      ]
+      ],
+      errorValidation: false,
+      txtErrorValidation: '',
     };
   },
   watch: {
@@ -293,92 +125,83 @@ export default {
   },
   methods: {
     validateStep() {
-      switch (this.activeStep) {
-        case 0:
-          if (!isUndefinedOrNullOrEmpty(this.parentName) &&
-              (!isUndefinedOrNullOrEmpty(this.email) || !isUndefinedOrNullOrEmpty(this.phoneNumber))) {
-            this.activeStep++;
-
-          }
-          break;
-        case 1:
-          if (!isUndefinedOrNullOrEmpty(this.interestedCuestionary)
-              && !isUndefinedOrNullOrEmpty(this.startSchoolCuestionary)
-              && !isUndefinedOrNullOrEmpty(this.scholarshipCuestionary)) {
-            if (this.startSchoolCuestionary !== 'New Shool Year')
-              this.activeStep++;
-            else {
-              if (!isUndefinedOrNullOrEmpty(this.startSchoolOtherCuestionary)) {
-                this.activeStep++;
-              }
-            }
-          }
-          break;
+      const emailPatter = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+      if (!isUndefinedOrNullOrEmpty(this.parentName)&&
+          (!isUndefinedOrNullOrEmpty(this.email) && emailPatter.test(this.email) && !isUndefinedOrNullOrEmpty(this.phoneNumber))) {
+     return true;
+      } else {
+        this.showAlertErrorValidation();
+        return false;
       }
+      return true;
     },
     onSubmit(e) {
-      let daysOfWeek = '';
-      this.bestTimeDaysCuestionary.forEach(day => {
-        daysOfWeek += `<li>${day}</li>`;
-      });
-      this.message = `<div style="color: #2c3e50;text-align: left;font-size: 18px">
-                <h4 style="font-size: 22px">Parent Name: <strong>${this.parentName}</strong></h4>
-                <h4 style="font-size: 22px">Which of the following program(s) are you interested in: <strong>${this.interestedCuestionary}</strong></h4>
-                <h4 style="font-size: 22px">What scholarship program does your child participate in?: <strong>${this.scholarshipCuestionary}</strong></h4>
-                ${(!isUndefinedOrNullOrEmpty(this.scholarshipOtherCuestionary)) ? `<p>${this.scholarshipOtherCuestionary}</p><br>` : ``}
-                <h4 style="font-size: 22px">When would you like your child to start school? <strong>${this.startSchoolCuestionary}</strong></h4>
-                 ${(!isUndefinedOrNullOrEmpty(this.startSchoolOtherCuestionary)) ? `<p>${this.startSchoolOtherCuestionary}</p><br>` : ``}
-                 <h4 style="font-size: 22px">Would you be interested in (check all that apply)?: <strong>${this.interestedCuestionary}</strong></h4>
-                 <h4 style="font-size: 22px">What day of the week do you prefer?: </h4>
-                 <ul>${daysOfWeek}</ul><br>
-                 <h4 style="font-size: 22px">What time is better for you?: <strong>${this.bestTimeHoursCuestionary}</strong></h4>
-                 <h4 style="font-size: 22px">What form is better for you?: <strong>${this.bestTimeFormCuestionary}</strong></h4>
-                </div>`;
-      console.log('SENDING EMAIL', {
-        parentName: this.parentName,
-        fullName: this.fullName,
-        email: this.email,
-        phoneNumber: this.phoneNumber,
-        message: this.message
-      });
-      e.preventDefault();
-      const auth = {
-        headers: {
-          Authorization: "Basic b2FjZXZlZG86dGVzdGluZw==",
-          "Access-Control-Allow-Origin": "*",
-          "Access-Control-Allow-Headers": "*",//"Origin, X-Requested-With, Content-Type, Accept",
-          "Access-Control-Allow-Methods": "*",//"GET, PUT, POST, DELETE",
-          "Access-Control-Max-Age": "86400",
-          'Content-Type': 'application/json'
-        }
-      };
-      let formdata = new FormData();
-      formdata.append("fullname", this.fullName);
-      formdata.append("email", this.email);
-      formdata.append("phoneNumber", this.fullName);
-      formdata.append("message", this.message);
-      axios.post(
-          this.stateStore.config[process.env.NODE_ENV].emailUrl,
-          {
-            "phoneNumber": this.fullName,
-            "email": this.email,
-            "message": this.message
-          }, auth
-      )
-          .then(res => {
-            console.log('AQUI EN SEND EMAIL');
-            this.showAlert();
-          })
-          .catch(error => {
-            console.log('ERROR', error);
-            this.showAlertErrorSending();
+      try {
+        if(this.validateStep()){
+          console.log('SENDING EMAIL', {
+            parentName: this.parentName,
+            fullName: this.fullName,
+            email: this.email,
+            phoneNumber: this.phoneNumber,
+            message: this.message
           });
+          e.preventDefault();
+          const auth = {
+            headers: {
+              Authorization: "Basic b2FjZXZlZG86dGVzdGluZw==",
+              "Access-Control-Allow-Origin": "*",
+              "Access-Control-Allow-Headers": "*",//"Origin, X-Requested-With, Content-Type, Accept",
+              "Access-Control-Allow-Methods": "*",//"GET, PUT, POST, DELETE",
+              "Access-Control-Max-Age": "86400",
+              'Content-Type': 'application/json'
+            }
+          };
+          let formdata = new FormData();
+          formdata.append("fullname", this.fullName);
+          formdata.append("email", this.email);
+          formdata.append("phoneNumber", this.fullName);
+          formdata.append("message", this.message);
+          axios.post(
+              this.stateStore.config[process.env.NODE_ENV].emailUrl,
+              {
+                "phoneNumber": this.fullName,
+                "email": this.email,
+                "message": this.message
+              }, auth
+          )
+              .then(res => {
+                console.log('AQUI EN SEND EMAIL');
+                this.showAlert();
+              })
+              .catch(error => {
+                console.log('ERROR', error);
+                this.showAlertErrorSending();
+              });
+        }
+        else{
+          e.preventDefault();
+          e.stopPropagation();
+        }
+      }catch (err){
+        console.log(' ERRROR ',err);
+      }
+
+
     },
     showAlert() {
       const scope = this;
       this.showAlertContact = true;
       setTimeout(function () {
         scope.showAlertContact = false;
+      }, 6000);
+    },
+    showAlertErrorValidation(msg) {
+      const scope = this;
+      this.errorValidation = true;
+      this.txtErrorValidation = (!msg) ? 'errorData' : msg;
+      setTimeout(function () {
+        scope.errorValidation = false;
+        this.txtErrorValidation = '';
       }, 6000);
     },
     showAlertErrorSending() {
@@ -405,9 +228,19 @@ btn.btn-primary {
 }
 
 .form-group, .cuestionary-form {
+  position: relative;
   &.animated {
     animation-duration: .3s;
   }
+  strong {
+    color: #d21717;
+    font-size: .7em;
+  }
+}
+
+.msg-error {
+  color: #d21717;
+  font-weight: 600;
 }
 
 .contact-form {
