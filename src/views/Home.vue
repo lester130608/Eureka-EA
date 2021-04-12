@@ -246,4 +246,10 @@
  .site-section .bg-light{
    background-color: #e0f0ff!important;
  }
+
+ @media screen and (max-width: 425px){
+   .button-how-apply{
+     width: 100%;
+   }
+ }
 </style>

@@ -6,7 +6,7 @@
           <div class="col-lg-12 mt-5 txt-info" data-aos="fade-up">
             <h1>{{ $t('contact.ContactUs') }}</h1>
             <p class="text-white text-center">
-              <a href="index.html">{{ $t('menu.Home') }}</a>
+              <router-link to="/">{{ $t('menu.Home') }}</router-link>
               <span class="mx-2">/</span>
               <span>{{ $t('menu.ContactUs') }}</span>
             </p>

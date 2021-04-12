@@ -36,7 +36,7 @@ export default {
     changeLanguage(lang) {
       this.$i18n.locale = lang.value;
       this.$store.commit('changeLocale', lang.value);
-      this.languages.find( f => f.value != lang.value).active = false;
+      this.languages.find( f => f.value !== lang.value).active = false;
       this.languages.find( f => f.value === lang.value).active = true;
     }
   }

@@ -7,9 +7,9 @@
           <div class="col-lg-12 mt-5 txt-info" data-aos="fade-up">
             <h1>{{ $t('menu.FAQ') }}</h1>
             <p class="text-white text-center">
-              <a href="index.html">{{ $t('menu.Home') }}</a>
+              <router-link to="/">{{ $t('menu.Home') }}</router-link>
               <span class="mx-2">/</span>
-              <span>{{ $t('menu.ContactUs') }}</span>
+              <router-link to="/contact"><span>{{ $t('menu.ContactUs') }}</span></router-link>
             </p>
           </div>
         </div>
@@ -19,7 +19,7 @@
       <div class="container">
         <div class="row align-items-center justify-content-center flex text-center">
            <div class="col-12 align-items-center flex justify-content-center text-center">
-            <vsa-list>
+            <vsa-list v>
               <!-- Here you can use v-for to loop through items  -->
               <vsa-item>
                 <vsa-heading>
@@ -115,6 +115,7 @@ import {
 } from 'vue-simple-accordion';
 import 'vue-simple-accordion/dist/vue-simple-accordion.css';
 import SendEmailContactCmp from '@/components/SendEmailContactCmp';
+
 
 
 export default {
