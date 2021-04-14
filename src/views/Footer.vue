@@ -47,7 +47,7 @@
                              <span class="icon-envelope text-primary"></span>
                          </div>
                          <div class="text">
-                             <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#105;&#110;&#102;&#111;&#064;&#116;&#104;&#101;&#101;&#117;&#114;&#101;&#107;&#097;&#097;&#099;&#097;&#100;&#101;&#109;&#121;&#046;&#099;&#111;&#109;?&#083;&#117;&#098;&#106;&#101;&#099;&#116;=&#067;&#111;&#110;&#116;&#097;&#099;&#116;&#105;&#110;&#103;" target="_blank" class="d-block">info@theeurekaacademy.com</a>
+                             <a href="mailto:info@theeurekaacademy.com?Subject=Contacting" target="_blank" class="d-block">info@theeurekaacademy.com</a>
                          </div>
                      </div>
                      <div class="quick-contact-icons d-flex third">
