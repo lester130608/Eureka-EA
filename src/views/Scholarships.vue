@@ -32,7 +32,7 @@
                 <h4 class="text-primary">{{ $t('view_scholarships.florida_tax_credit') }}</h4>
                 <!--                                <h6><span class="badge badge-primary">{{ $t('view_scholarships.income_based') }}</span></h6>-->
               </div>
-<!--              <p>{{ $t('view_scholarships.florida_tax_credit_description') }}</p>-->
+              <p>{{ $t('view_scholarships.florida_tax_credit_description') }}</p>
               <a href="https://www.stepupforstudents.org/lower-income-scholarships-ftc-fes/" target="_blank">
                 <input class="apply_button btn btn-primary py-3 px-5" v-bind:value=" $t('apply_now')">
               </a>
