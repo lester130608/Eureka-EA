@@ -74,6 +74,7 @@
 
                      </ul>
                  </div>
+
                  <div class="col-lg-3 text-lg-right text-sm-center">
 <!--                     <h3 class="footer-heading"><span>{{ $t('foot_contact.our_services') }}</span></h3>-->
                      <ul class="list-unstyled">
@@ -87,7 +88,8 @@
                              <router-link class="" to="/admissions">{{ $t('menu.Admissions') }}</router-link>
                          </li>
                          <li>
-                             <router-link class="" to="/contact">{{ $t('menu.ContactUs') }}</router-link></li>
+                           <a  @click="$bvModal.show('bv-modal-example')">{{ $t('menu.ContactUs') }}</a>
+                          </li>
                      </ul>
                  </div>
 
@@ -97,6 +99,7 @@
 
         </div>
       </div>
+
 
 <!--        <div class="col-lg-3">-->
 <!--          <h3 class="footer-heading"><span>Contact</span></h3>-->
@@ -134,10 +137,83 @@
   }
 </script>
 <style lang="scss">
+@import "src/assets/scss/variables";
   .copyright-container{
     background-color: #1b2229;
   }
   .social-media{
     width: 80%;
+  }
+
+  .modal-header {
+    background-color: $primary-color;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 16px !important;
+    text-align: left;
+    align-items: center !important;
+  }
+
+  .modal-design {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .modal-header .close {
+    color: white;
+  }
+  .img-thumbnail {
+    border: none !important;
+  }
+
+
+
+  @media screen and (max-width: 425px) {
+    .modal-design {
+      display: block !important;
+      align-items: center !important;
+      justify-content: center !important;
+      margin: 0 auto !important;
+    }
+    .d-block-fix {
+      font-size: 22px;
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+      align-items: center !important;
+    }
+    .img-style {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      width: 100%;
+    }
+
+
+  }
+
+  @media screen and (max-width: 320px) {
+    .modal-design {
+      display: block !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+    .d-block-fix {
+      font-size: 20px;
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      flex-direction: column !important;
+    }
+    .img-style {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      width: 100%;
+    }
+
+
   }
 </style>

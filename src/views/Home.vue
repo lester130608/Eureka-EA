@@ -103,24 +103,24 @@
         <!--              </div>-->
         <!--          </div>-->
 
-        <!--TODO CONTACT FORM-->
-        <div class="site-section bg-light ">
-            <div class="container-fluid">
-                <div class="row d-flex align-items-center">
-                    <div class="col-md-3 col-12 d-none d-md-block">
-                        <p><img src="../../public/default/images/home/doe_logo.png"
-                                alt="Image" class="img-fluid border-img"></p>
-                    </div>
-                    <div class="col-md-9 col-12">
-                        <!--                          <span class="text-serif text-primary">Book Now</span>-->
-                        <h3 class="heading-92913 text-blue-hight">{{ $t('view_home.data')}}</h3>
-                        <SendEmailRequestInfo/>
+        <!--TODO REQUEST FORM borrado tempralmente MIENTRAS OSCAR ARREGLA CORS-->
+<!--        <div class="site-section bg-light ">-->
+<!--            <div class="container-fluid">-->
+<!--                <div class="row d-flex align-items-center">-->
+<!--                    <div class="col-md-3 col-12 d-none d-md-block">-->
+<!--                        <p><img src="../../public/default/images/home/doe_logo.png"-->
+<!--                                alt="Image" class="img-fluid border-img"></p>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-9 col-12">-->
+<!--                        &lt;!&ndash;                          <span class="text-serif text-primary">Book Now</span>&ndash;&gt;-->
+<!--                        <h3 class="heading-92913 text-blue-hight">{{ $t('view_home.data')}}</h3>-->
+<!--                        <SendEmailRequestInfo/>-->
 
-                    </div>
-                </div>
+<!--                    </div>-->
+<!--                </div>-->
 
-            </div>
-        </div>
+<!--            </div>-->
+<!--        </div>-->
 
 
         <!--          <div class="site-section">-->

@@ -78,6 +78,12 @@
   "contact":{
     "ContactUs":"Contact Us"
   },
+  "modal_contact": {
+    "title":  "Contact our admissions today",
+    "or_email": "Or Email:",
+    "call": "Call:",
+    "alt_picture": "Phone with Email"
+  },
   "view_home": {
     "about_us": "About Us",
     "welcome": "Welcome to Eureka Educational Academy!",
