@@ -24,7 +24,7 @@
                         <p>
                             {{ $t('view_admission.second_parrafo') }}
                         </p>
-                      <input v-on:click="$router.push('/contact')"  class="btn btn-primary py-3 px-5" v-bind:value=" $t('make_appointment')">
+                        <input @click="$bvModal.show('bv-modal-example')" class="btn btn-primary py-3 px-5" v-bind:value=" $t('make_appointment')"> 
                     </div>
                 </div>
             </div>

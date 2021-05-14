@@ -34,7 +34,7 @@
             </p>
             <p>{{ $t('view_about.second_parrafo') }}</p>
 <!--            <p><a href="#" class="btn btn-primary py-3 px-4">Learn More</a></p>-->
-            <input v-on:click="$router.push('/contact')"  class="btn btn-primary py-3 px-5" v-bind:value=" $t('learn_more')">
+            <input class="btn btn-primary py-3 px-5" @click="$bvModal.show('bv-modal-example')" v-bind:value=" $t('learn_more')">
           </div>
         </div>
       </div>

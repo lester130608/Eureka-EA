@@ -27,7 +27,7 @@
             <p>
               {{ $t('view_philosophy.third_parrafo') }}
             </p>
-            <input v-on:click="$router.push('/contact')"  class="btn btn-primary py-3 px-5" v-bind:value=" $t('learn_more')">
+            <input @click="$bvModal.show('bv-modal-example')"  class="btn btn-primary py-3 px-5" v-bind:value=" $t('learn_more')">
           </div>
         </div>
       </div>

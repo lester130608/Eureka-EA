@@ -78,7 +78,7 @@
       </div>
       <div class="col-md-12 before_footer">
         <h4 class="text-color">{{ $t('view_scholarships.text_bottom') }}</h4>
-        <input v-on:click="$router.push('/contact')" class="bottom-contact btn btn-primary py-3 px-5" v-bind:value=" $t('menu.ContactUs')">
+        <input @click="$bvModal.show('bv-modal-example')" class="bottom-contact btn btn-primary py-3 px-5" v-bind:value=" $t('menu.ContactUs')">
       </div>
     </div>
 
