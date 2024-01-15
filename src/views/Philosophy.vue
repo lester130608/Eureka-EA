@@ -18,14 +18,14 @@
 <!--            <span class="text-serif text-primary">{{ $t('menu.Philosophy') }}</span>-->
 <!--            <h3 class="heading-center text-primary">{{ $t('menu.Philosophy') }}</h3>-->
             <p>
-                {{ $t('view_philosophy.first_parrafo') }}
+                {{ $t('view_philosophy.first_paragraph') }}
 
             </p>
             <p>
-                {{ $t('view_philosophy.second_parrafo') }}
+                {{ $t('view_philosophy.second_paragraph') }}
             </p>
             <p>
-              {{ $t('view_philosophy.third_parrafo') }}
+              {{ $t('view_philosophy.third_paragraph') }}
             </p>
             <input @click="$bvModal.show('bv-modal-example')"  class="btn btn-primary py-3 px-5" v-bind:value=" $t('learn_more')">
           </div>

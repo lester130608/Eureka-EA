@@ -32,7 +32,7 @@
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
             <span class="icon flaticon-mortarboard"></span>
             <h3>{{ $t('menu.Philosophy') }}</h3>
-            <p>{{ $t('view_philosophy.first_parrafo') }}</p>
+            <p>{{ $t('view_philosophy.first_paragraph') }}</p>
           </div>
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
             <span class="icon flaticon-school-material"></span>

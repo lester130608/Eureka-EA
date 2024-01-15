@@ -14,7 +14,7 @@
                       <div>
                         <!--                            <span class="text-serif text-primary objectColor">{{ $t('view_home.about_us') }}</span>-->
                         <!--                            <h3 class="heading-92913 text-black text-color-yellow">{{ $t('summary_text') }}</h3>-->
-                        <!--                            <p>{{ $t('view_home.second_parrafo') }}</p>-->
+                        <!--                            <p>{{ $t('view_home.second_paragraph') }}</p>-->
                         <!--                            <p>{{ $t('view_therapy.first_paragraph') }}</p>-->
                         <!--                            <p>{{ $t('view_therapy.second_paragraph') }}</p>-->
                         <!--                            <p>{{ $t('view_scholarships.description') }}</p>-->
@@ -191,7 +191,7 @@
 <!--                <div class="row justify-content-center">-->
 <!--                    <div class="col-md-7 text-center">-->
 <!--                        <h2 class="text-white">{{ $t('view_home.best_choice')}}</h2>-->
-<!--                        <p class="lead text-white">{{ $t('view_home.second_parrafo')}}</p>-->
+<!--                        <p class="lead text-white">{{ $t('view_home.second_paragraph')}}</p>-->
 <!--                        <p class="mb-0">-->
 <!--                            <a href="mailto:info@theeurekaakademy.com?Subject=Contacting" target="_blank"-->
 <!--                               class="btn btn-warning py-3 px-5 text-white">Contact Us</a>-->

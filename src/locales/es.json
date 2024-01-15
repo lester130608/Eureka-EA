@@ -73,7 +73,9 @@
     "Scholarships": "Becas",
     "Admissions": "Admisiones",
     "ContactUs": "Contacto",
-    "FAQ": "FAQ"
+    "FAQ": "FAQ",
+    "Procurement": "Adquisiciones",
+    "Tuition": "Matrícula"
   },
   "contact": {
     "ContactUs":"Contáctanos"
@@ -87,8 +89,8 @@
   "view_home": {
     "about_us": "Sobre Nosotros",
     "welcome": "Bienvenido a Eureka Educational Academy ",
-    "first_parrafo": "Fomentamos el crecimiento académico, social y físico de nuestros alumnos, para que cada uno alcance su máximo potencial.",
-    "second_parrafo": "El objetivo principal de la academia es brindar a los estudiantes una experiencia educativa completa que satisfaga las necesidades sociales, emocionales y de comportamiento de cada estudiante.",
+    "first_paragraph": "Fomentamos el crecimiento académico, social y físico de nuestros alumnos, para que cada uno alcance su máximo potencial.",
+    "second_paragraph": "El objetivo principal de la academia es brindar a los estudiantes una experiencia educativa completa que satisfaga las necesidades sociales, emocionales y de comportamiento de cada estudiante.",
     "first_block": "La Academia Educativa Eureka ofrece una\n variedad de servicios de terapia integrados\n dentro del día escolar:",
     "second_block": "Eureka Educational Academy acepta las siguientes becas:",
     "data": "Información requerida",
@@ -112,20 +114,42 @@
   },
   "view_philosophy": {
     "title": "Filosofía",
-    "first_parrafo": "El objetivo principal de la academia es fomentar el crecimiento general de los estudiantes, académica, social y físicamente. Esto se hace a través de un proceso integrado que combina actividades académicas y servicios terapéuticos según sea necesario.",
-    "second_parrafo": "Eureka proporciona diversas metodologías educativas y planes de estudio basados \u200B\u200Ben la investigación para desarrollar planes de aprendizaje individualizados que satisfagan las necesidades educativas de cada individuo. Realizaremos evaluaciones periódicas para evaluar y proporcionar datos de desempeño que guiarán el plan de instrucción de cada estudiante.",
-    "third_parrafo": "Además, la academia implementa un enfoque de aprendizaje combinado, que incluye un dispositivo por alumno con varios programas educativos. Esta combinación nos ayuda a lograr resultados efectivos en el desempeño de nuestros estudiantes."
+    "first_paragraph": "El objetivo principal de la academia es fomentar el crecimiento general de los estudiantes, académica, social y físicamente. Esto se hace a través de un proceso integrado que combina actividades académicas y servicios terapéuticos según sea necesario.",
+    "second_paragraph": "Eureka proporciona diversas metodologías educativas y planes de estudio basados \u200B\u200Ben la investigación para desarrollar planes de aprendizaje individualizados que satisfagan las necesidades educativas de cada individuo. Realizaremos evaluaciones periódicas para evaluar y proporcionar datos de desempeño que guiarán el plan de instrucción de cada estudiante.",
+    "third_paragraph": "Además, la academia implementa un enfoque de aprendizaje combinado, que incluye un dispositivo por alumno con varios programas educativos. Esta combinación nos ayuda a lograr resultados efectivos en el desempeño de nuestros estudiantes."
   },
   "view_about": {
     "title": "Sobre Eureka Educational Academy",
     "welcome": "Quienes Somos",
-    "first_parrafo": "Eureka Educational Academy fue fundada por educadores galardonados y profesionales de la salud con más de 75 años de experiencia brindando servicios a niños en edad escolar en el sur de Florida. ",
-    "second_parrafo": "El objetivo principal de la academia es brindar a los estudiantes una experiencia educativa completa que satisfaga sus necesidades sociales, emocionales y de comportamiento. Perfeccionamos constantemente nuestros métodos para mejorar la salud y la educación de nuestros estudiantes. El equipo ha creado un campus limpio, seguro e innovador que brinda una experiencia se satisfacción."
+    "first_paragraph": "Eureka Educational Academy fue fundada por educadores galardonados y profesionales de la salud con más de 75 años de experiencia brindando servicios a niños en edad escolar en el sur de Florida. ",
+    "second_paragraph": "El objetivo principal de la academia es brindar a los estudiantes una experiencia educativa completa que satisfaga sus necesidades sociales, emocionales y de comportamiento. Perfeccionamos constantemente nuestros métodos para mejorar la salud y la educación de nuestros estudiantes. El equipo ha creado un campus limpio, seguro e innovador que brinda una experiencia se satisfacción.",
+    "missconduct_title": "Denuncia conductas profesionales indebidas",
+    "missconduct_first_paragraph": "Todos los empleados y agentes de un distrito escolar público, una escuela autónoma o una escuela privada tienen la obligación y la responsabilidad legal de denunciar la conducta indebida del personal docente y los administradores escolares que afecte la salud, la seguridad o el bienestar de un estudiante.",
+    "missconduct_second_paragraph": "No informar la estas conductas puede resultar en sanciones que pueden llegar hasta la terminación del empleo y la revocación del certificado de educador.",
+    "missconduct_third_paragraph": "Si alguien te informa sobre una conducta indebida, sé un LÍDER:",
+    "missconduct_fourth_paragraph": "Escucha, Evalúa, Actua inmediatamente, Documenta, Alienta, Informa",
+    "missconduct_fifth_paragraph": "Reporte conductas indebidas por parte del personal de la escuela, comuníquese con la administración de la escuela en EDUCATIONAL ACADEMY.",
+    "missconduct_item_1": "Lenguaje obsceno",
+    "missconduct_item_2": "Consumo de drogas y alcohol",
+    "missconduct_item_3": "Comentarios despectivos",
+    "missconduct_item_4": "Prejuicio o intolerancia",
+    "missconduct_item_5": "Insinuaciones sexuales",
+    "missconduct_item_6": "Fraudes o engaños en evaluaciones",
+    "missconduct_item_7": "Agresión física",
+    "missconduct_item_8": "Aceptar u ofrecer favores",
+    "name": "Nombre",
+    "title_2": "Título",
+    "phone": "Teléfono",
+    "conduct_title": "Estándares de conducta ética",
+    "conduct_first_paragraph": "Eureka Educational Academy, Inc. defiende un conjunto de estándares de conducta ética que priorizan el valor y la dignidad de cada individuo, la búsqueda de la verdad y el desarrollo de los estudiantes. Los estándares enfatizan la libertad en el aprendizaje y la enseñanza, la igualdad de oportunidades y el crecimiento profesional. Los puntos clave incluyen garantizar un entorno de aprendizaje seguro, evitar la discriminación, mantener la confidencialidad y mostrar honestidad en los tratos profesionales.",
+    "conduct_second_paragraph": "Los empleados deben recibir capacitación sobre estos estándares éticos anualmente. El documento enfatiza la obligación de denunciar malas conductas por parte del personal docente y administrativo, enumerando ejemplos como lenguaje obsceno, uso de drogas y agresión física. Las acusaciones legalmente suficientes se informan a la Oficina de Servicios de Prácticas Profesionales.",
+    "conduct_third_paragraph": "Además, todos los empleados tienen el deber de denunciar casos de abuso, abandono o negligencia infantil. Se describen los signos de abuso, incluidos los físicos, sexuales y de negligencia. El documento proporciona protecciones de responsabilidad para las personas que actúan de buena fe al denunciar casos de abuso infantil y para los empleadores que revelan información sobre empleados actuales o anteriores a posibles empleadores."
+
   },
   "view_admission": {
     "title": "Admisiones",
-    "first_parrafo": "La Academia Educativa Eureka tiene una inscripción continua durante todo el año académico.\nSin embargo, una vez que la inscripción de estudiantes esté completa, se establecerá una lista de espera para brindarles a los estudiantes la oportunidad de unirse a nuestra familia cuando haya una vacante disponible.",
-    "second_parrafo": "\nLos futuros estudiantes y familias pueden programar un recorrido privado y una consulta para discutir los detalles del programa y la inscripción."
+    "first_paragraph": "La Academia Educativa Eureka tiene una inscripción continua durante todo el año académico.\nSin embargo, una vez que la inscripción de estudiantes esté completa, se establecerá una lista de espera para brindarles a los estudiantes la oportunidad de unirse a nuestra familia cuando haya una vacante disponible.",
+    "second_paragraph": "\nLos futuros estudiantes y familias pueden programar un recorrido privado y una consulta para discutir los detalles del programa y la inscripción."
   },
   "view_scholarships": {
     "title": "Becas",
@@ -145,9 +169,21 @@
     "previously_attended": "Asistió anteriormente a una escuela pública",
     "message": "Contáctenos para obtener más información relacionada con las becas disponibles y cómo recibir ayuda para postularse."
   },
+  "procurement":{
+    "title": "Procurement",
+    "greetings": "Estimado proveedor,",
+    "first_paragraph": "Nos dirigimos a usted para expresar nuestro interés en adquirir servicios de alimentos para nuestra escuela, la Academia Educativa Eureka, que está buscando activamente participar en el Programa Nacional de Almuerzos Escolares (NSLP, por sus siglas en inglés).",
+    "second_paragraph": "Como es posible que sepa, el NSLP desempeña un papel crucial al proporcionar comidas nutritivas a los niños escolares en todo el país. Nuestro objetivo es convertirnos en una escuela participante en este programa para garantizar que nuestros estudiantes tengan acceso a comidas equilibradas y saludables todos los días. En este esfuerzo, la elección del proveedor de alimentos adecuado es de suma importancia.",
+    "third_paragraph": "En la Academia Educativa Eureka, estamos comprometidos en fomentar un entorno de aprendizaje acogedor y propicio para nuestros estudiantes. Creemos que el acceso a comidas nutritivas es un aspecto fundamental de su bienestar general y éxito académico. Su reputación y experiencia en la industria de alimentos hacen de su empresa un candidato ideal para asociarse con nosotros en esta empresa.",
+    "fourth_paragraph": "Nuestra escuela atiende a una población estudiantil diversa de aproximadamente 35 estudiantes, y estamos buscando un proveedor de alimentos que pueda satisfacer las necesidades y requisitos únicos de nuestra comunidad escolar.",
+    "fifth_paragraph": "Nuestra escuela atiende a una población estudiantil diversa de aproximadamente 35 estudiantes, y estamos buscando un proveedor de alimentos que pueda satisfacer las necesidades y requisitos únicos de nuestra comunidad escolar.",
+    "sixth_paragraph": "Si está interesado en aprovechar esta oportunidad, le rogamos que nos envíe su propuesta. Si tiene alguna consulta o necesita aclaraciones adicionales, diríjalas a Damarys Clement a través de info@theeurekaacademy o al 305-420-6690",
+    "seventh_paragraph": "Agradecemos su consideración y anticipamos con entusiasmo la posibilidad de colaborar con usted para mejorar la experiencia de alimentación de nuestros estudiantes y respaldar su trayectoria educativa. Gracias por su atención a este asunto."
+  },
   "foot_contact": {
     "text": "Para obtener más información sobre nuestros servicios de terapia, llame o envíe un correo electrónico a:",
-    "our_services": "Nuestros Servicios"
+    "our_services": "Nuestros Servicios",
+    "disclaimer": "La escuela no discriminará por motivos de raza, color, origen nacional o étnico, religión, género, discapacidad u orientación sexual en la administración de sus políticas educativas, becas, préstamos, exención de matrícula, programas educativos, actividades deportivas o actividades extracurriculares."
   },
   "faq": {
     "question1": "¿Qué plan de estudios ofrece?",

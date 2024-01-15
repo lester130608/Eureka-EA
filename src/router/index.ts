@@ -5,6 +5,8 @@ import ContactUs from '../views/ContactUs.vue'
 import Philosophy from '../views/Philosophy.vue'
 import Theraphy from '../views/Theraphy.vue'
 import Scholarships from '../views/Scholarships.vue'
+import Procurement from '../views/Procurement.vue'
+import Tuition from '../views/Tuition.vue'
 import Admissions from '../views/Admissions.vue'
 import FAQ from '../views/FAQ.vue'
 
@@ -53,6 +55,16 @@ Vue.use(VueRouter)
       path:'/faq',
       name: 'FAQ',
       component: FAQ
+    },
+    {
+      path:'/procurement',
+      name: 'Procurement',
+      component: Procurement
+    },
+    {
+      path:'/tuition',
+      name: 'Tuition',
+      component: Tuition
     },
 
 

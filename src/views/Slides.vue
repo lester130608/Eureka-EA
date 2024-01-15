@@ -5,11 +5,11 @@
       <h1>{{ $t('view_home.welcome') }}</h1>
       <p>
         {{
-          $t('view_home.first_parrafo')
+          $t('view_home.first_paragraph')
         }}
       </p>
       <p>{{
-          $t('view_home.second_parrafo')
+          $t('view_home.second_paragraph')
         }}</p>
     </div>
 

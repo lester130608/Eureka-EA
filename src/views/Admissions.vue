@@ -18,11 +18,11 @@
                         <!--            <span class="text-serif text-primary">{{ $t('menu.Philosophy') }}</span>-->
 <!--                        <h3 class="heading-center text-primary">{{ $t('view_admission.title') }}</h3>-->
                         <p>
-                            {{ $t('view_admission.first_parrafo') }}
+                            {{ $t('view_admission.first_paragraph') }}
 
                         </p>
                         <p>
-                            {{ $t('view_admission.second_parrafo') }}
+                            {{ $t('view_admission.second_paragraph') }}
                         </p>
                         <input @click="$bvModal.show('bv-modal-example')" class="btn btn-primary py-3 px-5" v-bind:value=" $t('make_appointment')"> 
                     </div>

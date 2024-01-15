@@ -25,6 +25,12 @@
             <router-link class="nav-link text-left" to="/scholarships">{{ $t('menu.Scholarships') }}</router-link>
           </li>
           <li>
+            <router-link class="nav-link text-left" to="/procurement">{{ $t('menu.Procurement') }}</router-link>
+          </li>
+          <li>
+            <router-link class="nav-link text-left" to="/tuition">{{ $t('menu.Tuition') }}</router-link>
+          </li>
+          <li>
             <router-link class="nav-link text-left" to="/admissions">{{ $t('menu.Admissions') }}</router-link>
           </li>
           <li class="js-menu-toggle">
@@ -100,7 +106,7 @@
               </div>
               <div class="text">
                 <a href="mailto:info@theeurekaacademy.com?Subject=Contacting" target="_blank" class="h4 d-block">info@theeurekaacademy.com</a>
-                <a href="mailto:mriera@theeurekaacademy.com?Subject=Contacting" target="_blank" class="h4 d-block">mriera@theeurekaacademy.com</a>
+                <a href="mailto:dclement@theeurekaacademy.com?Subject=Contacting" target="_blank" class="h4 d-block">dclement@theeurekaacademy.com</a>
               </div>
             </div>
           </div>
@@ -148,8 +154,20 @@
                         </router-link>
                       </li>
                       <li>
+                        <router-link class="nav-link text-left" to="/procurement">{{
+                            $t('menu.Procurement')
+                          }}
+                        </router-link>
+                      </li>
+                      <li>
                         <router-link class="nav-link text-left" to="/admissions">{{
                             $t('menu.Admissions')
+                          }}
+                        </router-link>
+                      </li>
+                      <li>
+                        <router-link class="nav-link text-left" to="/tuition">{{
+                            $t('menu.Tuition')
                           }}
                         </router-link>
                       </li>
