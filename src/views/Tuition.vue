@@ -34,7 +34,7 @@
                 <tr>
                   <td>Tuition</td>
                   <td>PK, K, 1, 2, 3, 4, 5</td>
-                  <td>$20,800.00</td>
+                  <td>$27,800.00</td>
                 </tr>
               </tbody>
             </table>

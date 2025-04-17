@@ -89,8 +89,8 @@
   "view_home": {
     "about_us": "About Us",
     "welcome": "Welcome to Eureka Educational Academy!",
-    "first_paragraph": "We foster the academic, social and physical growth of our students, so that each one reaches their maximum potential.",
-    "second_paragraph": "The main goal of the academy is to provide students with a complete educational experience that meets the social, emotional and behavioral needs of each student.",
+    "first_paragraph": "At Eureka, we are committed to providing a nurturing environment where students with special needs can thrive academically, socially, and physically. Our goal is to empower each student to reach their full potential through a comprehensive and individualized approach to education.",
+    "second_paragraph": "We offer a unique curriculum that blends core academic subjects with specialized programs in areas like farming, gardening, and life skills. With a wide range of services and therapies, we ensure that every child receives the support they need to succeed both in and outside of the classroom. At Eureka Educational Academy, we celebrate each student's individuality and are proud to provide an inclusive and supportive community where they can grow, learn, and thrive.",
     "first_block": "Eureka Educational Academy provides a\n variety of therapy services integrated\n within the school day:",
     "second_block": "Eureka Educational Academy accepts the following scholarships:",
     "data": "Request Information",
@@ -114,15 +114,15 @@
   },
   "view_philosophy": {
     "title": "Philosophy",
-    "first_paragraph": "The academy’s main goal is to foster students’ overall growth — academically, socially and\n physically. This is done through an integrated process that combines academic activities\n and therapeutic services as needed.",
-    "second_paragraph": "Eureka provides various educational methodologies and research-based curriculums in\n order to develop individualized learning plans that meet each individual’s educational\n needs. We will perform regular assessments in order to evaluate and provide performance\n data that will guide the instructional plan of each student.",
-    "third_paragraph":"In addition, the academy implements a blended learning approach, which includes one device per student with various educational softwares. This combination helps us achieve effective results in our students’ performance."
+    "first_paragraph": "At Eureka Educational Academy, we believe in providing a holistic educational experience that nurtures the intellectual, emotional, and social development of each student. Our philosophy is grounded in the idea that education should be both academically rigorous and practically meaningful.",
+    "second_paragraph": "We offer a strong foundation in all core academic subjects—math, language arts, science, and social studies—while also integrating innovative programs like farming and gardening. These programs enrich our students' learning, allowing them to apply academic concepts in real-life contexts. Through hands-on experiences, students gain essential life skills, including responsibility, problem-solving, and critical thinking, all of which are integral to their overall growth and success.",
+    "third_paragraph":"We recognize that every student learns differently, which is why our curriculum is tailored to meet the unique needs of each individual. Our dedicated team works to provide a nurturing and inclusive environment that encourages curiosity, creativity, and academic achievement. At Eureka, we believe in teaching the whole child, preparing them not only for academic success but also for a fulfilling, independent future."
   },
   "view_about": {
     "title": "About Eureka Educational Academy",
     "welcome": "Who we are",
-    "first_paragraph": "Eureka Educational Academy was founded by award-winning educators and health care professionals with over 75 years of experience providing services to school age children in South Florida.",
-    "second_paragraph": "The main goal of the academy is to provide students with a complete educational experience that meets their social, emotional and behavioral needs. We are constantly perfecting our methods to improve the health and education of our students. The team has created a clean, safe and innovative campus that provides a “feel good” experience.",
+    "first_paragraph": "Welcome to Eureka Educational Academy, a private school dedicated to providing a personalized and supportive learning experience for students from PreK through 12th grade. With over 75 years of experience in the field of special education, we are committed to fostering a nurturing environment where every child can thrive academically, socially, and emotionally. At Eureka, we understand that every student learns differently. Our curriculum is designed to cater to the unique needs of each child, incorporating core subjects such as mathematics, science, language arts, and social studies, while also offering specialized programs in farming, gardening, and life skills. These programs provide hands-on learning opportunities that connect classroom lessons to real-world experiences.",
+    "second_paragraph": "Our dedicated team of educators, therapists, and support staff work collaboratively to create individualized learning plans that empower students to achieve their full potential. Whether through one-on-one instruction, small group activities, or specialized therapies, we ensure that each child receives the personalized support they need to succeed. At Eureka Educational Academy, we are not just a school; we are a community where students are encouraged to explore their strengths, build confidence, and embark on a path toward lifelong success.",
     "missconduct_title": "Reporting Professional Misconduct",
     "missconduct_first_paragraph": "All employees and agents of a public school district, charter school or private school have an obligation and legal responsibility to report misconduct by instructional personnel andschool administrators which affects the health, safety or welfareof a student",
     "missconduct_second_paragraph": "Failure to report misconduct may result in penalties up to termination of employment and revocation of an educator’s certificate.",
@@ -177,14 +177,14 @@
     "third_paragraph": "At Eureka Educational Academy, we are dedicated to fostering a nurturing and conducive learning environment for our students. We believe that access to nutritious meals is a fundamental aspect of their overall well-being and academic success. Your reputation and expertise in the food industry make your company an ideal candidate to partner with us in this venture.",
     "fourth_paragraph": "Our school serves a diverse student population of approximately 35 students, and we are looking for a food vendor who can meet the unique needs and requirements of our school community.",
     "fifth_paragraph": " We would like to invite your company to submit a proposal outlining how you can meet these criteria and provide the best food services for our school as we work toward participation in the NSLP. Please include details about your menu options, pricing structure, food sourcing practices, and any additional services or benefits you can offer.",
-    "sixth_paragraph": "If you are interested in pursuing this opportunity, kindly submit your proposal to us. Should you have any inquiries or require further clarification, please direct them to Damarys Clement at info@theeurekaacademy.com or 305-420-6690.",
+    "sixth_paragraph": "If you are interested in pursuing this opportunity, kindly submit your proposal to us. Should you have any inquiries or require further clarification, please direct them at info@theeurekaacademy.com or 305-420-6690.",
     "seventh_paragraph": "We appreciate your consideration and eagerly anticipate the possibility of collaborating with you to enhance our students' dining experience and support their educational journey. Thank you for your attention to this matter."
   },
   "tuition":{
-    "title": "School Year 2023/2024",
+    "title": "School Year 2025/2026",
     "fees": "Fees",
     "first_paragraph": "Eureka Educational Academy is a private school that accepts the following scholarships:",
-    "second_paragraph": "Step Up For Students is currently accepting applications for the 2023-2024 school year. The application and all required documents must be submitted by June 1, 2024.",
+    "second_paragraph": "Applications are now open for the 2025-2026 school year. The renewal deadline is April 30, 2025, and new applications are due by May 31, 2025.",
     "sixth_paragraph": "We can provide additional information on the scholarships available, as well as how to receive assistance during the application process."
   },
   "foot_contact": {

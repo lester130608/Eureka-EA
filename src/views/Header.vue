@@ -106,7 +106,6 @@
               </div>
               <div class="text">
                 <a href="mailto:info@theeurekaacademy.com?Subject=Contacting" target="_blank" class="h4 d-block">info@theeurekaacademy.com</a>
-                <a href="mailto:dclement@theeurekaacademy.com?Subject=Contacting" target="_blank" class="h4 d-block">dclement@theeurekaacademy.com</a>
               </div>
             </div>
           </div>

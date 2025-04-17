@@ -76,19 +76,6 @@
                   >
                 </div>
               </div>
-              <div class="quick-contact-icons d-flex third">
-                <div class="icon align-self-start">
-                  <span class="icon-envelope text-primary"></span>
-                </div>
-                <div class="text">
-                  <a
-                    href="mailto:dclement@theeurekaacademy.com?Subject=Contacting"
-                    target="_blank"
-                    class="d-block"
-                    >dclement@theeurekaacademy.com</a
-                  >
-                </div>
-              </div>
             </div>
             <div class="col-lg-3 text-lg-right text-sm-center">
               <!--                     <h3 class="footer-heading"><span>{{ $t('menu.ContactUs') }}</span></h3>-->

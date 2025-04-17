@@ -29,11 +29,29 @@
               </div>
           </div>
       </div>
+
+      <!-- Donorbox Donation Form -->
+      <section class="donorbox-section">
+        <h2>Support Our Summer Program</h2>
+        <div class="donorbox-embed">
+          <iframe src="https://donorbox.org/embed/summer-camp-at-eureka-academy?"
+                  name="donorbox"
+                  allowpaymentrequest="allowpaymentrequest"
+                  seamless="seamless"
+                  frameborder="0"
+                  scrolling="no"
+                  height="900px"
+                  width="100%"
+                  style="max-width: 500px; min-width: 250px; max-height:none!important"
+                  allow="payment">
+          </iframe>
+        </div>
+      </section>
+
   </div>
 </template>
 
 <script>
-  // @ is an alias to /src
   import Slides from '@/views/Slides.vue'
   import SendEmailContactCmp from '@/components/SendEmailContactCmp'
   import SendEmailRequestInfo from "@/components/SendEmailRequestInfo";
@@ -49,13 +67,17 @@
           const floatingImageContainer = document.getElementById('floating-image-container');
           const closeButton = document.getElementById('close-button');
 
-          // Mostrar la imagen flotante al cargar la página
           floatingImageContainer.style.display = 'block';
 
-          // Cerrar la imagen flotante al hacer clic en el botón
           closeButton.addEventListener('click', function() {
               floatingImageContainer.style.display = 'none';
           });
+
+          // Cargar script de Donorbox
+          const script = document.createElement('script');
+          script.src = "https://donorbox.org/widget.js";
+          script.setAttribute("paypalExpress", "false");
+          document.body.appendChild(script);
       }
   }
 </script>
@@ -99,7 +121,7 @@ ul{
   height: 100vh;
   background-color: transparent;
   z-index: 1000;
-  display: none; /* Oculto por defecto */
+  display: none;
 }
 
 .floating-image {
@@ -132,5 +154,20 @@ ul{
   border-radius: 5px;
   cursor: pointer;
   z-index: 1001;
+}
+
+.donorbox-section {
+  text-align: center;
+  padding: 40px 20px;
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 1.6em;
+  }
+
+  .donorbox-embed {
+    display: flex;
+    justify-content: center;
+  }
 }
 </style>
