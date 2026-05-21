@@ -2,12 +2,6 @@
   <div class="home">
       <Slides/>
 
-      <!-- Contenedor de la imagen flotante -->
-      <div id="floating-image-container" class="floating-image-container">
-          <button id="close-button" class="close-button">Cerrar</button>
-          <img src="/default/images/flyer.jpg" class="floating-image" alt="Flyer">
-      </div>
-
       <div class="site-section">
           <div class="container-fluid">
               <div class="row d-flex">
@@ -64,15 +58,6 @@
         SendEmailContactCmp
       },
       mounted() {
-          const floatingImageContainer = document.getElementById('floating-image-container');
-          const closeButton = document.getElementById('close-button');
-
-          floatingImageContainer.style.display = 'block';
-
-          closeButton.addEventListener('click', function() {
-              floatingImageContainer.style.display = 'none';
-          });
-
           // Cargar script de Donorbox
           const script = document.createElement('script');
           script.src = "https://donorbox.org/widget.js";
@@ -111,49 +96,6 @@ ul{
  .button-how-apply{
    width: 100%;
  }
-}
-
-.floating-image-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: transparent;
-  z-index: 1000;
-  display: none;
-}
-
-.floating-image {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 80vw;
-  max-height: 80vh;
-  animation: float 3s ease-in-out infinite;
-}
-
-@keyframes float {
-  0%, 100% {
-    transform: translate(-50%, -50%) translateY(-10px);
-  }
-  50% {
-    transform: translate(-50%, -50%) translateY(10px);
-  }
-}
-
-.close-button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  padding: 10px 20px;
-  background-color: #ff0000;
-  color: #ffffff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  z-index: 1001;
 }
 
 .donorbox-section {
