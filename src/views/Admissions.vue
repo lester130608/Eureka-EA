@@ -15,39 +15,33 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <!--            <span class="text-serif text-primary">{{ $t('menu.Philosophy') }}</span>-->
-<!--                        <h3 class="heading-center text-primary">{{ $t('view_admission.title') }}</h3>-->
                         <p>
                             {{ $t('view_admission.first_paragraph') }}
-
                         </p>
                         <p>
                             {{ $t('view_admission.second_paragraph') }}
                         </p>
-                        <input @click="$bvModal.show('bv-modal-example')" class="btn btn-primary py-3 px-5" v-bind:value=" $t('make_appointment')"> 
+                        <router-link to="/admissions/apply" class="btn btn-primary py-3 px-5">
+                            {{ $t('start_application') }}
+                        </router-link>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </template>
-
 <script>
     export default {
         name: "Admissions"
     }
 </script>
-
 <style scoped>
-input{
+.btn-primary {
   width: 45%;
 }
-
 @media screen and (max-width: 425px){
-  input{
+  .btn-primary {
     width: 100%;
   }
-
 }
-
 </style>

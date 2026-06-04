@@ -9,9 +9,7 @@ import Procurement from '../views/Procurement.vue'
 import Tuition from '../views/Tuition.vue'
 import Admissions from '../views/Admissions.vue'
 import FAQ from '../views/FAQ.vue'
-
 Vue.use(VueRouter)
-
   const routes: Array<RouteConfig> = [
   {
     path: '/',
@@ -27,24 +25,26 @@ Vue.use(VueRouter)
     path: '/contact',
     name: 'ContactUs',
     component: ContactUs
-
   },
     {
     path: '/philosophy',
     name: 'Philosophy',
     component: Philosophy
-
   },
     {
     path: '/theraphy',
     name: 'Theraphy',
     component: Theraphy
-
   },
     {
       path:'/admissions',
       name: 'Admissions',
       component: Admissions
+    },
+    {
+      path:'/admissions/apply',
+      name: 'ApplyAdmissions',
+      component: () => import(/* webpackChunkName: "apply" */ '../views/ApplyAdmissions.vue')
     },
     {
       path:'/scholarships',
@@ -66,14 +66,10 @@ Vue.use(VueRouter)
       name: 'Tuition',
       component: Tuition
     },
-
-
 ]
-
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes
 })
-
 export default router

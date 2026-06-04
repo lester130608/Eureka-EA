@@ -47,7 +47,7 @@
 
 <script>
   import Slides from '@/views/Slides.vue'
-  import SendEmailContactCmp from '@/components/SendEmailContactCmp'
+  import ContactForm from '@/components/ContactForm.vue'
   import SendEmailRequestInfo from "@/components/SendEmailRequestInfo";
 
   export default {
@@ -55,7 +55,7 @@
       components: {
         SendEmailRequestInfo,
         Slides,
-        SendEmailContactCmp
+        ContactForm
       },
       mounted() {
           // Cargar script de Donorbox

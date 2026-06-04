@@ -114,14 +114,14 @@ import {
   VsaIcon
 } from 'vue-simple-accordion';
 import 'vue-simple-accordion/dist/vue-simple-accordion.css';
-import SendEmailContactCmp from '@/components/SendEmailContactCmp';
+import ContactForm from '@/components/ContactForm.vue';
 
 
 
 export default {
   name: 'faq',
   components: {
-    SendEmailContactCmp,
+    ContactForm,
     VsaList,
     VsaItem,
     VsaHeading,

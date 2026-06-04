@@ -14,18 +14,15 @@
         </div>
       </div>
     </div>
-
-
     <div class="site-section">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <SendEmailContactCmp/>
+            <ContactForm />
           </div>
         </div>
       </div>
     </div>
-
     <div class="section-bg style-1" style="background-image: url('images/hero_1.jpg');">
       <div class="container">
         <div class="row">
@@ -53,10 +50,10 @@
   </div>
 </template>
 <script>
-  import SendEmailContactCmp from '@/components/SendEmailContactCmp'
+  import ContactForm from '@/components/ContactForm.vue'
   export default {
     name: 'ContactUs',
-    components: {SendEmailContactCmp }
+    components: { ContactForm }
   }
 </script>
 <style lang="scss">
