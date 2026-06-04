@@ -33,11 +33,8 @@
           <li>
             <router-link class="nav-link text-left" to="/admissions">{{ $t('menu.Admissions') }}</router-link>
           </li>
-          <li class="js-menu-toggle">
-            <b-link class="nav-link text-left contact-nav" @click="$bvModal.show('bv-modal-example')">{{
-                $t('menu.ContactUs')
-              }}</b-link>
-
+          <li>
+            <router-link class="nav-link text-left contact-nav" to="/contact">{{ $t('menu.ContactUs') }}</router-link>
           </li>
           <li>
             <router-link class="nav-link text-left" to="/faq">{{ $t('menu.FAQ') }}</router-link>
@@ -171,8 +168,7 @@
                         </router-link>
                       </li>
                       <li>
-                        <b-link class="nav-link text-left contact-nav"
-                           @click="$bvModal.show('bv-modal-example')">{{ $t('menu.ContactUs') }}</b-link>
+                        <router-link class="nav-link text-left contact-nav" to="/contact">{{ $t('menu.ContactUs') }}</router-link>
                       </li>
                       <li>
                         <router-link class="nav-link text-left" to="/faq">{{ $t('menu.FAQ') }}</router-link>
